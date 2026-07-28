@@ -1,0 +1,260 @@
+{
+ "book": "4500 Key English Words 1",
+ "bookId": "4500KEW1",
+ "total": 15,
+ "units": 40,
+ "words": [
+  {
+   "id": "4500KEW1-01-001",
+   "word": "accept",
+   "pos": "v.",
+   "phonetic": "",
+   "en_def": "to take |",
+   "cn_def": "接受；同意",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 accept 和「接受」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "接受",
+    "同意"
+   ],
+   "unit": 1,
+   "no": 1
+  },
+  {
+   "id": "4500KEW1-01-002",
+   "word": "basic",
+   "pos": "adj.",
+   "phonetic": "",
+   "en_def": "simple; fundamental |",
+   "cn_def": "基本的；基础的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 basic 和「基本的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "基本的",
+    "基础的"
+   ],
+   "unit": 1,
+   "no": 2
+  },
+  {
+   "id": "4500KEW1-01-003",
+   "word": "chemical",
+   "pos": "n.",
+   "phonetic": "",
+   "en_def": "a substance used to make things |",
+   "cn_def": "化学品；化学物",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-al 表示「…的」。整体意思是「化学品；化学物」。",
+   "keywords": [
+    "化学品",
+    "化学物"
+   ],
+   "unit": 1,
+   "no": 3
+  },
+  {
+   "id": "4500KEW1-01-004",
+   "word": "difference",
+   "pos": "n.",
+   "phonetic": "",
+   "en_def": "the way things are not like each other |",
+   "cn_def": "差别；不同",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ence 表示「…的状态」。整体意思是「差别；不同」。",
+   "keywords": [
+    "差别",
+    "不同"
+   ],
+   "unit": 1,
+   "no": 4
+  },
+  {
+   "id": "4500KEW1-01-005",
+   "word": "fuel",
+   "pos": "n.",
+   "phonetic": "",
+   "en_def": "something that makes energy when it burns |",
+   "cn_def": "燃料",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 fuel 和「燃料」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "燃料"
+   ],
+   "unit": 1,
+   "no": 5
+  },
+  {
+   "id": "4500KEW1-01-006",
+   "word": "liquid",
+   "pos": "n.",
+   "phonetic": "",
+   "en_def": "a substance like water |",
+   "cn_def": "液体",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 liquid 和「液体」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "液体"
+   ],
+   "unit": 1,
+   "no": 6
+  },
+  {
+   "id": "4500KEW1-01-007",
+   "word": "necessary",
+   "pos": "adj.",
+   "phonetic": "",
+   "en_def": "needed |",
+   "cn_def": "必要的；必需的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「必要的；必需的」。",
+   "keywords": [
+    "必要的",
+    "必需的"
+   ],
+   "unit": 1,
+   "no": 7
+  },
+  {
+   "id": "4500KEW1-01-008",
+   "word": "produce",
+   "pos": "v.",
+   "phonetic": "",
+   "en_def": "to make |",
+   "cn_def": "生产；制造；产生",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：词根 produce 联想到「生产」。整体意思是「生产；制造；产生」。",
+   "keywords": [
+    "生产",
+    "制造",
+    "产生"
+   ],
+   "unit": 1,
+   "no": 8
+  },
+  {
+   "id": "4500KEW1-01-009",
+   "word": "stairs",
+   "pos": "n.",
+   "phonetic": "",
+   "en_def": "steps |",
+   "cn_def": "楼梯",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 stairs 和「楼梯」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "楼梯"
+   ],
+   "unit": 1,
+   "no": 9
+  },
+  {
+   "id": "4500KEW1-01-010",
+   "word": "unite",
+   "pos": "v.",
+   "phonetic": "",
+   "en_def": "to join |",
+   "cn_def": "联合；团结；统一",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：un- 表示「不/相反」。整体意思是「联合；团结；统一」。",
+   "keywords": [
+    "联合",
+    "团结",
+    "统一"
+   ],
+   "unit": 1,
+   "no": 10
+  },
+  {
+   "id": "4500KEW1-01-011",
+   "word": "although",
+   "pos": "conj.",
+   "phonetic": "",
+   "en_def": "even though; despite |",
+   "cn_def": "虽然；尽管",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 although 和「虽然」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "虽然",
+    "尽管"
+   ],
+   "unit": 1,
+   "no": 11
+  },
+  {
+   "id": "4500KEW1-01-012",
+   "word": "breathe",
+   "pos": "v.",
+   "phonetic": "",
+   "en_def": "to take in air |",
+   "cn_def": "呼吸",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 breathe 和「呼吸」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "呼吸"
+   ],
+   "unit": 1,
+   "no": 12
+  },
+  {
+   "id": "4500KEW1-01-013",
+   "word": "concerned",
+   "pos": "adj.",
+   "phonetic": "",
+   "en_def": "worried |",
+   "cn_def": "担忧的；关心的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：co- 表示「共同」。整体意思是「担忧的；关心的」。",
+   "keywords": [
+    "担忧的",
+    "关心的"
+   ],
+   "unit": 1,
+   "no": 13
+  },
+  {
+   "id": "4500KEW1-01-014",
+   "word": "factory",
+   "pos": "n.",
+   "phonetic": "",
+   "en_def": "a building where things are made |",
+   "cn_def": "工厂",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」；词根 act 联想到「行动」。整体意思是「工厂」。",
+   "keywords": [
+    "工厂"
+   ],
+   "unit": 1,
+   "no": 14
+  },
+  {
+   "id": "4500KEW1-01-015",
+   "word": "gas",
+   "pos": "n.",
+   "phonetic": "",
+   "en_def": "a substance like air that can be burned as fuel |",
+   "cn_def": "气体；煤气",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 gas 和「气体」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "气体",
+    "煤气"
+   ],
+   "unit": 1,
+   "no": 15
+  }
+ ]
+}

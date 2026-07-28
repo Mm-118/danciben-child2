@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="40" fill="#A855F7"/>
+  <circle cx="96" cy="92" r="52" fill="#fff"/>
+  <circle cx="80" cy="84" r="8" fill="#3A3A3A"/>
+  <circle cx="112" cy="84" r="8" fill="#3A3A3A"/>
+  <path d="M78 108 Q96 124 114 108" fill="none" stroke="#3A3A3A" stroke-width="6" stroke-linecap="round"/>
+  <text x="96" y="168" font-size="34" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">A·bc</text>
+</svg>

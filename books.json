@@ -1,0 +1,25 @@
+{
+ "books": [
+  {
+   "bookId": "1200KEW3",
+   "title": "1200 Key English Words 3",
+   "file": "words-1200KEW3.json",
+   "total": 400,
+   "units": 16
+  },
+  {
+   "bookId": "1200KEW1",
+   "title": "1200 Key English Words 1",
+   "file": "words-1200KEW1.json",
+   "total": 400,
+   "units": 16
+  },
+  {
+   "bookId": "1200KEW2",
+   "title": "1200 Key English Words 2",
+   "file": "words-1200KEW2.json",
+   "total": 400,
+   "units": 16
+  }
+ ]
+}

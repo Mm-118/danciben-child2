@@ -1,0 +1,6636 @@
+{
+ "book": "1200 Key English Words 2",
+ "bookId": "1200KEW2",
+ "total": 400,
+ "units": 16,
+ "words": [
+  {
+   "id": "1200KEW2-01-001",
+   "word": "bank",
+   "pos": "n.",
+   "phonetic": "/bæŋk/",
+   "en_def": "where people and businesses can invest orborrow money",
+   "cn_def": "银行",
+   "example": "blood bank; sperm bank; data bank",
+   "example_cn": "血库；精子库；数据库",
+   "tip": "联想记忆：把 bank 和「银行」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "银行"
+   ],
+   "unit": 1,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-01-002",
+   "word": "business",
+   "pos": "n.",
+   "phonetic": "/ˈbɪd.nəs/",
+   "en_def": "the activity of buying and selling goods and services",
+   "cn_def": "商业；生意；公司",
+   "example": "I was left my father's business.",
+   "example_cn": "我离开了我父亲的生意。",
+   "tip": "拆词记忆：-ness 表示「…的性质(名)」。整体意思是「商业；生意；公司」。",
+   "keywords": [
+    "商业",
+    "生意",
+    "公司"
+   ],
+   "unit": 1,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-01-003",
+   "word": "church",
+   "pos": "n.",
+   "phonetic": "/t͡ʃɜːt͡ʃ/",
+   "en_def": "a building for Christian religious activities",
+   "cn_def": "教堂",
+   "example": "There is a lovely little church in the valley.",
+   "example_cn": "山谷里有一座可爱的小教堂。",
+   "tip": "联想记忆：把 church 和「教堂」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "教堂"
+   ],
+   "unit": 1,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-01-004",
+   "word": "doctor",
+   "pos": "n.",
+   "phonetic": "/ˈdɒktə/",
+   "en_def": "a person with a medical degreewhose job is to treat people who are ill or hurt",
+   "cn_def": "医生",
+   "example": "If you still feel unwell tomorrow, see your doctor.",
+   "example_cn": "如果您明天仍然感到不适，请去看医生。",
+   "tip": "拆词记忆：-or 表示「…的人/物」。整体意思是「医生」。",
+   "keywords": [
+    "医生"
+   ],
+   "unit": 1,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-01-005",
+   "word": "heart",
+   "pos": "n.",
+   "phonetic": "/hɑːt/",
+   "en_def": "the organ in your chest that sends the blood around your body",
+   "cn_def": "心脏",
+   "example": "The team lost, but they showed a lot of heart.",
+   "example_cn": "球队输了，但他们表现出了很大的热情。",
+   "tip": "联想记忆：把 heart 和「心脏」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "心脏"
+   ],
+   "unit": 1,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-01-006",
+   "word": "hit",
+   "pos": "v.",
+   "phonetic": "/hɪt/",
+   "en_def": "to touch something with sudden force",
+   "cn_def": "打；撞击",
+   "example": "The hit was very slight.",
+   "example_cn": "击中很轻微。",
+   "tip": "联想记忆：把 hit 和「打」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "打",
+    "撞击"
+   ],
+   "unit": 1,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-01-007",
+   "word": "human",
+   "pos": "n.",
+   "phonetic": "/ˈhjuː.mən/",
+   "en_def": "a man, woman, or child",
+   "cn_def": "人；人类",
+   "example": "Humans share common ancestors with other apes.",
+   "example_cn": "人类与其他猿类有着共同的祖先。",
+   "tip": "联想记忆：把 human 和「人」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "人",
+    "人类"
+   ],
+   "unit": 1,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-01-008",
+   "word": "police",
+   "pos": "n.",
+   "phonetic": "[pəˈliːs]",
+   "en_def": "the official organization that is responsible for protecting people and property",
+   "cn_def": "警察；警方",
+   "example": "Call the police!",
+   "example_cn": "报警。",
+   "tip": "联想记忆：把 police 和「警察」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "警察",
+    "警方"
+   ],
+   "unit": 1,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-01-009",
+   "word": "road",
+   "pos": "n.",
+   "phonetic": "/ɹəʊd/",
+   "en_def": "a long, hard surface built for vehicles to travel along",
+   "cn_def": "道路；公路",
+   "example": "We travelled to the seaside by road.",
+   "example_cn": "我们坐公路去海边。",
+   "tip": "联想记忆：把 road 和「道路」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "道路",
+    "公路"
+   ],
+   "unit": 1,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-01-010",
+   "word": "town",
+   "pos": "n.",
+   "phonetic": "/taʊn/",
+   "en_def": "a place where people live and work usually larger than a village but smaller than a city",
+   "cn_def": "城镇",
+   "example": "This town is really dangerous because these youngsters have Beretta handguns.",
+   "example_cn": "这个小镇真的很危险，因为这些年轻人有贝雷塔手枪。",
+   "tip": "联想记忆：把 town 和「城镇」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "城镇"
+   ],
+   "unit": 1,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-01-011",
+   "word": "actor",
+   "pos": "n.",
+   "phonetic": "/ˈæk.tə/",
+   "en_def": "someone who pretends to be someone else while performingin a film, play, or television or radio programme",
+   "cn_def": "男演员",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-or 表示「…的人/物」；词根 act 联想到「行动」。整体意思是「男演员」。",
+   "keywords": [
+    "男演员"
+   ],
+   "unit": 1,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-01-012",
+   "word": "actress",
+   "pos": "n.",
+   "phonetic": "/ˈak.tɹəs/",
+   "en_def": "a female actor",
+   "cn_def": "女演员",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：词根 act 联想到「行动」。整体意思是「女演员」。",
+   "keywords": [
+    "女演员"
+   ],
+   "unit": 1,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-01-013",
+   "word": "cross",
+   "pos": "v.",
+   "phonetic": "/kɹɑs/",
+   "en_def": "to go across from one side of something to the other",
+   "cn_def": "穿过；横过",
+   "example": "Put a cross for a wrong answer and a tick for a right one.",
+   "example_cn": "在错误答案中打叉，在正确答案中打勾。",
+   "tip": "联想记忆：把 cross 和「穿过」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "穿过",
+    "横过"
+   ],
+   "unit": 1,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-01-014",
+   "word": "exercise",
+   "pos": "v.",
+   "phonetic": "ˈɛksərˌsaɪz",
+   "en_def": "to do physical activities to make your body strong and healthy",
+   "cn_def": "锻炼；运动",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：ex- 表示「前/出」；-ise 表示「使…化」。整体意思是「锻炼；运动」。",
+   "keywords": [
+    "锻炼",
+    "运动"
+   ],
+   "unit": 1,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-01-015",
+   "word": "glasses",
+   "pos": "n.",
+   "phonetic": "ˈglæsɪz",
+   "en_def": "two small pieces of specially made glass or transparent plastic worn in front of the eyes to improve sight",
+   "cn_def": "眼镜",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 glasses 和「眼镜」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "眼镜"
+   ],
+   "unit": 1,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-01-016",
+   "word": "stage",
+   "pos": "n.",
+   "phonetic": "steɪʤ",
+   "en_def": "the area in a theatre that is often raised above ground level and on which actors or entertainers perform",
+   "cn_def": "舞台",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 stage 和「舞台」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "舞台"
+   ],
+   "unit": 1,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-01-017",
+   "word": "tomorrow",
+   "pos": "n.",
+   "phonetic": "təˈmɑˌroʊ",
+   "en_def": "(on) the day after today",
+   "cn_def": "明天",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tomorrow 和「明天」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "明天"
+   ],
+   "unit": 1,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-01-018",
+   "word": "tonight",
+   "pos": "n.",
+   "phonetic": "təˈnaɪt",
+   "en_def": "(during) the night of the present day",
+   "cn_def": "今晚",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tonight 和「今晚」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "今晚"
+   ],
+   "unit": 1,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-01-019",
+   "word": "voice",
+   "pos": "n.",
+   "phonetic": "vɔɪs",
+   "en_def": "the sounds that are made when people speak or sing",
+   "cn_def": "声音；嗓音",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 voice 和「声音」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "声音",
+    "嗓音"
+   ],
+   "unit": 1,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-01-020",
+   "word": "yesterday",
+   "pos": "n.",
+   "phonetic": "ˈjɛstərˌdeɪ",
+   "en_def": "the day before today",
+   "cn_def": "昨天",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「昨天」。",
+   "keywords": [
+    "昨天"
+   ],
+   "unit": 1,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-02-001",
+   "word": "climb",
+   "pos": "v.",
+   "phonetic": "klaɪm",
+   "en_def": "to go up, or to go towards the top of something",
+   "cn_def": "爬；攀登",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 climb 和「爬」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "爬",
+    "攀登"
+   ],
+   "unit": 2,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-02-002",
+   "word": "desert",
+   "pos": "n.",
+   "phonetic": "ˈdɛzərt",
+   "en_def": "an area, often covered with sand or rocks, where there is very little rain and not many plants",
+   "cn_def": "沙漠",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：de- 表示「去除/向下」。整体意思是「沙漠」。",
+   "keywords": [
+    "沙漠"
+   ],
+   "unit": 2,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-02-003",
+   "word": "field",
+   "pos": "n.",
+   "phonetic": "fild",
+   "en_def": "an area of land, used for growing crops or keeping animals, usually surrounded by a fence",
+   "cn_def": "田野；场地",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 field 和「田野」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "田野",
+    "场地"
+   ],
+   "unit": 2,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-02-004",
+   "word": "forest",
+   "pos": "n.",
+   "phonetic": "ˈfɔrɪst",
+   "en_def": "a large area of land covered with trees and plants, usually larger than a wood, or the trees and plants themselves",
+   "cn_def": "森林",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 forest 和「森林」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "森林"
+   ],
+   "unit": 2,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-02-005",
+   "word": "ground",
+   "pos": "n.",
+   "phonetic": "graʊnd",
+   "en_def": "the surface of the earth",
+   "cn_def": "地面",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 ground 和「地面」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "地面"
+   ],
+   "unit": 2,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-02-006",
+   "word": "hill",
+   "pos": "n.",
+   "phonetic": "hɪl",
+   "en_def": "an area of land that is higher than the surrounding land",
+   "cn_def": "小山；丘陵",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 hill 和「小山」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "小山",
+    "丘陵"
+   ],
+   "unit": 2,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-02-007",
+   "word": "river",
+   "pos": "n.",
+   "phonetic": "ˈrɪvər",
+   "en_def": "a natural wide flow of fresh water across the land into the sea, a lake, or another river",
+   "cn_def": "河；河流",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-er 表示「…的人/物」。整体意思是「河；河流」。",
+   "keywords": [
+    "河",
+    "河流"
+   ],
+   "unit": 2,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-02-008",
+   "word": "someone",
+   "pos": "pron.",
+   "phonetic": "ˈsəmˌwən",
+   "en_def": "used to refer to a single person when you do not know who they are or when it is not important who they are",
+   "cn_def": "某人",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 someone 和「某人」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "某人"
+   ],
+   "unit": 2,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-02-009",
+   "word": "stick",
+   "pos": "n.",
+   "phonetic": "stɪk",
+   "en_def": "a thin piece of wood or other material",
+   "cn_def": "棍；枝条",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 stick 和「棍」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "棍",
+    "枝条"
+   ],
+   "unit": 2,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-02-010",
+   "word": "stone",
+   "pos": "n.",
+   "phonetic": "stoʊn",
+   "en_def": "the hard, solid substance found in the ground that is often used for building, or a piece of this",
+   "cn_def": "石头",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 stone 和「石头」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "石头"
+   ],
+   "unit": 2,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-02-011",
+   "word": "afternoon",
+   "pos": "n.",
+   "phonetic": "ˌæftərˈnun",
+   "en_def": "the period that starts at about twelve o'clock and ends at about six o'clock",
+   "cn_def": "下午",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：after- 表示「在…后」。整体意思是「下午」。",
+   "keywords": [
+    "下午"
+   ],
+   "unit": 2,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-02-012",
+   "word": "art",
+   "pos": "n.",
+   "phonetic": "ɑrt",
+   "en_def": "the activity of painting, drawing, and making sculpture",
+   "cn_def": "艺术",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 art 和「艺术」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "艺术"
+   ],
+   "unit": 2,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-02-013",
+   "word": "body",
+   "pos": "n.",
+   "phonetic": "ˈbɑdi",
+   "en_def": "the whole physical structure that forms a person or animal",
+   "cn_def": "身体",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「身体」。",
+   "keywords": [
+    "身体"
+   ],
+   "unit": 2,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-02-014",
+   "word": "evening",
+   "pos": "n.",
+   "phonetic": "ˈivnɪŋ",
+   "en_def": "the part of the day between the end of the afternoon and night",
+   "cn_def": "傍晚；晚上",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 evening 和「傍晚」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "傍晚",
+    "晚上"
+   ],
+   "unit": 2,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-02-015",
+   "word": "forward",
+   "pos": "adv.",
+   "phonetic": "/ˈfoːwəd/",
+   "en_def": "towards the direction that is in front of you",
+   "cn_def": "向前",
+   "example": "I'll be glad to forward your mail to you while you're gone.",
+   "example_cn": "当您离开时，我很乐意将您的邮件转发给您。",
+   "tip": "联想记忆：把 forward 和「向前」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "向前"
+   ],
+   "unit": 2,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-02-016",
+   "word": "future",
+   "pos": "n.",
+   "phonetic": "fˈjuʧər",
+   "en_def": "a period of time that is to come",
+   "cn_def": "未来；将来",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 future 和「未来」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "未来",
+    "将来"
+   ],
+   "unit": 2,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-02-017",
+   "word": "husband",
+   "pos": "n.",
+   "phonetic": "ˈhəzbənd",
+   "en_def": "the man that you are married to",
+   "cn_def": "丈夫",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 husband 和「丈夫」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "丈夫"
+   ],
+   "unit": 2,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-02-018",
+   "word": "marry",
+   "pos": "v.",
+   "phonetic": "ˈmɛri",
+   "en_def": "to become the legally accepted husband or wife of someone in an official or religious ceremony",
+   "cn_def": "结婚；娶；嫁",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「结婚；娶；嫁」。",
+   "keywords": [
+    "结婚",
+    "娶",
+    "嫁"
+   ],
+   "unit": 2,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-02-019",
+   "word": "morning",
+   "pos": "n.",
+   "phonetic": "/ˈmɔːnɪŋ/",
+   "en_def": "the part of the day from the time when the sun rises until the middle of the day or lunch time",
+   "cn_def": "早晨；上午",
+   "example": "I'll see you tomorrow morning.",
+   "example_cn": "明天早上见。",
+   "tip": "联想记忆：把 morning 和「早晨」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "早晨",
+    "上午"
+   ],
+   "unit": 2,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-02-020",
+   "word": "ring",
+   "pos": "n.",
+   "phonetic": "rɪŋ",
+   "en_def": "a circular piece of jewellery worn especially on your finger",
+   "cn_def": "戒指；环状物",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 ring 和「戒指」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "戒指",
+    "环状物"
+   ],
+   "unit": 2,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-03-001",
+   "word": "beach",
+   "pos": "n.",
+   "phonetic": "/biːt͡ʃ/",
+   "en_def": "an area of sand or small stones near the sea or another area of water such as a lake",
+   "cn_def": "海滩；沙滩",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 beach 和「海滩」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "海滩",
+    "沙滩"
+   ],
+   "unit": 3,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-03-002",
+   "word": "behind",
+   "pos": "adv.",
+   "phonetic": "/bəˈhaɪnd/",
+   "en_def": "at the back (of)",
+   "cn_def": "在……后面",
+   "example": "to look behind",
+   "example_cn": "回头看",
+   "tip": "联想记忆：把 behind 和「在……后面」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "在……后面"
+   ],
+   "unit": 3,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-03-003",
+   "word": "below",
+   "pos": "adv.",
+   "phonetic": "/bɪˈləʊ/",
+   "en_def": "in a lower position (than), under",
+   "cn_def": "在……下面；以下",
+   "example": "the landlubbers lying down below",
+   "example_cn": "躺在下面的landlubbers",
+   "tip": "联想记忆：把 below 和「在……下面」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "在……下面",
+    "以下"
+   ],
+   "unit": 3,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-03-004",
+   "word": "cost",
+   "pos": "v.",
+   "phonetic": "/ˈkɑst/",
+   "en_def": "must pay that amount to buy or do it",
+   "cn_def": "花费；值（钱）",
+   "example": "It will cost you a lot of money to take a trip around the world.",
+   "example_cn": "环游世界需要花费很多钱。",
+   "tip": "联想记忆：把 cost 和「花费」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "花费",
+    "值（钱）"
+   ],
+   "unit": 3,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-03-005",
+   "word": "grass",
+   "pos": "n.",
+   "phonetic": "[ɡɹ̠äːs]",
+   "en_def": "a low, green plant that grows naturally over a lot of the earth's surface",
+   "cn_def": "草；草地",
+   "example": "What just happened must remain secret. Don't be a 'grass.",
+   "example_cn": "刚刚发生的事情必须保密。不要当'草'。",
+   "tip": "联想记忆：把 grass 和「草」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "草",
+    "草地"
+   ],
+   "unit": 3,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-03-006",
+   "word": "inside",
+   "pos": "adv.",
+   "phonetic": "/ɪnˈsaɪd/",
+   "en_def": "in or into a room, building, container, or something similar",
+   "cn_def": "在里面；在内部",
+   "example": "The inside of the building has been extensively restored.",
+   "example_cn": "大楼内部经过全面修复。",
+   "tip": "拆词记忆：in- 表示「不」。整体意思是「在里面；在内部」。",
+   "keywords": [
+    "在里面",
+    "在内部"
+   ],
+   "unit": 3,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-03-007",
+   "word": "island",
+   "pos": "n.",
+   "phonetic": "ˈaɪlənd",
+   "en_def": "a piece of land completely surrounded by water",
+   "cn_def": "岛；岛屿",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 island 和「岛」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "岛",
+    "岛屿"
+   ],
+   "unit": 3,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-03-008",
+   "word": "lady",
+   "pos": "n.",
+   "phonetic": "ˈleɪdi",
+   "en_def": "a polite or old-fashioned way of referring to or talking to a woman",
+   "cn_def": "女士；夫人",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「女士；夫人」。",
+   "keywords": [
+    "女士",
+    "夫人"
+   ],
+   "unit": 3,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-03-009",
+   "word": "mountain",
+   "pos": "n.",
+   "phonetic": "ˈmaʊntən",
+   "en_def": "a raised part of the earth's surface, much larger than a hill, the top of which might be covered in snow",
+   "cn_def": "山；高山",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 mountain 和「山」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "山",
+    "高山"
+   ],
+   "unit": 3,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-03-010",
+   "word": "sport",
+   "pos": "n.",
+   "phonetic": "spɔrt",
+   "en_def": "a game, competition, or activity needing physical effort and skill that is played for enjoyment and/or as a job",
+   "cn_def": "运动；体育运动",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：词根 port 联想到「搬运」。整体意思是「运动；体育运动」。",
+   "keywords": [
+    "运动",
+    "体育运动"
+   ],
+   "unit": 3,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-03-011",
+   "word": "above",
+   "pos": "adv.",
+   "phonetic": "əˈbəv",
+   "en_def": "in or to a higher position than something else",
+   "cn_def": "在……上方",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 above 和「在……上方」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "在……上方"
+   ],
+   "unit": 3,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-03-012",
+   "word": "across",
+   "pos": "adv.",
+   "phonetic": "əˈkrɔs",
+   "en_def": "from one side to the other of something with clear limits, such as an area of land, a road, or a river",
+   "cn_def": "穿过；横过",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 across 和「穿过」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "穿过",
+    "横过"
+   ],
+   "unit": 3,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-03-013",
+   "word": "age",
+   "pos": "n.",
+   "phonetic": "eɪʤ",
+   "en_def": "the period of time someone has been alive or something has existed",
+   "cn_def": "年龄；年纪",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 age 和「年龄」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "年龄",
+    "年纪"
+   ],
+   "unit": 3,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-03-014",
+   "word": "between",
+   "pos": "adv.",
+   "phonetic": "bɪtˈwin",
+   "en_def": "in or into the space that separates two places, people, or objects",
+   "cn_def": "在……之间",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-en 表示「使…/由…制成」。整体意思是「在……之间」。",
+   "keywords": [
+    "在……之间"
+   ],
+   "unit": 3,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-03-015",
+   "word": "earth",
+   "pos": "n.",
+   "phonetic": "ərθ",
+   "en_def": "the planet on which we live",
+   "cn_def": "地球；泥土",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 earth 和「地球」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "地球",
+    "泥土"
+   ],
+   "unit": 3,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-03-016",
+   "word": "moon",
+   "pos": "n.",
+   "phonetic": "mun",
+   "en_def": "the round object that moves in the sky around the earth and can be seen at night",
+   "cn_def": "月亮",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 moon 和「月亮」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "月亮"
+   ],
+   "unit": 3,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-03-017",
+   "word": "something",
+   "pos": "pron.",
+   "phonetic": "ˈsəmθɪŋ",
+   "en_def": "an object, situation, quality, or action that is not exactly known or stated",
+   "cn_def": "某事；某物",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 something 和「某事」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "某事",
+    "某物"
+   ],
+   "unit": 3,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-03-018",
+   "word": "space",
+   "pos": "n.",
+   "phonetic": "speɪs",
+   "en_def": "the empty area outside Earth's atmosphere, where the planets and the stars are",
+   "cn_def": "太空；空间",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 space 和「太空」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "太空",
+    "空间"
+   ],
+   "unit": 3,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-03-019",
+   "word": "star",
+   "pos": "n.",
+   "phonetic": "stɑr",
+   "en_def": "a very large ball of burning gas in space that is usually seen from the earth as a point of light in the sky at night",
+   "cn_def": "星星",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 star 和「星星」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "星星"
+   ],
+   "unit": 3,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-03-020",
+   "word": "sunshine",
+   "pos": "n.",
+   "phonetic": "ˈsənˌʃaɪn",
+   "en_def": "the light and heat that come from the sun",
+   "cn_def": "阳光",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sunshine 和「阳光」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "阳光"
+   ],
+   "unit": 3,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-04-001",
+   "word": "cereal",
+   "pos": "n.",
+   "phonetic": "[ˈsɪəɹiːəɫ]",
+   "en_def": "a food that is made from grain and eaten with milk, especially in the morning",
+   "cn_def": "麦片；谷物食品",
+   "example": "Which cereal would you like for breakfast?",
+   "example_cn": "您想要哪种麦片作为早餐？",
+   "tip": "拆词记忆：-al 表示「…的」。整体意思是「麦片；谷物食品」。",
+   "keywords": [
+    "麦片",
+    "谷物食品"
+   ],
+   "unit": 4,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-04-002",
+   "word": "meat",
+   "pos": "n.",
+   "phonetic": "/miːt/",
+   "en_def": "the flesh of an animal when it is used for food",
+   "cn_def": "肉",
+   "example": "A large portion of domestic meat production comes from animals raised on factory farms.",
+   "example_cn": "国内肉类生产的很大一部分来自工厂化农场饲养的动物。",
+   "tip": "联想记忆：把 meat 和「肉」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "肉"
+   ],
+   "unit": 4,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-04-003",
+   "word": "omelet",
+   "pos": "n.",
+   "phonetic": "ˈɑmlət",
+   "en_def": "eggs with their yellow and transparent parts mixed together, cooked in a pan, and usually folded over some other food",
+   "cn_def": "煎蛋卷；欧姆蛋",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 omelet 和「煎蛋卷」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "煎蛋卷",
+    "欧姆蛋"
+   ],
+   "unit": 4,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-04-004",
+   "word": "pasta",
+   "pos": "n.",
+   "phonetic": "ˈpɑstə",
+   "en_def": "a food made from flour, water, and sometimes egg, that is cooked and usually served with a sauce",
+   "cn_def": "意面；意大利面",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 pasta 和「意面」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "意面",
+    "意大利面"
+   ],
+   "unit": 4,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-04-005",
+   "word": "sausage",
+   "pos": "n.",
+   "phonetic": "ˈsɔsɪʤ",
+   "en_def": "a thin, tube-like case containing meat that has been cut into very small pieces and mixed with spices",
+   "cn_def": "香肠",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sausage 和「香肠」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "香肠"
+   ],
+   "unit": 4,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-04-006",
+   "word": "snack",
+   "pos": "n.",
+   "phonetic": "snæk",
+   "en_def": "a small amount of food that is eaten between meals, or a very small meal",
+   "cn_def": "零食；小吃",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 snack 和「零食」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "零食",
+    "小吃"
+   ],
+   "unit": 4,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-04-007",
+   "word": "spaghetti",
+   "pos": "n.",
+   "phonetic": "spəˈgɛti",
+   "en_def": "pasta made in the form of long, thin strings",
+   "cn_def": "意大利面；细面条",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 spaghetti 和「意大利面」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "意大利面",
+    "细面条"
+   ],
+   "unit": 4,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-04-008",
+   "word": "toast",
+   "pos": "n.",
+   "phonetic": "toʊst",
+   "en_def": "sliced bread made warm, crisp, and brown by being put near a high heat",
+   "cn_def": "烤面包；吐司",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 toast 和「烤面包」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "烤面包",
+    "吐司"
+   ],
+   "unit": 4,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-04-009",
+   "word": "waffle",
+   "pos": "n.",
+   "phonetic": "ˈwɑfəl",
+   "en_def": "a type of bread made from batter cooked in a special pan whose surface forms a pattern of raised squares",
+   "cn_def": "华夫饼",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 waffle 和「华夫饼」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "华夫饼"
+   ],
+   "unit": 4,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-04-010",
+   "word": "yogurt",
+   "pos": "n.",
+   "phonetic": "ˈjoʊgərt",
+   "en_def": "a slightly sour, thick liquid made from milk with bacteria added to it",
+   "cn_def": "酸奶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 yogurt 和「酸奶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "酸奶"
+   ],
+   "unit": 4,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-04-011",
+   "word": "avocado",
+   "pos": "n.",
+   "phonetic": "ˌævəˈkɑdoʊ",
+   "en_def": "a tropical fruit with thick, green, or purple skin, a large, round seed, and green flesh that can be eaten",
+   "cn_def": "牛油果；鳄梨",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 avocado 和「牛油果」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "牛油果",
+    "鳄梨"
+   ],
+   "unit": 4,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-04-012",
+   "word": "cherries",
+   "pos": "n.",
+   "phonetic": "ˈʧɛriz",
+   "en_def": "a small, round, soft red or black fruit with a single hard seed in the middle, or the tree on which the fruit grows",
+   "cn_def": "樱桃",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 cherries 和「樱桃」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "樱桃"
+   ],
+   "unit": 4,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-04-013",
+   "word": "grapefruit",
+   "pos": "n.",
+   "phonetic": "ˈgreɪpˌfrut",
+   "en_def": "a fruit that is like a large orange, but has a yellow skin and tastes less sweet",
+   "cn_def": "葡萄柚",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 grapefruit 和「葡萄柚」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "葡萄柚"
+   ],
+   "unit": 4,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-04-014",
+   "word": "kiwi",
+   "pos": "n.",
+   "phonetic": "ˈkiwi",
+   "en_def": "an oval fruit with brown skin covered in hairs and bright green flesh",
+   "cn_def": "猕猴桃；奇异果",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 kiwi 和「猕猴桃」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "猕猴桃",
+    "奇异果"
+   ],
+   "unit": 4,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-04-015",
+   "word": "lime",
+   "pos": "n.",
+   "phonetic": "laɪm",
+   "en_def": "a round fruit containing a lot of juice that is sour like a lemon but smaller and green",
+   "cn_def": "青柠；酸橙",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 lime 和「青柠」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "青柠",
+    "酸橙"
+   ],
+   "unit": 4,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-04-016",
+   "word": "mango",
+   "pos": "n.",
+   "phonetic": "ˈmæŋgoʊ",
+   "en_def": "an oval tropical fruit with a smooth skin, orange-yellow flesh, and a large, hard seed in the middle",
+   "cn_def": "芒果",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 mango 和「芒果」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "芒果"
+   ],
+   "unit": 4,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-04-017",
+   "word": "peach",
+   "pos": "n.",
+   "phonetic": "piʧ",
+   "en_def": "a round fruit with sweet yellow flesh that has a lot of juice, a slightly furry red and yellow skin, and a large seed in its center",
+   "cn_def": "桃；桃子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 peach 和「桃」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "桃",
+    "桃子"
+   ],
+   "unit": 4,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-04-018",
+   "word": "persimmon",
+   "pos": "n.",
+   "phonetic": "persimmon*",
+   "en_def": "a very sweet orange tropical fruit",
+   "cn_def": "柿子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 persimmon 和「柿子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "柿子"
+   ],
+   "unit": 4,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-04-019",
+   "word": "plum",
+   "pos": "n.",
+   "phonetic": "pləm",
+   "en_def": "a small, round fruit with a thin, smooth, red, purple, or yellow skin, sweet, soft flesh, and a single large, hard seed",
+   "cn_def": "李子；梅子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 plum 和「李子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "李子",
+    "梅子"
+   ],
+   "unit": 4,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-04-020",
+   "word": "watermelon",
+   "pos": "n.",
+   "phonetic": "ˈwɔtərˌmɛlən",
+   "en_def": "a large, round or oval-shaped fruit with dark green skin, sweet pink flesh, and a lot of black seeds",
+   "cn_def": "西瓜",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 watermelon 和「西瓜」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "西瓜"
+   ],
+   "unit": 4,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-04-001",
+   "word": "cereal",
+   "pos": "n.",
+   "phonetic": "[ˈsɪəɹiːəɫ]",
+   "en_def": "a food that is made from grain and eaten with milk, especially in the morning",
+   "cn_def": "麦片；谷物食品",
+   "example": "Which cereal would you like for breakfast?",
+   "example_cn": "您想要哪种麦片作为早餐？",
+   "tip": "拆词记忆：-al 表示「…的」。整体意思是「麦片；谷物食品」。",
+   "keywords": [
+    "麦片",
+    "谷物食品"
+   ],
+   "unit": 4,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-04-002",
+   "word": "meat",
+   "pos": "n.",
+   "phonetic": "/miːt/",
+   "en_def": "the flesh of an animal when it is used for food",
+   "cn_def": "肉",
+   "example": "A large portion of domestic meat production comes from animals raised on factory farms.",
+   "example_cn": "国内肉类生产的很大一部分来自工厂化农场饲养的动物。",
+   "tip": "联想记忆：把 meat 和「肉」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "肉"
+   ],
+   "unit": 4,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-04-003",
+   "word": "omelet",
+   "pos": "n.",
+   "phonetic": "ˈɑmlət",
+   "en_def": "eggs with their yellow and transparent parts mixed together, cooked in a pan, and usually folded over some other food",
+   "cn_def": "煎蛋卷；欧姆蛋",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 omelet 和「煎蛋卷」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "煎蛋卷",
+    "欧姆蛋"
+   ],
+   "unit": 4,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-04-004",
+   "word": "pasta",
+   "pos": "n.",
+   "phonetic": "ˈpɑstə",
+   "en_def": "a food made from flour, water, and sometimes egg, that is cooked and usually served with a sauce",
+   "cn_def": "意面；意大利面",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 pasta 和「意面」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "意面",
+    "意大利面"
+   ],
+   "unit": 4,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-04-005",
+   "word": "sausage",
+   "pos": "n.",
+   "phonetic": "ˈsɔsɪʤ",
+   "en_def": "a thin, tube-like case containing meat that has been cut into very small pieces and mixed with spices",
+   "cn_def": "香肠",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sausage 和「香肠」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "香肠"
+   ],
+   "unit": 4,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-04-006",
+   "word": "snack",
+   "pos": "n.",
+   "phonetic": "snæk",
+   "en_def": "a small amount of food that is eaten between meals, or a very small meal",
+   "cn_def": "零食；小吃",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 snack 和「零食」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "零食",
+    "小吃"
+   ],
+   "unit": 4,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-04-007",
+   "word": "spaghetti",
+   "pos": "n.",
+   "phonetic": "spəˈgɛti",
+   "en_def": "pasta made in the form of long, thin strings",
+   "cn_def": "意大利面；细面条",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 spaghetti 和「意大利面」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "意大利面",
+    "细面条"
+   ],
+   "unit": 4,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-04-008",
+   "word": "toast",
+   "pos": "n.",
+   "phonetic": "toʊst",
+   "en_def": "sliced bread made warm, crisp, and brown by being put near a high heat",
+   "cn_def": "烤面包；吐司",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 toast 和「烤面包」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "烤面包",
+    "吐司"
+   ],
+   "unit": 4,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-04-009",
+   "word": "waffle",
+   "pos": "n.",
+   "phonetic": "ˈwɑfəl",
+   "en_def": "a type of bread made from batter cooked in a special pan whose surface forms a pattern of raised squares",
+   "cn_def": "华夫饼",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 waffle 和「华夫饼」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "华夫饼"
+   ],
+   "unit": 4,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-04-010",
+   "word": "yogurt",
+   "pos": "n.",
+   "phonetic": "ˈjoʊgərt",
+   "en_def": "a slightly sour, thick liquid made from milk with bacteria added to it",
+   "cn_def": "酸奶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 yogurt 和「酸奶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "酸奶"
+   ],
+   "unit": 4,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-04-011",
+   "word": "avocado",
+   "pos": "n.",
+   "phonetic": "ˌævəˈkɑdoʊ",
+   "en_def": "a tropical fruit with thick, green, or purple skin, a large, round seed, and green flesh that can be eaten",
+   "cn_def": "牛油果；鳄梨",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 avocado 和「牛油果」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "牛油果",
+    "鳄梨"
+   ],
+   "unit": 4,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-04-012",
+   "word": "cherries",
+   "pos": "n.",
+   "phonetic": "ˈʧɛriz",
+   "en_def": "a small, round, soft red or black fruit with a single hard seed in the middle, or the tree on which the fruit grows",
+   "cn_def": "樱桃",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 cherries 和「樱桃」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "樱桃"
+   ],
+   "unit": 4,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-04-013",
+   "word": "grapefruit",
+   "pos": "n.",
+   "phonetic": "ˈgreɪpˌfrut",
+   "en_def": "a fruit that is like a large orange, but has a yellow skin and tastes less sweet",
+   "cn_def": "葡萄柚",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 grapefruit 和「葡萄柚」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "葡萄柚"
+   ],
+   "unit": 4,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-04-014",
+   "word": "kiwi",
+   "pos": "n.",
+   "phonetic": "ˈkiwi",
+   "en_def": "an oval fruit with brown skin covered in hairs and bright green flesh",
+   "cn_def": "猕猴桃；奇异果",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 kiwi 和「猕猴桃」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "猕猴桃",
+    "奇异果"
+   ],
+   "unit": 4,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-04-015",
+   "word": "lime",
+   "pos": "n.",
+   "phonetic": "laɪm",
+   "en_def": "a round fruit containing a lot of juice that is sour like a lemon but smaller and green",
+   "cn_def": "青柠；酸橙",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 lime 和「青柠」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "青柠",
+    "酸橙"
+   ],
+   "unit": 4,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-04-016",
+   "word": "mango",
+   "pos": "n.",
+   "phonetic": "ˈmæŋgoʊ",
+   "en_def": "an oval tropical fruit with a smooth skin, orange-yellow flesh, and a large, hard seed in the middle",
+   "cn_def": "芒果",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 mango 和「芒果」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "芒果"
+   ],
+   "unit": 4,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-04-017",
+   "word": "peach",
+   "pos": "n.",
+   "phonetic": "piʧ",
+   "en_def": "a round fruit with sweet yellow flesh that has a lot of juice, a slightly furry red and yellow skin, and a large seed in its center",
+   "cn_def": "桃；桃子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 peach 和「桃」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "桃",
+    "桃子"
+   ],
+   "unit": 4,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-04-018",
+   "word": "persimmon",
+   "pos": "n.",
+   "phonetic": "persimmon*",
+   "en_def": "a very sweet orange tropical fruit",
+   "cn_def": "柿子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 persimmon 和「柿子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "柿子"
+   ],
+   "unit": 4,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-04-019",
+   "word": "plum",
+   "pos": "n.",
+   "phonetic": "pləm",
+   "en_def": "a small, round fruit with a thin, smooth, red, purple, or yellow skin, sweet, soft flesh, and a single large, hard seed",
+   "cn_def": "李子；梅子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 plum 和「李子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "李子",
+    "梅子"
+   ],
+   "unit": 4,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-04-020",
+   "word": "watermelon",
+   "pos": "n.",
+   "phonetic": "ˈwɔtərˌmɛlən",
+   "en_def": "a large, round or oval-shaped fruit with dark green skin, sweet pink flesh, and a lot of black seeds",
+   "cn_def": "西瓜",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 watermelon 和「西瓜」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "西瓜"
+   ],
+   "unit": 4,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-05-001",
+   "word": "afraid",
+   "pos": "adj.",
+   "phonetic": "əˈfreɪd",
+   "en_def": "feeling fear, or feeling worry about the possible results of a particular situation",
+   "cn_def": "害怕的；担心的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 afraid 和「害怕的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "害怕的",
+    "担心的"
+   ],
+   "unit": 5,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-05-002",
+   "word": "alone",
+   "pos": "adj.",
+   "phonetic": "əˈloʊn",
+   "en_def": "without other people",
+   "cn_def": "独自的；单独的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 alone 和「独自的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "独自的",
+    "单独的"
+   ],
+   "unit": 5,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-05-003",
+   "word": "blood",
+   "pos": "n.",
+   "phonetic": "bləd",
+   "en_def": "the red liquid that is sent around the body by the heart, and carries oxygen and important substances to organs and tissue",
+   "cn_def": "血；血液",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 blood 和「血」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "血",
+    "血液"
+   ],
+   "unit": 5,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-05-004",
+   "word": "instead",
+   "pos": "adv.",
+   "phonetic": "ˌɪnˈstɛd",
+   "en_def": "in place of someone or something else",
+   "cn_def": "代替；反而",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：in- 表示「不」。整体意思是「代替；反而」。",
+   "keywords": [
+    "代替",
+    "反而"
+   ],
+   "unit": 5,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-05-005",
+   "word": "save",
+   "pos": "v.",
+   "phonetic": "seɪv",
+   "en_def": "to stop someone or something from being killed, injured, or destroyed",
+   "cn_def": "救；拯救；节省",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 save 和「救」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "救",
+    "拯救",
+    "节省"
+   ],
+   "unit": 5,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-05-006",
+   "word": "secret",
+   "pos": "n.",
+   "phonetic": "ˈsikrɪt",
+   "en_def": "a piece of information that is only known by one person or a few people and should not be told to others",
+   "cn_def": "秘密",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 secret 和「秘密」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "秘密"
+   ],
+   "unit": 5,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-05-007",
+   "word": "small",
+   "pos": "adj.",
+   "phonetic": "/smoːl/",
+   "en_def": "little in size or amount when compared with what is typical or average",
+   "cn_def": "小的",
+   "example": "A small group.",
+   "example_cn": "一小群人。",
+   "tip": "联想记忆：把 small 和「小的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "小的"
+   ],
+   "unit": 5,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-05-008",
+   "word": "surprise",
+   "pos": "n.",
+   "phonetic": "səˈpraɪz",
+   "en_def": "the feeling caused by something unexpected happening",
+   "cn_def": "惊讶；惊喜",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ise 表示「使…化」。整体意思是「惊讶；惊喜」。",
+   "keywords": [
+    "惊讶",
+    "惊喜"
+   ],
+   "unit": 5,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-05-009",
+   "word": "throw",
+   "pos": "v.",
+   "phonetic": "θroʊ",
+   "en_def": "to send something through the air with force, especially by a sudden movement of the arm",
+   "cn_def": "扔；投；抛",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 throw 和「扔」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "扔",
+    "投",
+    "抛"
+   ],
+   "unit": 5,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-05-010",
+   "word": "touch",
+   "pos": "v.",
+   "phonetic": "təʧ",
+   "en_def": "to put your hand or another part of your body lightly onto and off something or someone",
+   "cn_def": "触摸；碰",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 touch 和「触摸」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "触摸",
+    "碰"
+   ],
+   "unit": 5,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-05-011",
+   "word": "able",
+   "pos": "adj.",
+   "phonetic": "/ˈeɪ.bl̩/",
+   "en_def": "to have the necessary physical strength, mental power, skill, time, money, or opportunity to do something",
+   "cn_def": "能够的；有能力的",
+   "example": "I’ll see you as soon as I’m able.",
+   "example_cn": "我会尽快见到你。",
+   "tip": "联想记忆：把 able 和「能够的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "能够的",
+    "有能力的"
+   ],
+   "unit": 5,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-05-012",
+   "word": "action",
+   "pos": "n.",
+   "phonetic": "/ˈæk.ʃən/",
+   "en_def": "the process of doing something, especially when dealing with a problem or difficulty",
+   "cn_def": "行动；动作",
+   "example": "Knead bread with a rocking action.",
+   "example_cn": "用摇晃的动作揉面包。",
+   "tip": "拆词记忆：-tion 表示「…的动作(名)」。整体意思是「行动；动作」。",
+   "keywords": [
+    "行动",
+    "动作"
+   ],
+   "unit": 5,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-05-013",
+   "word": "careful",
+   "pos": "adj.",
+   "phonetic": "/ˈkɛːfəl/",
+   "en_def": "giving a lot of attention to what you are doing so that you do not have an accident, make a mistake, or damage something",
+   "cn_def": "小心的；仔细的",
+   "example": "He was a slow and careful driver.",
+   "example_cn": "他是一个缓慢而谨慎的司机。",
+   "tip": "拆词记忆：-ful 表示「充满…的」。整体意思是「小心的；仔细的」。",
+   "keywords": [
+    "小心的",
+    "仔细的"
+   ],
+   "unit": 5,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-05-014",
+   "word": "clear",
+   "pos": "adj.",
+   "phonetic": "/klɪə(ɹ)/",
+   "en_def": "easy to understand, hear, read, or see",
+   "cn_def": "清楚的；清晰的",
+   "example": "a room ten feet square in the clear",
+   "example_cn": "一间十平方英尺的房间",
+   "tip": "联想记忆：把 clear 和「清楚的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "清楚的",
+    "清晰的"
+   ],
+   "unit": 5,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-05-015",
+   "word": "drop",
+   "pos": "v.",
+   "phonetic": "/dɹɒp/",
+   "en_def": "to fall or to allow something to fall",
+   "cn_def": "掉下；掉落",
+   "example": "Put three drops of oil into the mixture.",
+   "example_cn": "将三滴油放入混合物中。",
+   "tip": "联想记忆：把 drop 和「掉下」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "掉下",
+    "掉落"
+   ],
+   "unit": 5,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-05-016",
+   "word": "friendly",
+   "pos": "adj.",
+   "phonetic": "/ˈfɹɛndli/",
+   "en_def": "behaving in a pleasant, kind way towards someone",
+   "cn_def": "友好的",
+   "example": "This match is merely a friendly, so don't worry too much about it.",
+   "example_cn": "这场比赛只是一场友谊赛，所以不用太担心。",
+   "tip": "拆词记忆：-ly 表示「…地(副)」。整体意思是「友好的」。",
+   "keywords": [
+    "友好的"
+   ],
+   "unit": 5,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-05-017",
+   "word": "heavy",
+   "pos": "adj.",
+   "phonetic": "ˈhɛvi",
+   "en_def": "weighing a lot, and needing effort to move or lift",
+   "cn_def": "重的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「重的」。",
+   "keywords": [
+    "重的"
+   ],
+   "unit": 5,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-05-018",
+   "word": "roll",
+   "pos": "v.",
+   "phonetic": "/ɹəʊl/",
+   "en_def": "to (cause something to) move somewhere by turning over and over or from side to side",
+   "cn_def": "滚动；卷",
+   "example": "Look at the roll of the waves.",
+   "example_cn": "看看海浪的滚动。",
+   "tip": "联想记忆：把 roll 和「滚动」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "滚动",
+    "卷"
+   ],
+   "unit": 5,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-05-019",
+   "word": "share",
+   "pos": "v.",
+   "phonetic": "/ʃɛə/",
+   "en_def": "to have or use something at the same time as someone else",
+   "cn_def": "分享；共用",
+   "example": "Upload media from the browser or directly to the file share.",
+   "example_cn": "从浏览器上传媒体或直接上传到文件共享。",
+   "tip": "联想记忆：把 share 和「分享」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "分享",
+    "共用"
+   ],
+   "unit": 5,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-05-020",
+   "word": "soft",
+   "pos": "adj.",
+   "phonetic": "sɔft",
+   "en_def": "not hard or firm",
+   "cn_def": "软的；柔软的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 soft 和「软的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "软的",
+    "柔软的"
+   ],
+   "unit": 5,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-06-001",
+   "word": "agree",
+   "pos": "v.",
+   "phonetic": "əˈgri",
+   "en_def": "to have the same opinion",
+   "cn_def": "同意；赞成",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 agree 和「同意」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "同意",
+    "赞成"
+   ],
+   "unit": 6,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-06-002",
+   "word": "birthday",
+   "pos": "n.",
+   "phonetic": "ˈbərθˌdeɪ",
+   "en_def": "the day that is exactly a year or number of years after a person was born",
+   "cn_def": "生日",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「生日」。",
+   "keywords": [
+    "生日"
+   ],
+   "unit": 6,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-06-003",
+   "word": "bright",
+   "pos": "adj.",
+   "phonetic": "braɪt",
+   "en_def": "full of light, shining",
+   "cn_def": "明亮的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 bright 和「明亮的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "明亮的"
+   ],
+   "unit": 6,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-06-004",
+   "word": "card",
+   "pos": "n.",
+   "phonetic": "kɑrd",
+   "en_def": "a small, rectangular piece of card or plastic",
+   "cn_def": "卡片；贺卡",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 card 和「卡片」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "卡片",
+    "贺卡"
+   ],
+   "unit": 6,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-06-005",
+   "word": "count",
+   "pos": "v.",
+   "phonetic": "kaʊnt",
+   "en_def": "to say numbers one after the other in order, or to calculate the number of people or things in a group",
+   "cn_def": "数；计数",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：co- 表示「共同」。整体意思是「数；计数」。",
+   "keywords": [
+    "数",
+    "计数"
+   ],
+   "unit": 6,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-06-006",
+   "word": "dark",
+   "pos": "adj.",
+   "phonetic": "dɑrk",
+   "en_def": "with little or no light",
+   "cn_def": "黑暗的；暗的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 dark 和「黑暗的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "黑暗的",
+    "暗的"
+   ],
+   "unit": 6,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-06-007",
+   "word": "fight",
+   "pos": "v.",
+   "phonetic": "faɪt",
+   "en_def": "to use physical force to try to defeat another person or group of people",
+   "cn_def": "打架；战斗",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 fight 和「打架」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "打架",
+    "战斗"
+   ],
+   "unit": 6,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-06-008",
+   "word": "glad",
+   "pos": "adj.",
+   "phonetic": "glæd",
+   "en_def": "pleased and happy",
+   "cn_def": "高兴的；乐意的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 glad 和「高兴的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "高兴的",
+    "乐意的"
+   ],
+   "unit": 6,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-06-009",
+   "word": "several",
+   "pos": "det.",
+   "phonetic": "ˈsɛvərəl",
+   "en_def": "some; an amount that is not exact but is fewer than many",
+   "cn_def": "几个；若干",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-al 表示「…的」。整体意思是「几个；若干」。",
+   "keywords": [
+    "几个",
+    "若干"
+   ],
+   "unit": 6,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-06-010",
+   "word": "sweet",
+   "pos": "adj.",
+   "phonetic": "swit",
+   "en_def": "(especially of food or drink) having a taste similar to that of sugar; not bitter or salty",
+   "cn_def": "甜的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sweet 和「甜的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "甜的"
+   ],
+   "unit": 6,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-06-011",
+   "word": "difficult",
+   "pos": "adj.",
+   "phonetic": "ˈdɪfəkəlt",
+   "en_def": "needing skill or effort",
+   "cn_def": "困难的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 difficult 和「困难的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "困难的"
+   ],
+   "unit": 6,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-06-012",
+   "word": "glass",
+   "pos": "n.",
+   "phonetic": "glæs",
+   "en_def": "a hard, transparent material, used to make windows, bottles, and other objects",
+   "cn_def": "玻璃；玻璃杯",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 glass 和「玻璃」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "玻璃",
+    "玻璃杯"
+   ],
+   "unit": 6,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-06-013",
+   "word": "interview",
+   "pos": "n.",
+   "phonetic": "ˈɪntərvˌju",
+   "en_def": "a meeting in which someone asks you questions to see if you are suitable for a job or course",
+   "cn_def": "面试；访谈",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：inter- 表示「之间」。整体意思是「面试；访谈」。",
+   "keywords": [
+    "面试",
+    "访谈"
+   ],
+   "unit": 6,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-06-014",
+   "word": "mind",
+   "pos": "n.",
+   "phonetic": "maɪnd",
+   "en_def": "the part of a person that makes it possible for him or her to think, feel emotions, and understand things",
+   "cn_def": "头脑；心思",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 mind 和「头脑」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "头脑",
+    "心思"
+   ],
+   "unit": 6,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-06-015",
+   "word": "office",
+   "pos": "n.",
+   "phonetic": "ˈɔfəs",
+   "en_def": "a room or part of a building in which people work, especially sitting at tables with computers, phones, etc.",
+   "cn_def": "办公室",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 office 和「办公室」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "办公室"
+   ],
+   "unit": 6,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-06-016",
+   "word": "partner",
+   "pos": "n.",
+   "phonetic": "ˈpɑrtnər",
+   "en_def": "a person or organization you are closely involved with in some way",
+   "cn_def": "伙伴；搭档；伴侣",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-er 表示「…的人/物」。整体意思是「伙伴；搭档；伴侣」。",
+   "keywords": [
+    "伙伴",
+    "搭档",
+    "伴侣"
+   ],
+   "unit": 6,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-06-017",
+   "word": "quiet",
+   "pos": "adj.",
+   "phonetic": "kwaɪət",
+   "en_def": "making very little noise",
+   "cn_def": "安静的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 quiet 和「安静的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "安静的"
+   ],
+   "unit": 6,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-06-018",
+   "word": "rich",
+   "pos": "adj.",
+   "phonetic": "rɪʧ",
+   "en_def": "having a lot of money or valuable possessions",
+   "cn_def": "富有的；有钱的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 rich 和「富有的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "富有的",
+    "有钱的"
+   ],
+   "unit": 6,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-06-019",
+   "word": "sky",
+   "pos": "n.",
+   "phonetic": "skaɪ",
+   "en_def": "the area above the earth, in which clouds, the sun, etc. can be seen",
+   "cn_def": "天空",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「天空」。",
+   "keywords": [
+    "天空"
+   ],
+   "unit": 6,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-06-020",
+   "word": "wood",
+   "pos": "n.",
+   "phonetic": "wʊd",
+   "en_def": "a hard substance that forms the branches and trunks of trees",
+   "cn_def": "木头；木材",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 wood 和「木头」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "木头",
+    "木材"
+   ],
+   "unit": 6,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-07-001",
+   "word": "capital",
+   "pos": "n.",
+   "phonetic": "ˈkæpɪtəl",
+   "en_def": "a city that is the centre of government of a country or smaller political area",
+   "cn_def": "首都；资本",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-al 表示「…的」。整体意思是「首都；资本」。",
+   "keywords": [
+    "首都",
+    "资本"
+   ],
+   "unit": 7,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-07-002",
+   "word": "exciting",
+   "pos": "adj.",
+   "phonetic": "ɪkˈsaɪtɪŋ",
+   "en_def": "making you feel excited",
+   "cn_def": "令人兴奋的；刺激的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：ex- 表示「前/出」。整体意思是「令人兴奋的；刺激的」。",
+   "keywords": [
+    "令人兴奋的",
+    "刺激的"
+   ],
+   "unit": 7,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-07-003",
+   "word": "forget",
+   "pos": "v.",
+   "phonetic": "/fəˈɡɛt/",
+   "en_def": "to be unable to remember a fact, something that happened, or how to do something",
+   "cn_def": "忘记",
+   "example": "I have forgotten most of the things I learned in school.",
+   "example_cn": "我忘记了在学校里学到的大部分东西。",
+   "tip": "联想记忆：把 forget 和「忘记」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "忘记"
+   ],
+   "unit": 7,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-07-004",
+   "word": "hotel",
+   "pos": "n.",
+   "phonetic": "/(h)əʊˈtɛl/",
+   "en_def": "a building where you pay to have a room to sleep in, and where you can sometimes eat meals",
+   "cn_def": "酒店；旅馆",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 hotel 和「酒店」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "酒店",
+    "旅馆"
+   ],
+   "unit": 7,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-07-005",
+   "word": "list",
+   "pos": "n.",
+   "phonetic": "/lɪst/",
+   "en_def": "a record of short pieces of information, such as people's names",
+   "cn_def": "清单；列表",
+   "example": "to list a door",
+   "example_cn": "发布一扇门",
+   "tip": "联想记忆：把 list 和「清单」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "清单",
+    "列表"
+   ],
+   "unit": 7,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-07-006",
+   "word": "map",
+   "pos": "n.",
+   "phonetic": "/mæp/",
+   "en_def": "a drawing of a particular area such as a city, a country, or a continent, showing its main features",
+   "cn_def": "地图",
+   "example": "I don't want to play this map again!",
+   "example_cn": "我不想再玩这张地图了！",
+   "tip": "联想记忆：把 map 和「地图」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "地图"
+   ],
+   "unit": 7,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-07-007",
+   "word": "size",
+   "pos": "n.",
+   "phonetic": "/saɪz/",
+   "en_def": "how large or small something or someone is",
+   "cn_def": "尺寸；大小",
+   "example": "The size of the building seemed to have increased since I was last there.",
+   "example_cn": "自从我上次去那里以来，建筑物的大小似乎有所增加。",
+   "tip": "联想记忆：把 size 和「尺寸」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "尺寸",
+    "大小"
+   ],
+   "unit": 7,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-07-008",
+   "word": "song",
+   "pos": "n.",
+   "phonetic": "/sɒŋ/",
+   "en_def": "a usually short piece of music with words that are sung",
+   "cn_def": "歌曲",
+   "example": "Thomas listened to his favorite song on the radio yesterday.",
+   "example_cn": "托马斯昨天在收音机里听了他最喜欢的歌。",
+   "tip": "联想记忆：把 song 和「歌曲」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "歌曲"
+   ],
+   "unit": 7,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-07-009",
+   "word": "travel",
+   "pos": "v.",
+   "phonetic": "/ˈtɹævəl/",
+   "en_def": "to make a journey, usually over a long distance",
+   "cn_def": "旅行",
+   "example": "space travel",
+   "example_cn": "空间旅行 ,宇航,宇宙航行",
+   "tip": "联想记忆：把 travel 和「旅行」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "旅行"
+   ],
+   "unit": 7,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-07-010",
+   "word": "vacation",
+   "pos": "n.",
+   "phonetic": "/veɪˈkeɪʃ(ə)n/",
+   "en_def": "a time when someone does not go to work or school but is free to do what they want, such as travel or relax",
+   "cn_def": "假期；休假",
+   "example": "The Conservative Party’s vacation of the centre ground gave an opportunity to its opponents.",
+   "example_cn": "保守党在中心地带的休假给了对手提供了一个机会。",
+   "tip": "拆词记忆：-tion 表示「…的动作(名)」。整体意思是「假期；休假」。",
+   "keywords": [
+    "假期",
+    "休假"
+   ],
+   "unit": 7,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-07-011",
+   "word": "blow",
+   "pos": "v.",
+   "phonetic": "/bləʊ/",
+   "en_def": "to make a sound by forcing air out of your mouth and through an instrument",
+   "cn_def": "吹；吹气",
+   "example": "We're having a bit of a blow this afternoon.",
+   "example_cn": "今天下午我们受到了一些打击。",
+   "tip": "联想记忆：把 blow 和「吹」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "吹",
+    "吹气"
+   ],
+   "unit": 7,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-07-012",
+   "word": "bottom",
+   "pos": "n.",
+   "phonetic": "/ˈbɒtəm/",
+   "en_def": "the lowest part of something",
+   "cn_def": "底部；底端",
+   "example": "Footers appear at the bottoms of pages.",
+   "example_cn": "页脚显示在页面底部。",
+   "tip": "联想记忆：把 bottom 和「底部」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "底部",
+    "底端"
+   ],
+   "unit": 7,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-07-013",
+   "word": "clock",
+   "pos": "n.",
+   "phonetic": "/klɒk/",
+   "en_def": "a device for measuring and showing time, usually found in or on a building and not worn by a person",
+   "cn_def": "时钟；钟",
+   "example": "This car has over 300,000 miles on the clock.",
+   "example_cn": "这辆车的行驶里程超过30万英里。",
+   "tip": "联想记忆：把 clock 和「时钟」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "时钟",
+    "钟"
+   ],
+   "unit": 7,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-07-014",
+   "word": "closed",
+   "pos": "adj.",
+   "phonetic": "/kləʊzd/",
+   "en_def": "not open",
+   "cn_def": "关闭的；关着的",
+   "example": "closed source  a closed committee",
+   "example_cn": "闭源一个封闭的委员会",
+   "tip": "联想记忆：把 closed 和「关闭的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "关闭的",
+    "关着的"
+   ],
+   "unit": 7,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-07-015",
+   "word": "fix",
+   "pos": "v.",
+   "phonetic": "fɪks",
+   "en_def": "to repair something",
+   "cn_def": "修理；修复",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 fix 和「修理」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "修理",
+    "修复"
+   ],
+   "unit": 7,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-07-016",
+   "word": "machine",
+   "pos": "n.",
+   "phonetic": "məˈʃin",
+   "en_def": "a piece of equipment with several moving parts that uses power to do a particular type of work",
+   "cn_def": "机器",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 machine 和「机器」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "机器"
+   ],
+   "unit": 7,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-07-017",
+   "word": "newspaper",
+   "pos": "n.",
+   "phonetic": "ˈnuzˌpeɪpər",
+   "en_def": "a publication consisting of a number of large sheets of folded paper, on which news, advertisements, and other information is printed",
+   "cn_def": "报纸",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-er 表示「…的人/物」。整体意思是「报纸」。",
+   "keywords": [
+    "报纸"
+   ],
+   "unit": 7,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-07-018",
+   "word": "page",
+   "pos": "n.",
+   "phonetic": "peɪʤ",
+   "en_def": "a side of one of the pieces of paper in a book, newspaper, or magazine, usually with a number printed on it",
+   "cn_def": "页；页面",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 page 和「页」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "页",
+    "页面"
+   ],
+   "unit": 7,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-07-019",
+   "word": "provide",
+   "pos": "v.",
+   "phonetic": "prəˈvaɪd",
+   "en_def": "to give someone something that they need",
+   "cn_def": "提供；供给",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 provide 和「提供」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "提供",
+    "供给"
+   ],
+   "unit": 7,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-07-020",
+   "word": "shake",
+   "pos": "v.",
+   "phonetic": "ʃeɪk",
+   "en_def": "to move backwards and forwards or up and down in quick, short movements, or to make something or someone do this",
+   "cn_def": "摇动；摇晃",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 shake 和「摇动」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "摇动",
+    "摇晃"
+   ],
+   "unit": 7,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-08-001",
+   "word": "attic",
+   "pos": "n.",
+   "phonetic": "ˈætɪk",
+   "en_def": "the space or room at the top of a building, under the roof, often used for storing things",
+   "cn_def": "阁楼；顶楼",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 attic 和「阁楼」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "阁楼",
+    "顶楼"
+   ],
+   "unit": 8,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-08-002",
+   "word": "basement",
+   "pos": "n.",
+   "phonetic": "ˈbeɪsmənt",
+   "en_def": "a part of a building consisting of rooms that are partly or completely below the level of the ground",
+   "cn_def": "地下室",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ment 表示「…的行为/结果(名)」。整体意思是「地下室」。",
+   "keywords": [
+    "地下室"
+   ],
+   "unit": 8,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-08-003",
+   "word": "cupboard",
+   "pos": "n.",
+   "phonetic": "/ˈkʌbəd/",
+   "en_def": "a piece of furniture with a door or doors behind which there is space for storing things, usually on shelves",
+   "cn_def": "橱柜；碗柜",
+   "example": "Put the cups back into the cupboard.",
+   "example_cn": "把杯子放回橱柜里。",
+   "tip": "联想记忆：把 cupboard 和「橱柜」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "橱柜",
+    "碗柜"
+   ],
+   "unit": 8,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-08-004",
+   "word": "curtains",
+   "pos": "n.",
+   "phonetic": "ˈkərtənz",
+   "en_def": "a piece of material, especially cloth, that hangs across a window or opening to make a room or part of a room dark or private",
+   "cn_def": "窗帘",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 curtains 和「窗帘」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "窗帘"
+   ],
+   "unit": 8,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-08-005",
+   "word": "desk",
+   "pos": "n.",
+   "phonetic": "dɛsk",
+   "en_def": "a type of table that you can work at, often one with drawers",
+   "cn_def": "书桌；写字台",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 desk 和「书桌」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "书桌",
+    "写字台"
+   ],
+   "unit": 8,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-08-006",
+   "word": "fireplace",
+   "pos": "n.",
+   "phonetic": "ˈfaɪərˌpleɪs",
+   "en_def": "a space in the wall of a room for a fire to burn in, or the decorated part that surrounds this space",
+   "cn_def": "壁炉",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 fireplace 和「壁炉」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "壁炉"
+   ],
+   "unit": 8,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-08-007",
+   "word": "lamp",
+   "pos": "n.",
+   "phonetic": "læmp",
+   "en_def": "a device for giving light, especially one that has a covering or is contained within something",
+   "cn_def": "灯",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 lamp 和「灯」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "灯"
+   ],
+   "unit": 8,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-08-008",
+   "word": "refrigerator",
+   "pos": "n.",
+   "phonetic": "rɪˈfrɪʤərˌeɪtər",
+   "en_def": "a piece of kitchen equipment that uses electricity to preserve food at a cold temperature",
+   "cn_def": "冰箱",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：re- 表示「再/重新」；-or 表示「…的人/物」。整体意思是「冰箱」。",
+   "keywords": [
+    "冰箱"
+   ],
+   "unit": 8,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-08-009",
+   "word": "stove",
+   "pos": "n.",
+   "phonetic": "stoʊv",
+   "en_def": "a piece of equipment that burns fuel or uses electricity in order to heat a place",
+   "cn_def": "炉灶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 stove 和「炉灶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "炉灶"
+   ],
+   "unit": 8,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-08-010",
+   "word": "toilet",
+   "pos": "n.",
+   "phonetic": "ˈtɔɪlət",
+   "en_def": "a bowl-shaped device with a seat that you sit on or stand near when emptying the body of urine or solid waste",
+   "cn_def": "厕所；马桶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 toilet 和「厕所」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "厕所",
+    "马桶"
+   ],
+   "unit": 8,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-08-011",
+   "word": "apron",
+   "pos": "n.",
+   "phonetic": "ˈeɪprən",
+   "en_def": "a piece of clothing that you wear over the front of other clothes to keep the clothes clean while you are doing something dirty",
+   "cn_def": "围裙",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 apron 和「围裙」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "围裙"
+   ],
+   "unit": 8,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-08-012",
+   "word": "belt",
+   "pos": "n.",
+   "phonetic": "bɛlt",
+   "en_def": "a strip of leather or material worn around the waist to support clothes or for decoration",
+   "cn_def": "腰带；皮带",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 belt 和「腰带」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "腰带",
+    "皮带"
+   ],
+   "unit": 8,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-08-013",
+   "word": "gown",
+   "pos": "n.",
+   "phonetic": "gaʊn",
+   "en_def": "a woman's dress, especially a long one worn on formal occasions",
+   "cn_def": "礼服；长袍",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 gown 和「礼服」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "礼服",
+    "长袍"
+   ],
+   "unit": 8,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-08-014",
+   "word": "handkerchief",
+   "pos": "n.",
+   "phonetic": "ˈhæŋkərʧɪf",
+   "en_def": "a square piece of cloth or paper used for cleaning the nose or drying the eyes when they are wet with tears",
+   "cn_def": "手帕；手绢",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 handkerchief 和「手帕」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "手帕",
+    "手绢"
+   ],
+   "unit": 8,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-08-015",
+   "word": "pajamas",
+   "pos": "n.",
+   "phonetic": "pəˈʤɑməz",
+   "en_def": "soft, loose clothing that is worn in bed and consists of trousers and a type of shirt",
+   "cn_def": "睡衣",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 pajamas 和「睡衣」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "睡衣"
+   ],
+   "unit": 8,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-08-016",
+   "word": "robe",
+   "pos": "n.",
+   "phonetic": "roʊb",
+   "en_def": "a long, loose piece of clothing worn especially on very formal occasions",
+   "cn_def": "长袍；罩袍",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 robe 和「长袍」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "长袍",
+    "罩袍"
+   ],
+   "unit": 8,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-08-017",
+   "word": "sandals",
+   "pos": "n.",
+   "phonetic": "ˈsændəlz",
+   "en_def": "a light shoe, especially worn in warm weather, consisting of a bottom part held onto the foot by straps",
+   "cn_def": "凉鞋",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sandals 和「凉鞋」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "凉鞋"
+   ],
+   "unit": 8,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-08-018",
+   "word": "shorts",
+   "pos": "n.",
+   "phonetic": "ʃɔrts",
+   "en_def": "trousers that end above the knee or reach the knee, often worn in hot weather or when playing a sport",
+   "cn_def": "短裤",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 shorts 和「短裤」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "短裤"
+   ],
+   "unit": 8,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-08-019",
+   "word": "tie",
+   "pos": "n.",
+   "phonetic": "taɪ",
+   "en_def": "to fasten together two ends of a piece of string or other long, thin material",
+   "cn_def": "领带；系；绑",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tie 和「领带」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "领带",
+    "系",
+    "绑"
+   ],
+   "unit": 8,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-08-020",
+   "word": "wig",
+   "pos": "n.",
+   "phonetic": "wɪg",
+   "en_def": "a covering of artificial hair worn on the head to hide a loss of hair or to cover your own hair",
+   "cn_def": "假发",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 wig 和「假发」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "假发"
+   ],
+   "unit": 8,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-08-001",
+   "word": "attic",
+   "pos": "n.",
+   "phonetic": "ˈætɪk",
+   "en_def": "the space or room at the top of a building, under the roof, often used for storing things",
+   "cn_def": "阁楼；顶楼",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 attic 和「阁楼」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "阁楼",
+    "顶楼"
+   ],
+   "unit": 8,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-08-002",
+   "word": "basement",
+   "pos": "n.",
+   "phonetic": "ˈbeɪsmənt",
+   "en_def": "a part of a building consisting of rooms that are partly or completely below the level of the ground",
+   "cn_def": "地下室",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ment 表示「…的行为/结果(名)」。整体意思是「地下室」。",
+   "keywords": [
+    "地下室"
+   ],
+   "unit": 8,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-08-003",
+   "word": "cupboard",
+   "pos": "n.",
+   "phonetic": "/ˈkʌbəd/",
+   "en_def": "a piece of furniture with a door or doors behind which there is space for storing things, usually on shelves",
+   "cn_def": "橱柜；碗柜",
+   "example": "Put the cups back into the cupboard.",
+   "example_cn": "把杯子放回橱柜里。",
+   "tip": "联想记忆：把 cupboard 和「橱柜」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "橱柜",
+    "碗柜"
+   ],
+   "unit": 8,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-08-004",
+   "word": "curtains",
+   "pos": "n.",
+   "phonetic": "ˈkərtənz",
+   "en_def": "a piece of material, especially cloth, that hangs across a window or opening to make a room or part of a room dark or private",
+   "cn_def": "窗帘",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 curtains 和「窗帘」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "窗帘"
+   ],
+   "unit": 8,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-08-005",
+   "word": "desk",
+   "pos": "n.",
+   "phonetic": "dɛsk",
+   "en_def": "a type of table that you can work at, often one with drawers",
+   "cn_def": "书桌；写字台",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 desk 和「书桌」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "书桌",
+    "写字台"
+   ],
+   "unit": 8,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-08-006",
+   "word": "fireplace",
+   "pos": "n.",
+   "phonetic": "ˈfaɪərˌpleɪs",
+   "en_def": "a space in the wall of a room for a fire to burn in, or the decorated part that surrounds this space",
+   "cn_def": "壁炉",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 fireplace 和「壁炉」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "壁炉"
+   ],
+   "unit": 8,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-08-007",
+   "word": "lamp",
+   "pos": "n.",
+   "phonetic": "læmp",
+   "en_def": "a device for giving light, especially one that has a covering or is contained within something",
+   "cn_def": "灯",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 lamp 和「灯」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "灯"
+   ],
+   "unit": 8,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-08-008",
+   "word": "refrigerator",
+   "pos": "n.",
+   "phonetic": "rɪˈfrɪʤərˌeɪtər",
+   "en_def": "a piece of kitchen equipment that uses electricity to preserve food at a cold temperature",
+   "cn_def": "冰箱",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：re- 表示「再/重新」；-or 表示「…的人/物」。整体意思是「冰箱」。",
+   "keywords": [
+    "冰箱"
+   ],
+   "unit": 8,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-08-009",
+   "word": "stove",
+   "pos": "n.",
+   "phonetic": "stoʊv",
+   "en_def": "a piece of equipment that burns fuel or uses electricity in order to heat a place",
+   "cn_def": "炉灶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 stove 和「炉灶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "炉灶"
+   ],
+   "unit": 8,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-08-010",
+   "word": "toilet",
+   "pos": "n.",
+   "phonetic": "ˈtɔɪlət",
+   "en_def": "a bowl-shaped device with a seat that you sit on or stand near when emptying the body of urine or solid waste",
+   "cn_def": "厕所；马桶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 toilet 和「厕所」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "厕所",
+    "马桶"
+   ],
+   "unit": 8,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-08-011",
+   "word": "apron",
+   "pos": "n.",
+   "phonetic": "ˈeɪprən",
+   "en_def": "a piece of clothing that you wear over the front of other clothes to keep the clothes clean while you are doing something dirty",
+   "cn_def": "围裙",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 apron 和「围裙」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "围裙"
+   ],
+   "unit": 8,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-08-012",
+   "word": "belt",
+   "pos": "n.",
+   "phonetic": "bɛlt",
+   "en_def": "a strip of leather or material worn around the waist to support clothes or for decoration",
+   "cn_def": "腰带；皮带",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 belt 和「腰带」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "腰带",
+    "皮带"
+   ],
+   "unit": 8,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-08-013",
+   "word": "gown",
+   "pos": "n.",
+   "phonetic": "gaʊn",
+   "en_def": "a woman's dress, especially a long one worn on formal occasions",
+   "cn_def": "礼服；长袍",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 gown 和「礼服」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "礼服",
+    "长袍"
+   ],
+   "unit": 8,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-08-014",
+   "word": "handkerchief",
+   "pos": "n.",
+   "phonetic": "ˈhæŋkərʧɪf",
+   "en_def": "a square piece of cloth or paper used for cleaning the nose or drying the eyes when they are wet with tears",
+   "cn_def": "手帕；手绢",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 handkerchief 和「手帕」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "手帕",
+    "手绢"
+   ],
+   "unit": 8,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-08-015",
+   "word": "pajamas",
+   "pos": "n.",
+   "phonetic": "pəˈʤɑməz",
+   "en_def": "soft, loose clothing that is worn in bed and consists of trousers and a type of shirt",
+   "cn_def": "睡衣",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 pajamas 和「睡衣」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "睡衣"
+   ],
+   "unit": 8,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-08-016",
+   "word": "robe",
+   "pos": "n.",
+   "phonetic": "roʊb",
+   "en_def": "a long, loose piece of clothing worn especially on very formal occasions",
+   "cn_def": "长袍；罩袍",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 robe 和「长袍」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "长袍",
+    "罩袍"
+   ],
+   "unit": 8,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-08-017",
+   "word": "sandals",
+   "pos": "n.",
+   "phonetic": "ˈsændəlz",
+   "en_def": "a light shoe, especially worn in warm weather, consisting of a bottom part held onto the foot by straps",
+   "cn_def": "凉鞋",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sandals 和「凉鞋」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "凉鞋"
+   ],
+   "unit": 8,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-08-018",
+   "word": "shorts",
+   "pos": "n.",
+   "phonetic": "ʃɔrts",
+   "en_def": "trousers that end above the knee or reach the knee, often worn in hot weather or when playing a sport",
+   "cn_def": "短裤",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 shorts 和「短裤」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "短裤"
+   ],
+   "unit": 8,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-08-019",
+   "word": "tie",
+   "pos": "n.",
+   "phonetic": "taɪ",
+   "en_def": "to fasten together two ends of a piece of string or other long, thin material",
+   "cn_def": "领带；系；绑",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tie 和「领带」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "领带",
+    "系",
+    "绑"
+   ],
+   "unit": 8,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-08-020",
+   "word": "wig",
+   "pos": "n.",
+   "phonetic": "wɪg",
+   "en_def": "a covering of artificial hair worn on the head to hide a loss of hair or to cover your own hair",
+   "cn_def": "假发",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 wig 和「假发」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "假发"
+   ],
+   "unit": 8,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-09-001",
+   "word": "air",
+   "pos": "n.",
+   "phonetic": "ɛr",
+   "en_def": "the mixture of gases that surrounds the earth and that we breathe",
+   "cn_def": "空气",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 air 和「空气」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "空气"
+   ],
+   "unit": 9,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-09-002",
+   "word": "cool",
+   "pos": "adj.",
+   "phonetic": "kul",
+   "en_def": "slightly cold in a pleasant way",
+   "cn_def": "凉爽的；酷的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 cool 和「凉爽的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "凉爽的",
+    "酷的"
+   ],
+   "unit": 9,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-09-003",
+   "word": "create",
+   "pos": "v.",
+   "phonetic": "kriˈeɪt",
+   "en_def": "to make something new, or invent something",
+   "cn_def": "创造；创作",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 create 和「创造」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "创造",
+    "创作"
+   ],
+   "unit": 9,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-09-004",
+   "word": "matter",
+   "pos": "n.",
+   "phonetic": "ˈmætər",
+   "en_def": "a situation or subject that is being dealt with or considered",
+   "cn_def": "事情；问题；物质",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-er 表示「…的人/物」。整体意思是「事情；问题；物质」。",
+   "keywords": [
+    "事情",
+    "问题",
+    "物质"
+   ],
+   "unit": 9,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-09-005",
+   "word": "perfect",
+   "pos": "adj.",
+   "phonetic": "ˈpərˌfɪkt",
+   "en_def": "complete and correct in every way, of the best possible type or without fault",
+   "cn_def": "完美的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 perfect 和「完美的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "完美的"
+   ],
+   "unit": 9,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-09-006",
+   "word": "pet",
+   "pos": "n.",
+   "phonetic": "pɛt",
+   "en_def": "an animal that is kept in the home as a companion and treated kindly",
+   "cn_def": "宠物",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 pet 和「宠物」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "宠物"
+   ],
+   "unit": 9,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-09-007",
+   "word": "protect",
+   "pos": "v.",
+   "phonetic": "/pɹəˈtɛkt/",
+   "en_def": "to keep someone or something safe from injury, damage, or loss",
+   "cn_def": "保护",
+   "example": "Condoms are designed to protect against sexually-transmitted diseases.",
+   "example_cn": "避孕套旨在预防性传播疾病。",
+   "tip": "联想记忆：把 protect 和「保护」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "保护"
+   ],
+   "unit": 9,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-09-008",
+   "word": "quite",
+   "pos": "adv.",
+   "phonetic": "/kwaɪt/",
+   "en_def": "completely",
+   "cn_def": "相当；完全",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 quite 和「相当」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "相当",
+    "完全"
+   ],
+   "unit": 9,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-09-009",
+   "word": "step",
+   "pos": "n.",
+   "phonetic": "/stɛp/",
+   "en_def": "a stage in a process",
+   "cn_def": "步骤；台阶",
+   "example": "He improved step by step, or by steps.",
+   "example_cn": "他一步步提高，或一步步提高。",
+   "tip": "联想记忆：把 step 和「步骤」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "步骤",
+    "台阶"
+   ],
+   "unit": 9,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-09-010",
+   "word": "yet",
+   "pos": "adv.",
+   "phonetic": "/jɛt/",
+   "en_def": "still; until the present time",
+   "cn_def": "还；尚未",
+   "example": "He has never yet been late for an appointment;   I’m not yet wise enough to answer that;   Have you finished yet?",
+   "example_cn": "他从来没有迟到过；我还不够聪明来回答这个问题；你说完了吗？",
+   "tip": "联想记忆：把 yet 和「还」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "还",
+    "尚未"
+   ],
+   "unit": 9,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-09-011",
+   "word": "angry",
+   "pos": "adj.",
+   "phonetic": "/ˈæŋ.ɡɹi/",
+   "en_def": "having a strong feeling against someone who has behaved badly, making you want to shout at them or hurt them",
+   "cn_def": "生气的；愤怒的",
+   "example": "An angry mob started looting the warehouse.",
+   "example_cn": "一群愤怒的暴徒开始抢劫仓库。",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「生气的；愤怒的」。",
+   "keywords": [
+    "生气的",
+    "愤怒的"
+   ],
+   "unit": 9,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-09-012",
+   "word": "boring",
+   "pos": "adj.",
+   "phonetic": "/ˈbɔːɹɪŋ/",
+   "en_def": "not interesting or exciting",
+   "cn_def": "无聊的；乏味的",
+   "example": "An insect bores into a tree.",
+   "example_cn": "一只昆虫钻进了一棵树。",
+   "tip": "联想记忆：把 boring 和「无聊的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "无聊的",
+    "乏味的"
+   ],
+   "unit": 9,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-09-013",
+   "word": "hospital",
+   "pos": "n.",
+   "phonetic": "/ˈhɒs.pɪ.tl̩/",
+   "en_def": "a place where people who are ill or injured are treated and taken care of by doctors and nurses",
+   "cn_def": "医院",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-al 表示「…的」。整体意思是「医院」。",
+   "keywords": [
+    "医院"
+   ],
+   "unit": 9,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-09-014",
+   "word": "hurt",
+   "pos": "v.",
+   "phonetic": "/hɜːt/",
+   "en_def": "to feel pain in a part of your body, or to injure someone or cause them pain",
+   "cn_def": "伤害；弄伤；疼痛",
+   "example": "how to overcome old hurts of the past",
+   "example_cn": "如何克服过去的伤痛",
+   "tip": "联想记忆：把 hurt 和「伤害」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "伤害",
+    "弄伤",
+    "疼痛"
+   ],
+   "unit": 9,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-09-015",
+   "word": "lay",
+   "pos": "v.",
+   "phonetic": "/leɪ/",
+   "en_def": "to put something in especially a flat or horizontal position, usually carefully or for a particular purpose",
+   "cn_def": "放置；下（蛋）",
+   "example": "the lay of the land",
+   "example_cn": "了解情况。",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「放置；下（蛋）」。",
+   "keywords": [
+    "放置",
+    "下（蛋）"
+   ],
+   "unit": 9,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-09-016",
+   "word": "raise",
+   "pos": "v.",
+   "phonetic": "/ɹeɪz/",
+   "en_def": "to lift something to a higher position",
+   "cn_def": "举起；抬起；养育",
+   "example": "The boss gave me a raise.",
+   "example_cn": "老板给了我加薪。",
+   "tip": "拆词记忆：-ise 表示「使…化」。整体意思是「举起；抬起；养育」。",
+   "keywords": [
+    "举起",
+    "抬起",
+    "养育"
+   ],
+   "unit": 9,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-09-017",
+   "word": "rest",
+   "pos": "v.",
+   "phonetic": "/ɹɛst/",
+   "en_def": "to stop doing a particular activity in order to relax and get back your strength",
+   "cn_def": "休息",
+   "example": "I need to get a good rest tonight; I was up late last night.",
+   "example_cn": "我今晚需要好好休息；我昨晚起得很晚。",
+   "tip": "联想记忆：把 rest 和「休息」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "休息"
+   ],
+   "unit": 9,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-09-018",
+   "word": "tears",
+   "pos": "n.",
+   "phonetic": "tɪrz",
+   "en_def": "a drop of salty liquid that flows from the eye",
+   "cn_def": "眼泪；泪水",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tears 和「眼泪」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "眼泪",
+    "泪水"
+   ],
+   "unit": 9,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-09-019",
+   "word": "sick",
+   "pos": "adj.",
+   "phonetic": "sɪk",
+   "en_def": "physically or mentally ill; not well or healthy",
+   "cn_def": "生病的；不舒服的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sick 和「生病的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "生病的",
+    "不舒服的"
+   ],
+   "unit": 9,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-09-020",
+   "word": "strange",
+   "pos": "adj.",
+   "phonetic": "streɪnʤ",
+   "en_def": "unusual and unexpected, or difficult to understand",
+   "cn_def": "奇怪的；陌生的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 strange 和「奇怪的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "奇怪的",
+    "陌生的"
+   ],
+   "unit": 9,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-10-001",
+   "word": "cause",
+   "pos": "v.",
+   "phonetic": "kɔz",
+   "en_def": "to make something happen, especially something bad",
+   "cn_def": "导致；引起；原因",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 cause 和「导致」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "导致",
+    "引起",
+    "原因"
+   ],
+   "unit": 10,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-10-002",
+   "word": "final",
+   "pos": "adj.",
+   "phonetic": "ˈfaɪnəl",
+   "en_def": "last",
+   "cn_def": "最后的；最终的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-al 表示「…的」。整体意思是「最后的；最终的」。",
+   "keywords": [
+    "最后的",
+    "最终的"
+   ],
+   "unit": 10,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-10-003",
+   "word": "mark",
+   "pos": "v.",
+   "phonetic": "mɑrk",
+   "en_def": "to make a mark on something or someone",
+   "cn_def": "做记号；标记",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 mark 和「做记号」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "做记号",
+    "标记"
+   ],
+   "unit": 10,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-10-004",
+   "word": "pull",
+   "pos": "v.",
+   "phonetic": "pʊl",
+   "en_def": "to move something towards yourself, sometimes with great physical effort",
+   "cn_def": "拉；拖",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 pull 和「拉」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "拉",
+    "拖"
+   ],
+   "unit": 10,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-10-005",
+   "word": "push",
+   "pos": "v.",
+   "phonetic": "pʊʃ",
+   "en_def": "to use physical pressure or force, especially with your hands to move something into a different position",
+   "cn_def": "推",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 push 和「推」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "推"
+   ],
+   "unit": 10,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-10-006",
+   "word": "return",
+   "pos": "v.",
+   "phonetic": "rɪˈtərn",
+   "en_def": "to come or go back to a previous place",
+   "cn_def": "返回；回来",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：re- 表示「再/重新」。整体意思是「返回；回来」。",
+   "keywords": [
+    "返回",
+    "回来"
+   ],
+   "unit": 10,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-10-007",
+   "word": "rule",
+   "pos": "n.",
+   "phonetic": "rul",
+   "en_def": "an instruction that tells you what you are allowed to do and what you are not allowed to do",
+   "cn_def": "规则；规定",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 rule 和「规则」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "规则",
+    "规定"
+   ],
+   "unit": 10,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-10-008",
+   "word": "subject",
+   "pos": "n.",
+   "phonetic": "ˈsəbʤɪkt",
+   "en_def": "the thing that is being discussed, considered, or studied",
+   "cn_def": "科目；主题；话题",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：sub- 表示「在下」；词根 ject 联想到「投掷」。整体意思是「科目；主题；话题」。",
+   "keywords": [
+    "科目",
+    "主题",
+    "话题"
+   ],
+   "unit": 10,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-10-009",
+   "word": "terrible",
+   "pos": "adj.",
+   "phonetic": "ˈtɛrəbəl",
+   "en_def": "very unpleasant or serious or of low qualit",
+   "cn_def": "糟糕的；可怕的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ible 表示「能…的」。整体意思是「糟糕的；可怕的」。",
+   "keywords": [
+    "糟糕的",
+    "可怕的"
+   ],
+   "unit": 10,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-10-010",
+   "word": "though",
+   "pos": "conj.",
+   "phonetic": "ðoʊ",
+   "en_def": "despite the fact that",
+   "cn_def": "虽然；尽管",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 though 和「虽然」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "虽然",
+    "尽管"
+   ],
+   "unit": 10,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-10-011",
+   "word": "castle",
+   "pos": "n.",
+   "phonetic": "ˈkæsəl",
+   "en_def": "a large strong building, built in the past by a ruler or important person to protect the people inside from attack",
+   "cn_def": "城堡",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 castle 和「城堡」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "城堡"
+   ],
+   "unit": 10,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-10-012",
+   "word": "describe",
+   "pos": "v.",
+   "phonetic": "dɪˈskraɪb",
+   "en_def": "to say or write what someone or something is like",
+   "cn_def": "描述；描写",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：de- 表示「去除/向下」。整体意思是「描述；描写」。",
+   "keywords": [
+    "描述",
+    "描写"
+   ],
+   "unit": 10,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-10-013",
+   "word": "dragon",
+   "pos": "n.",
+   "phonetic": "ˈdrægən",
+   "en_def": "a large, frightening imaginary animal, often represented with wings, a long tail, and fire coming out of its mouth",
+   "cn_def": "龙",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 dragon 和「龙」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "龙"
+   ],
+   "unit": 10,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-10-014",
+   "word": "famous",
+   "pos": "adj.",
+   "phonetic": "ˈfeɪməs",
+   "en_def": "known and recognized by many people",
+   "cn_def": "著名的；有名的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ous 表示「充满…的」。整体意思是「著名的；有名的」。",
+   "keywords": [
+    "著名的",
+    "有名的"
+   ],
+   "unit": 10,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-10-015",
+   "word": "language",
+   "pos": "n.",
+   "phonetic": "ˈlæŋgwɪʤ",
+   "en_def": "a system of communication consisting of sounds, words, and grammar",
+   "cn_def": "语言",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 language 和「语言」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "语言"
+   ],
+   "unit": 10,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-10-016",
+   "word": "prince",
+   "pos": "n.",
+   "phonetic": "prɪns",
+   "en_def": "an important male member of a royal family, especially a son or grandson of the king or queen",
+   "cn_def": "王子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 prince 和「王子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "王子"
+   ],
+   "unit": 10,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-10-017",
+   "word": "princess",
+   "pos": "n.",
+   "phonetic": "ˈprɪnsɛs",
+   "en_def": "an important female member of a royal family, especially a daughter or granddaughter of a king and queen",
+   "cn_def": "公主",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 princess 和「公主」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "公主"
+   ],
+   "unit": 10,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-10-018",
+   "word": "restaurant",
+   "pos": "n.",
+   "phonetic": "ˈrɛˌstrɑnt",
+   "en_def": "a place where meals are prepared and served to customers",
+   "cn_def": "餐馆；饭店",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：re- 表示「再/重新」。整体意思是「餐馆；饭店」。",
+   "keywords": [
+    "餐馆",
+    "饭店"
+   ],
+   "unit": 10,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-10-019",
+   "word": "speech",
+   "pos": "n.",
+   "phonetic": "spiʧ",
+   "en_def": "the ability to talk, the activity of talking, or a piece of spoken language",
+   "cn_def": "演讲；讲话",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 speech 和「演讲」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "演讲",
+    "讲话"
+   ],
+   "unit": 10,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-10-020",
+   "word": "queen",
+   "pos": "n.",
+   "phonetic": "kwin",
+   "en_def": "a woman who rules a country because she has been born into a royal family, or a woman who is married to a king",
+   "cn_def": "女王；王后",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-en 表示「使…/由…制成」。整体意思是「女王；王后」。",
+   "keywords": [
+    "女王",
+    "王后"
+   ],
+   "unit": 10,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-11-001",
+   "word": "almost",
+   "pos": "adv.",
+   "phonetic": "ˈɔlˌmoʊst",
+   "en_def": "nearly",
+   "cn_def": "几乎；差不多",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 almost 和「几乎」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "几乎",
+    "差不多"
+   ],
+   "unit": 11,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-11-002",
+   "word": "deep",
+   "pos": "adj.",
+   "phonetic": "dip",
+   "en_def": "going or being a long way down from the top or surface, or being of a particular distance from the top to the bottom",
+   "cn_def": "深的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 deep 和「深的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "深的"
+   ],
+   "unit": 11,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-11-003",
+   "word": "design",
+   "pos": "v.",
+   "phonetic": "/dɪˈzaɪn/",
+   "en_def": "to make or draw plans for something, for example clothes or buildings",
+   "cn_def": "设计",
+   "example": "To be hateful of the truth by design.",
+   "example_cn": "通过设计来憎恨真相。",
+   "tip": "拆词记忆：de- 表示「去除/向下」。整体意思是「设计」。",
+   "keywords": [
+    "设计"
+   ],
+   "unit": 11,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-11-004",
+   "word": "detail",
+   "pos": "n.",
+   "phonetic": "/ˈdiːteɪl/",
+   "en_def": "a single piece of information or fact about something",
+   "cn_def": "细节；详情",
+   "example": "Note this fine detail in the lower left corner.",
+   "example_cn": "请注意左下角的细节。",
+   "tip": "拆词记忆：de- 表示「去除/向下」。整体意思是「细节；详情」。",
+   "keywords": [
+    "细节",
+    "详情"
+   ],
+   "unit": 11,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-11-005",
+   "word": "excuse",
+   "pos": "n.",
+   "phonetic": "ɪkˈskjuz",
+   "en_def": "a reason that you give to explain why you did something wrong",
+   "cn_def": "借口；理由",
+   "example": "Tell me why you were late – and I don't want to hear any excuses!",
+   "example_cn": "告诉我你为什么迟到了–我不想听到任何借口！",
+   "tip": "拆词记忆：ex- 表示「前/出」。整体意思是「借口；理由」。",
+   "keywords": [
+    "借口",
+    "理由"
+   ],
+   "unit": 11,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-11-006",
+   "word": "hide",
+   "pos": "v.",
+   "phonetic": "haɪd",
+   "en_def": "to put something or someone in a place where that thing or person cannot be seen or found",
+   "cn_def": "隐藏；躲藏",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 hide 和「隐藏」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "隐藏",
+    "躲藏"
+   ],
+   "unit": 11,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-11-007",
+   "word": "history",
+   "pos": "n.",
+   "phonetic": "/ˈhɪst(ə)ɹi/",
+   "en_def": "past events considered together, especially events of a particular period, country, or subject",
+   "cn_def": "历史",
+   "example": "History repeats itself if we don’t learn from its mistakes.",
+   "example_cn": "如果我们不从错误中吸取教训，历史就会重演。",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「历史」。",
+   "keywords": [
+    "历史"
+   ],
+   "unit": 11,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-11-008",
+   "word": "science",
+   "pos": "n.",
+   "phonetic": "saɪəns",
+   "en_def": "the careful study of the structure and behaviour of the physical world",
+   "cn_def": "科学",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ence 表示「…的状态」。整体意思是「科学」。",
+   "keywords": [
+    "科学"
+   ],
+   "unit": 11,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-11-009",
+   "word": "such",
+   "pos": "det.",
+   "phonetic": "səʧ",
+   "en_def": "used before a noun or noun phrase to add emphasis",
+   "cn_def": "这样的；如此的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 such 和「这样的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "这样的",
+    "如此的"
+   ],
+   "unit": 11,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-11-010",
+   "word": "trouble",
+   "pos": "n.",
+   "phonetic": "ˈtrəbəl",
+   "en_def": "problems or difficulties",
+   "cn_def": "麻烦；困难",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 trouble 和「麻烦」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "麻烦",
+    "困难"
+   ],
+   "unit": 11,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-11-011",
+   "word": "beautiful",
+   "pos": "adj.",
+   "phonetic": "ˈbjutəfəl",
+   "en_def": "very attractive",
+   "cn_def": "美丽的；漂亮的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ful 表示「充满…的」。整体意思是「美丽的；漂亮的」。",
+   "keywords": [
+    "美丽的",
+    "漂亮的"
+   ],
+   "unit": 11,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-11-012",
+   "word": "breakfast",
+   "pos": "n.",
+   "phonetic": "ˈbrɛkfəst",
+   "en_def": "a meal eaten in the morning as the first meal of the day",
+   "cn_def": "早餐",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 breakfast 和「早餐」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "早餐"
+   ],
+   "unit": 11,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-11-013",
+   "word": "captain",
+   "pos": "n.",
+   "phonetic": "ˈkæptən",
+   "en_def": "the leader of a sports team",
+   "cn_def": "队长；船长；上尉",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 captain 和「队长」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "队长",
+    "船长",
+    "上尉"
+   ],
+   "unit": 11,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-11-014",
+   "word": "dear",
+   "pos": "adj.",
+   "phonetic": "dɪr",
+   "en_def": "loved or liked very much",
+   "cn_def": "亲爱的；贵的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 dear 和「亲爱的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "亲爱的",
+    "贵的"
+   ],
+   "unit": 11,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-11-015",
+   "word": "safe",
+   "pos": "adj.",
+   "phonetic": "seɪf",
+   "en_def": "not in danger or likely to be harmed",
+   "cn_def": "安全的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 safe 和「安全的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "安全的"
+   ],
+   "unit": 11,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-11-016",
+   "word": "tooth",
+   "pos": "n.",
+   "phonetic": "tuθ",
+   "en_def": "one of the hard, white objects in the mouth that are used for biting and chewing",
+   "cn_def": "牙齿",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tooth 和「牙齿」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "牙齿"
+   ],
+   "unit": 11,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-11-017",
+   "word": "toothbrush",
+   "pos": "n.",
+   "phonetic": "ˈtuθbrəʃ",
+   "en_def": "a small brush with a long handle that you use to clean your teeth",
+   "cn_def": "牙刷",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 toothbrush 和「牙刷」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "牙刷"
+   ],
+   "unit": 11,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-11-018",
+   "word": "toothpaste",
+   "pos": "n.",
+   "phonetic": "ˈtuθˌpeɪst",
+   "en_def": "a substance that you put onto a toothbrush to clean your teeth",
+   "cn_def": "牙膏",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 toothpaste 和「牙膏」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "牙膏"
+   ],
+   "unit": 11,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-11-019",
+   "word": "trip",
+   "pos": "n.",
+   "phonetic": "trɪp",
+   "en_def": "a journey in which you go somewhere, usually for a short time, and come back again",
+   "cn_def": "旅行；行程",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 trip 和「旅行」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "旅行",
+    "行程"
+   ],
+   "unit": 11,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-11-020",
+   "word": "wish",
+   "pos": "n.",
+   "phonetic": "wɪʃ",
+   "en_def": "a feeling of wanting something",
+   "cn_def": "愿望；希望",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 wish 和「愿望」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "愿望",
+    "希望"
+   ],
+   "unit": 11,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-12-001",
+   "word": "bear",
+   "pos": "n.",
+   "phonetic": "bɛr",
+   "en_def": "a large, strong wild mammal with a thick fur coat",
+   "cn_def": "熊",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 bear 和「熊」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "熊"
+   ],
+   "unit": 12,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-12-002",
+   "word": "elephant",
+   "pos": "n.",
+   "phonetic": "ˈɛləfənt",
+   "en_def": "a very large grey mammal that has a long nose with which it can pick things up",
+   "cn_def": "大象",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 elephant 和「大象」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "大象"
+   ],
+   "unit": 12,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-12-003",
+   "word": "giraffe",
+   "pos": "n.",
+   "phonetic": "ʤəræf",
+   "en_def": "a large African animal with a very long neck and long legs",
+   "cn_def": "长颈鹿",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 giraffe 和「长颈鹿」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "长颈鹿"
+   ],
+   "unit": 12,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-12-004",
+   "word": "gorilla",
+   "pos": "n.",
+   "phonetic": "gərˈɪlə",
+   "en_def": "a large ape that comes from western Africa",
+   "cn_def": "大猩猩",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 gorilla 和「大猩猩」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "大猩猩"
+   ],
+   "unit": 12,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-12-005",
+   "word": "kangaroo",
+   "pos": "n.",
+   "phonetic": "ˌkæŋgərˈu",
+   "en_def": "a large Australian animal which moves by jumping on its back legs",
+   "cn_def": "袋鼠",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 kangaroo 和「袋鼠」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "袋鼠"
+   ],
+   "unit": 12,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-12-006",
+   "word": "koala",
+   "pos": "n.",
+   "phonetic": "koʊˈɑlə",
+   "en_def": "an Australian mammal with greyish fu",
+   "cn_def": "考拉；树袋熊",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 koala 和「考拉」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "考拉",
+    "树袋熊"
+   ],
+   "unit": 12,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-12-007",
+   "word": "leopard",
+   "pos": "n.",
+   "phonetic": "ˈlɛpərd",
+   "en_def": "a large wild cat that has yellow fur with black spots on it",
+   "cn_def": "豹",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 leopard 和「豹」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "豹"
+   ],
+   "unit": 12,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-12-008",
+   "word": "panda",
+   "pos": "n.",
+   "phonetic": "ˈpændə",
+   "en_def": "a large, black and white mammal that lives in forests in China",
+   "cn_def": "熊猫",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 panda 和「熊猫」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "熊猫"
+   ],
+   "unit": 12,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-12-009",
+   "word": "wolf",
+   "pos": "n.",
+   "phonetic": "wʊlf",
+   "en_def": "a wild animal of the dog family",
+   "cn_def": "狼",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 wolf 和「狼」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "狼"
+   ],
+   "unit": 12,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-12-010",
+   "word": "zebra",
+   "pos": "n.",
+   "phonetic": "ˈzibrə",
+   "en_def": "an African wild animal that looks like a horse, with black or brown and white lines on its body",
+   "cn_def": "斑马",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 zebra 和「斑马」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "斑马"
+   ],
+   "unit": 12,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-12-011",
+   "word": "coffee",
+   "pos": "n.",
+   "phonetic": "ˈkɔfi",
+   "en_def": "a dark brown powder with a strong flavour and smell that is made by crushing coffee beans",
+   "cn_def": "咖啡",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：co- 表示「共同」。整体意思是「咖啡」。",
+   "keywords": [
+    "咖啡"
+   ],
+   "unit": 12,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-12-012",
+   "word": "hot chocolate",
+   "pos": "n.",
+   "phonetic": "hɑt ˈʧɔklət",
+   "en_def": "a hot drink made from milk and/or water, powdered chocolate, and sugar",
+   "cn_def": "热巧克力",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 hot chocolate 和「热巧克力」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "热巧克力"
+   ],
+   "unit": 12,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-12-013",
+   "word": "iced tea",
+   "pos": "n.",
+   "phonetic": "aɪst ti",
+   "en_def": "tea that is served cold, sometimes with ice, or a glass of this drink",
+   "cn_def": "冰茶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 iced tea 和「冰茶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "冰茶"
+   ],
+   "unit": 12,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-12-014",
+   "word": "juice",
+   "pos": "n.",
+   "phonetic": "ʤus",
+   "en_def": "the liquid that comes from fruit or vegetables",
+   "cn_def": "果汁",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 juice 和「果汁」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "果汁"
+   ],
+   "unit": 12,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-12-015",
+   "word": "lemonade",
+   "pos": "n.",
+   "phonetic": "ˈlɛməˈneɪd",
+   "en_def": "a drink made with the juice of lemons, water, and sugar",
+   "cn_def": "柠檬水",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 lemonade 和「柠檬水」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "柠檬水"
+   ],
+   "unit": 12,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-12-016",
+   "word": "milk",
+   "pos": "n.",
+   "phonetic": "mɪlk",
+   "en_def": "the white liquid produced by cows, goats, and sheep and used by humans as a drink or for making butter, cheese, etc.",
+   "cn_def": "牛奶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 milk 和「牛奶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "牛奶"
+   ],
+   "unit": 12,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-12-017",
+   "word": "milkshake",
+   "pos": "n.",
+   "phonetic": "ˈmɪlkˌʃeɪk",
+   "en_def": "a drink made of milk and usually ice cream and a flavour such asfruit or chocolate, mixed together until it is smooth",
+   "cn_def": "奶昔",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 milkshake 和「奶昔」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "奶昔"
+   ],
+   "unit": 12,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-12-018",
+   "word": "soda",
+   "pos": "n.",
+   "phonetic": "ˈsoʊdə",
+   "en_def": "any type of sweet fizzy drink (= with bubbles) that is not alcoholic",
+   "cn_def": "汽水；苏打水",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 soda 和「汽水」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "汽水",
+    "苏打水"
+   ],
+   "unit": 12,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-12-019",
+   "word": "sports drink",
+   "pos": "n.",
+   "phonetic": "spɔrts drɪŋk",
+   "en_def": "a soft drink designed or marketed for consumption in conjunction with sporting activity",
+   "cn_def": "运动饮料",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：词根 port 联想到「搬运」。整体意思是「运动饮料」。",
+   "keywords": [
+    "运动饮料"
+   ],
+   "unit": 12,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-12-020",
+   "word": "tea",
+   "pos": "n.",
+   "phonetic": "ti",
+   "en_def": "a drink made by pouring hot water onto) dried and cut leaves and sometimes flowers, especially the leaves of the tea plant",
+   "cn_def": "茶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tea 和「茶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "茶"
+   ],
+   "unit": 12,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-12-001",
+   "word": "bear",
+   "pos": "n.",
+   "phonetic": "bɛr",
+   "en_def": "a large, strong wild mammal with a thick fur coat",
+   "cn_def": "熊",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 bear 和「熊」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "熊"
+   ],
+   "unit": 12,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-12-002",
+   "word": "elephant",
+   "pos": "n.",
+   "phonetic": "ˈɛləfənt",
+   "en_def": "a very large grey mammal that has a long nose with which it can pick things up",
+   "cn_def": "大象",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 elephant 和「大象」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "大象"
+   ],
+   "unit": 12,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-12-003",
+   "word": "giraffe",
+   "pos": "n.",
+   "phonetic": "ʤəræf",
+   "en_def": "a large African animal with a very long neck and long legs",
+   "cn_def": "长颈鹿",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 giraffe 和「长颈鹿」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "长颈鹿"
+   ],
+   "unit": 12,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-12-004",
+   "word": "gorilla",
+   "pos": "n.",
+   "phonetic": "gərˈɪlə",
+   "en_def": "a large ape that comes from western Africa",
+   "cn_def": "大猩猩",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 gorilla 和「大猩猩」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "大猩猩"
+   ],
+   "unit": 12,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-12-005",
+   "word": "kangaroo",
+   "pos": "n.",
+   "phonetic": "ˌkæŋgərˈu",
+   "en_def": "a large Australian animal which moves by jumping on its back legs",
+   "cn_def": "袋鼠",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 kangaroo 和「袋鼠」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "袋鼠"
+   ],
+   "unit": 12,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-12-006",
+   "word": "koala",
+   "pos": "n.",
+   "phonetic": "koʊˈɑlə",
+   "en_def": "an Australian mammal with greyish fu",
+   "cn_def": "考拉；树袋熊",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 koala 和「考拉」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "考拉",
+    "树袋熊"
+   ],
+   "unit": 12,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-12-007",
+   "word": "leopard",
+   "pos": "n.",
+   "phonetic": "ˈlɛpərd",
+   "en_def": "a large wild cat that has yellow fur with black spots on it",
+   "cn_def": "豹",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 leopard 和「豹」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "豹"
+   ],
+   "unit": 12,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-12-008",
+   "word": "panda",
+   "pos": "n.",
+   "phonetic": "ˈpændə",
+   "en_def": "a large, black and white mammal that lives in forests in China",
+   "cn_def": "熊猫",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 panda 和「熊猫」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "熊猫"
+   ],
+   "unit": 12,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-12-009",
+   "word": "wolf",
+   "pos": "n.",
+   "phonetic": "wʊlf",
+   "en_def": "a wild animal of the dog family",
+   "cn_def": "狼",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 wolf 和「狼」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "狼"
+   ],
+   "unit": 12,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-12-010",
+   "word": "zebra",
+   "pos": "n.",
+   "phonetic": "ˈzibrə",
+   "en_def": "an African wild animal that looks like a horse, with black or brown and white lines on its body",
+   "cn_def": "斑马",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 zebra 和「斑马」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "斑马"
+   ],
+   "unit": 12,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-12-011",
+   "word": "coffee",
+   "pos": "n.",
+   "phonetic": "ˈkɔfi",
+   "en_def": "a dark brown powder with a strong flavour and smell that is made by crushing coffee beans",
+   "cn_def": "咖啡",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：co- 表示「共同」。整体意思是「咖啡」。",
+   "keywords": [
+    "咖啡"
+   ],
+   "unit": 12,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-12-012",
+   "word": "hot chocolate",
+   "pos": "n.",
+   "phonetic": "hɑt ˈʧɔklət",
+   "en_def": "a hot drink made from milk and/or water, powdered chocolate, and sugar",
+   "cn_def": "热巧克力",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 hot chocolate 和「热巧克力」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "热巧克力"
+   ],
+   "unit": 12,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-12-013",
+   "word": "iced tea",
+   "pos": "n.",
+   "phonetic": "aɪst ti",
+   "en_def": "tea that is served cold, sometimes with ice, or a glass of this drink",
+   "cn_def": "冰茶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 iced tea 和「冰茶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "冰茶"
+   ],
+   "unit": 12,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-12-014",
+   "word": "juice",
+   "pos": "n.",
+   "phonetic": "ʤus",
+   "en_def": "the liquid that comes from fruit or vegetables",
+   "cn_def": "果汁",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 juice 和「果汁」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "果汁"
+   ],
+   "unit": 12,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-12-015",
+   "word": "lemonade",
+   "pos": "n.",
+   "phonetic": "ˈlɛməˈneɪd",
+   "en_def": "a drink made with the juice of lemons, water, and sugar",
+   "cn_def": "柠檬水",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 lemonade 和「柠檬水」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "柠檬水"
+   ],
+   "unit": 12,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-12-016",
+   "word": "milk",
+   "pos": "n.",
+   "phonetic": "mɪlk",
+   "en_def": "the white liquid produced by cows, goats, and sheep and used by humans as a drink or for making butter, cheese, etc.",
+   "cn_def": "牛奶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 milk 和「牛奶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "牛奶"
+   ],
+   "unit": 12,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-12-017",
+   "word": "milkshake",
+   "pos": "n.",
+   "phonetic": "ˈmɪlkˌʃeɪk",
+   "en_def": "a drink made of milk and usually ice cream and a flavour such asfruit or chocolate, mixed together until it is smooth",
+   "cn_def": "奶昔",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 milkshake 和「奶昔」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "奶昔"
+   ],
+   "unit": 12,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-12-018",
+   "word": "soda",
+   "pos": "n.",
+   "phonetic": "ˈsoʊdə",
+   "en_def": "any type of sweet fizzy drink (= with bubbles) that is not alcoholic",
+   "cn_def": "汽水；苏打水",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 soda 和「汽水」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "汽水",
+    "苏打水"
+   ],
+   "unit": 12,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-12-019",
+   "word": "sports drink",
+   "pos": "n.",
+   "phonetic": "spɔrts drɪŋk",
+   "en_def": "a soft drink designed or marketed for consumption in conjunction with sporting activity",
+   "cn_def": "运动饮料",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：词根 port 联想到「搬运」。整体意思是「运动饮料」。",
+   "keywords": [
+    "运动饮料"
+   ],
+   "unit": 12,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-12-020",
+   "word": "tea",
+   "pos": "n.",
+   "phonetic": "ti",
+   "en_def": "a drink made by pouring hot water onto) dried and cut leaves and sometimes flowers, especially the leaves of the tea plant",
+   "cn_def": "茶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tea 和「茶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "茶"
+   ],
+   "unit": 12,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-13-001",
+   "word": "colorful",
+   "pos": "adj.",
+   "phonetic": "ˈkələrfəl",
+   "en_def": "having bright colours or a lot of different colours",
+   "cn_def": "多彩的；色彩鲜艳的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：co- 表示「共同」；-ful 表示「充满…的」。整体意思是「多彩的；色彩鲜艳的」。",
+   "keywords": [
+    "多彩的",
+    "色彩鲜艳的"
+   ],
+   "unit": 13,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-13-002",
+   "word": "continue",
+   "pos": "v.",
+   "phonetic": "/kənˈtɪnjuː/",
+   "en_def": "to keep happening, existing, or doing something, or to cause something or someone to do this",
+   "cn_def": "继续",
+   "example": "Do you want me to continue to unload these?",
+   "example_cn": "您要我继续卸载这些吗？",
+   "tip": "拆词记忆：co- 表示「共同」。整体意思是「继续」。",
+   "keywords": [
+    "继续"
+   ],
+   "unit": 13,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-13-003",
+   "word": "early",
+   "pos": "adj.",
+   "phonetic": "ˈərli",
+   "en_def": "near the beginning of a period of time, or before the usual, expected, or planned time",
+   "cn_def": "早的；早期的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ly 表示「…地(副)」。整体意思是「早的；早期的」。",
+   "keywords": [
+    "早的",
+    "早期的"
+   ],
+   "unit": 13,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-13-004",
+   "word": "feed",
+   "pos": "v.",
+   "phonetic": "/ˈfiːd/",
+   "en_def": "to give food to a person, group, or animal",
+   "cn_def": "喂养；喂食",
+   "example": "They sell feed, riding helmets, and everything else for horses.",
+   "example_cn": "他们出售饲料、骑马头盔和其他马匹用品。",
+   "tip": "联想记忆：把 feed 和「喂养」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "喂养",
+    "喂食"
+   ],
+   "unit": 13,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-13-005",
+   "word": "little",
+   "pos": "adj.",
+   "phonetic": "/ˈlɪ.ɾɫ̩/",
+   "en_def": "small in size or amount",
+   "cn_def": "小的；少的",
+   "example": "Can I try a little of that sauce?",
+   "example_cn": "我可以尝尝那个酱汁吗？",
+   "tip": "联想记忆：把 little 和「小的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "小的",
+    "少的"
+   ],
+   "unit": 13,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-13-006",
+   "word": "model",
+   "pos": "n.",
+   "phonetic": "/ˈmɒdl̩/",
+   "en_def": "something that a copy can be based on because it is an extremely good example of its type",
+   "cn_def": "模型；模特",
+   "example": "The beautiful model had her face on the cover of almost every fashion magazine imaginable.",
+   "example_cn": "这位美丽的模特的脸几乎出现在每一本时尚杂志的封面上。",
+   "tip": "联想记忆：把 model 和「模型」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "模型",
+    "模特"
+   ],
+   "unit": 13,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-13-007",
+   "word": "quarter",
+   "pos": "n.",
+   "phonetic": "/ˈkoː.tɘ/",
+   "en_def": "one of four equal or almost equal parts of something; ¼",
+   "cn_def": "四分之一；一刻钟",
+   "example": "Quarter the horses in the third stable.",
+   "example_cn": "四分之一的马在第三马厩。",
+   "tip": "拆词记忆：-er 表示「…的人/物」。整体意思是「四分之一；一刻钟」。",
+   "keywords": [
+    "四分之一",
+    "一刻钟"
+   ],
+   "unit": 13,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-13-008",
+   "word": "suddenly",
+   "pos": "adv.",
+   "phonetic": "/ˈsʌdn̩li/",
+   "en_def": "quickly and unexpectedly",
+   "cn_def": "突然地",
+   "example": "Suddenly, the heavens opened and we all got drenched.",
+   "example_cn": "忽然，天开了，我们都湿透了。",
+   "tip": "拆词记忆：-ly 表示「…地(副)」。整体意思是「突然地」。",
+   "keywords": [
+    "突然地"
+   ],
+   "unit": 13,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-13-009",
+   "word": "support",
+   "pos": "v.",
+   "phonetic": "/səˈpɔːt/",
+   "en_def": "to agree with and give encouragement to someone or something because you want him, her, or it to succeed",
+   "cn_def": "支持；支撑",
+   "example": "Don't move that beam! It's a support for the whole platform.",
+   "example_cn": "别动那束光！这是对整个平台的支持。",
+   "tip": "拆词记忆：词根 port 联想到「搬运」。整体意思是「支持；支撑」。",
+   "keywords": [
+    "支持",
+    "支撑"
+   ],
+   "unit": 13,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-13-010",
+   "word": "treat",
+   "pos": "v.",
+   "phonetic": "/tɹiːt/",
+   "en_def": "to use drugs, exercises, etc. to cure a person of a disease or heal an injury",
+   "cn_def": "治疗；对待；款待",
+   "example": "Here are some healthy Halloween treats for ghouls and witches of all ages.",
+   "example_cn": "这里有一些适合所有年龄段的食尸鬼和女巫的健康万圣节零食。",
+   "tip": "联想记忆：把 treat 和「治疗」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "治疗",
+    "对待",
+    "款待"
+   ],
+   "unit": 13,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-13-011",
+   "word": "dead",
+   "pos": "adj.",
+   "phonetic": "/diːd/",
+   "en_def": "not now living",
+   "cn_def": "死的；去世的",
+   "example": "Have respect for the dead.",
+   "example_cn": "死者为大",
+   "tip": "联想记忆：把 dead 和「死的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "死的",
+    "去世的"
+   ],
+   "unit": 13,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-13-012",
+   "word": "doll",
+   "pos": "n.",
+   "phonetic": "dɑl",
+   "en_def": "a child's toy in the shape of a small person or baby",
+   "cn_def": "娃娃；玩偶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 doll 和「娃娃」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "娃娃",
+    "玩偶"
+   ],
+   "unit": 13,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-13-013",
+   "word": "dream",
+   "pos": "n.",
+   "phonetic": "drim",
+   "en_def": "a series of events or images that happen in your mind when you are sleeping",
+   "cn_def": "梦；梦想",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 dream 和「梦」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "梦",
+    "梦想"
+   ],
+   "unit": 13,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-13-014",
+   "word": "everyone",
+   "pos": "pron.",
+   "phonetic": "ˈɛvriˌwən",
+   "en_def": "every person",
+   "cn_def": "每个人；大家",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 everyone 和「每个人」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "每个人",
+    "大家"
+   ],
+   "unit": 13,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-13-015",
+   "word": "gun",
+   "pos": "n.",
+   "phonetic": "gən",
+   "en_def": "a weapon that bullets or shells (= explosive containers) are fired from",
+   "cn_def": "枪",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 gun 和「枪」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "枪"
+   ],
+   "unit": 13,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-13-016",
+   "word": "lucky",
+   "pos": "adj.",
+   "phonetic": "ˈləki",
+   "en_def": "having good things happen to you by chance",
+   "cn_def": "幸运的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「幸运的」。",
+   "keywords": [
+    "幸运的"
+   ],
+   "unit": 13,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-13-017",
+   "word": "noon",
+   "pos": "n.",
+   "phonetic": "nun",
+   "en_def": "twelve o'clock in the middle of the day, or about that time",
+   "cn_def": "中午；正午",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 noon 和「中午」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "中午",
+    "正午"
+   ],
+   "unit": 13,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-13-018",
+   "word": "straight",
+   "pos": "adj.",
+   "phonetic": "streɪt",
+   "en_def": "continuing in one direction without bending or curving",
+   "cn_def": "直的；笔直的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 straight 和「直的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "直的",
+    "笔直的"
+   ],
+   "unit": 13,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-13-019",
+   "word": "unlucky",
+   "pos": "adj.",
+   "phonetic": "ənˈləki",
+   "en_def": "not lucky",
+   "cn_def": "不幸的；倒霉的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：un- 表示「不/相反」；-y 表示「…的(形)」。整体意思是「不幸的；倒霉的」。",
+   "keywords": [
+    "不幸的",
+    "倒霉的"
+   ],
+   "unit": 13,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-13-020",
+   "word": "worse",
+   "pos": "adj.",
+   "phonetic": "wərs",
+   "en_def": "more unpleasant, difficult, or severe than before or than something else that is also bad",
+   "cn_def": "更差的；更糟的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 worse 和「更差的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "更差的",
+    "更糟的"
+   ],
+   "unit": 13,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-14-001",
+   "word": "chopsticks",
+   "pos": "n.",
+   "phonetic": "ˈʧɑpˌstɪks",
+   "en_def": "a pair of narrow sticks that are used for eating East Asian food",
+   "cn_def": "筷子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 chopsticks 和「筷子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "筷子"
+   ],
+   "unit": 14,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-14-002",
+   "word": "effect",
+   "pos": "n.",
+   "phonetic": "ˈifɛkt",
+   "en_def": "the result of a particular influence",
+   "cn_def": "效果；影响",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 effect 和「效果」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "效果",
+    "影响"
+   ],
+   "unit": 14,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-14-003",
+   "word": "explain",
+   "pos": "v.",
+   "phonetic": "ɪkˈspleɪn",
+   "en_def": "to make something clear or easy to understand by describing or giving information about it",
+   "cn_def": "解释；说明",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：ex- 表示「前/出」。整体意思是「解释；说明」。",
+   "keywords": [
+    "解释",
+    "说明"
+   ],
+   "unit": 14,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-14-004",
+   "word": "extra",
+   "pos": "adj.",
+   "phonetic": "ˈɛkstrə",
+   "en_def": "added to what is normal",
+   "cn_def": "额外的；多余的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：ex- 表示「前/出」。整体意思是「额外的；多余的」。",
+   "keywords": [
+    "额外的",
+    "多余的"
+   ],
+   "unit": 14,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-14-005",
+   "word": "half",
+   "pos": "n.",
+   "phonetic": "hæf",
+   "en_def": "either of the two equal or nearly equal parts that together make up a whole",
+   "cn_def": "一半",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 half 和「一半」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "一半"
+   ],
+   "unit": 14,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-14-006",
+   "word": "skill",
+   "pos": "n.",
+   "phonetic": "skɪl",
+   "en_def": "an ability to do an activity or job well, especially because you have practised it",
+   "cn_def": "技能；技巧",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 skill 和「技能」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "技能",
+    "技巧"
+   ],
+   "unit": 14,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-14-007",
+   "word": "thankful",
+   "pos": "adj.",
+   "phonetic": "ˈθæŋkfəl",
+   "en_def": "happy or grateful because of something",
+   "cn_def": "感激的；感谢的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ful 表示「充满…的」。整体意思是「感激的；感谢的」。",
+   "keywords": [
+    "感激的",
+    "感谢的"
+   ],
+   "unit": 14,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-14-008",
+   "word": "video",
+   "pos": "n.",
+   "phonetic": "ˈvɪdioʊ",
+   "en_def": "a recording of moving pictures and sound, especially as a digital file, DVD, etc.",
+   "cn_def": "视频；录像",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 video 和「视频」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "视频",
+    "录像"
+   ],
+   "unit": 14,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-14-009",
+   "word": "whole",
+   "pos": "adj.",
+   "phonetic": "hoʊl",
+   "en_def": "complete or not divided",
+   "cn_def": "整个的；全部的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 whole 和「整个的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "整个的",
+    "全部的"
+   ],
+   "unit": 14,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-14-010",
+   "word": "worry",
+   "pos": "v.",
+   "phonetic": "ˈwəri",
+   "en_def": "to think about problems or unpleasant things that might happen in a way that makes you feel unhappy and frightened",
+   "cn_def": "担心；担忧",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「担心；担忧」。",
+   "keywords": [
+    "担心",
+    "担忧"
+   ],
+   "unit": 14,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-14-011",
+   "word": "allow",
+   "pos": "v.",
+   "phonetic": "əˈlaʊ",
+   "en_def": "to give permission for someone to do something, or to not prevent something from happening",
+   "cn_def": "允许；准许",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 allow 和「允许」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "允许",
+    "准许"
+   ],
+   "unit": 14,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-14-012",
+   "word": "character",
+   "pos": "n.",
+   "phonetic": "ˈkɛrɪktər",
+   "en_def": "a person represented in a film, play, or story",
+   "cn_def": "角色；人物；性格",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-er 表示「…的人/物」；词根 act 联想到「行动」。整体意思是「角色；人物；性格」。",
+   "keywords": [
+    "角色",
+    "人物",
+    "性格"
+   ],
+   "unit": 14,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-14-013",
+   "word": "dangerous",
+   "pos": "adj.",
+   "phonetic": "ˈdeɪnʤərəs",
+   "en_def": "able or likely to cause harm or death, or unpleasant problems",
+   "cn_def": "危险的",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-ous 表示「充满…的」。整体意思是「危险的」。",
+   "keywords": [
+    "危险的"
+   ],
+   "unit": 14,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-14-014",
+   "word": "include",
+   "pos": "v.",
+   "phonetic": "ˌɪnˈklud",
+   "en_def": "to contain something as a part of something else, or to make something part of something else",
+   "cn_def": "包括；包含",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：in- 表示「不」。整体意思是「包括；包含」。",
+   "keywords": [
+    "包括",
+    "包含"
+   ],
+   "unit": 14,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-14-015",
+   "word": "kitten",
+   "pos": "n.",
+   "phonetic": "ˈkɪtən",
+   "en_def": "a very young cat",
+   "cn_def": "小猫咪；小猫",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-en 表示「使…/由…制成」。整体意思是「小猫咪；小猫」。",
+   "keywords": [
+    "小猫咪",
+    "小猫"
+   ],
+   "unit": 14,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-14-016",
+   "word": "mistake",
+   "pos": "n.",
+   "phonetic": "/mɪˈsteɪk/",
+   "en_def": "an action, decision, or judgment that produces an unwanted or unintentional result",
+   "cn_def": "错误；失误",
+   "example": "Don't mistake my kindness for weakness.",
+   "example_cn": "不要把我的善良误认为是软弱。",
+   "tip": "拆词记忆：mis- 表示「错误」。整体意思是「错误；失误」。",
+   "keywords": [
+    "错误",
+    "失误"
+   ],
+   "unit": 14,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-14-017",
+   "word": "radio",
+   "pos": "n.",
+   "phonetic": "/ˈɹeɪdiˌəʊ/",
+   "en_def": "a piece of electronic equipment used for listening to radio broadcasts",
+   "cn_def": "收音机；无线电",
+   "example": "I think the boat is sinking; we'd better radio for help. / I radioed him already. / Radio the coordinates this time. / OK. I radioed them the coordinates.",
+   "example_cn": "我认为船正在下沉；我们最好用无线电寻求帮助。/我已经给他发了无线电。/这次用无线电收听坐标。/好的。我用无线电向他们传达了坐标。",
+   "tip": "联想记忆：把 radio 和「收音机」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "收音机",
+    "无线电"
+   ],
+   "unit": 14,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-14-018",
+   "word": "ready",
+   "pos": "adj.",
+   "phonetic": "/ˈɹɛdi/",
+   "en_def": "prepared and suitable for fast activity",
+   "cn_def": "准备好的；就绪的",
+   "example": "The porridge is ready to serve.",
+   "example_cn": "粥已经准备好了。",
+   "tip": "拆词记忆：re- 表示「再/重新」；-y 表示「…的(形)」。整体意思是「准备好的；就绪的」。",
+   "keywords": [
+    "准备好的",
+    "就绪的"
+   ],
+   "unit": 14,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-14-019",
+   "word": "rock",
+   "pos": "n.",
+   "phonetic": "/ɹɒk/",
+   "en_def": "the dry solid part of the earth's surface, or any large piece of this that sticks up out of the ground or the sea",
+   "cn_def": "岩石；石头；摇滚乐",
+   "example": "Pearl Rock near Cape Cod is so named because the morning sun makes it gleam like a pearl.",
+   "example_cn": "鳕鱼角附近的珍珠岩之所以如此命名，是因为早晨的阳光让它像珍珠一样闪闪发光。",
+   "tip": "联想记忆：把 rock 和「岩石」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "岩石",
+    "石头",
+    "摇滚乐"
+   ],
+   "unit": 14,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-14-020",
+   "word": "upside down",
+   "pos": "phr.",
+   "phonetic": "/ˌʌpsaɪd ˈdaʊn/",
+   "en_def": "having the part that is usually at the top turned to be at thebottom",
+   "cn_def": "颠倒；倒置",
+   "example": "The pattern resembled an upside down letter W.",
+   "example_cn": "图案类似于颠倒的字母W。",
+   "tip": "联想记忆：把 upside down 和「颠倒」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "颠倒",
+    "倒置"
+   ],
+   "unit": 14,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-15-001",
+   "word": "badminton",
+   "pos": "n.",
+   "phonetic": "/ˈbæd.mɪn.tən/",
+   "en_def": "a sport in which two or 4 people hit a shuttlecock over a high net",
+   "cn_def": "羽毛球",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 badminton 和「羽毛球」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "羽毛球"
+   ],
+   "unit": 15,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-15-002",
+   "word": "football",
+   "pos": "n.",
+   "phonetic": "[fʷʊʔt̚bɑɫ]",
+   "en_def": "a game for two teams of 11 players in which an oval ball is moved along the field by running with it or throwing it",
+   "cn_def": "橄榄球；足球（美式）",
+   "example": "Roman and medieval football matches were more violent than any modern type of football.",
+   "example_cn": "罗马和中世纪的足球比赛比任何现代类型的足球都更加暴力。",
+   "tip": "联想记忆：把 football 和「橄榄球」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "橄榄球",
+    "足球（美式）"
+   ],
+   "unit": 15,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-15-003",
+   "word": "health",
+   "pos": "n.",
+   "phonetic": "/hɛlθ/",
+   "en_def": "the condition of the body",
+   "cn_def": "健康",
+   "example": "Her mental health is really affected by stressful environments.",
+   "example_cn": "她的心理健康真的受到压力环境的影响。",
+   "tip": "联想记忆：把 health 和「健康」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "健康"
+   ],
+   "unit": 15,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-15-004",
+   "word": "hockey",
+   "pos": "n.",
+   "phonetic": "/ˈhɒki/",
+   "en_def": "an outdoor game played between two teams of 11 players who use long curved sticks to hit a small ball and try to score goals",
+   "cn_def": "曲棍球",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「曲棍球」。",
+   "keywords": [
+    "曲棍球"
+   ],
+   "unit": 15,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-15-005",
+   "word": "hunt",
+   "pos": "v.",
+   "phonetic": "/hʌnt/",
+   "en_def": "to chase and try to catch and kill an animal",
+   "cn_def": "打猎；追捕",
+   "example": "Her uncle will go out and hunt for deer, now that it is open season.",
+   "example_cn": "她的叔叔会出去寻找鹿，现在是开放季节。",
+   "tip": "联想记忆：把 hunt 和「打猎」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "打猎",
+    "追捕"
+   ],
+   "unit": 15,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-15-006",
+   "word": "rugby",
+   "pos": "n.",
+   "phonetic": "ˈrəgbi",
+   "en_def": "a sport where two teams try to score points by carrying an oval ball across a particular line and between an H-shaped set of posts",
+   "cn_def": "橄榄球（英式）",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-y 表示「…的(形)」。整体意思是「橄榄球（英式）」。",
+   "keywords": [
+    "橄榄球（英式）"
+   ],
+   "unit": 15,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-15-007",
+   "word": "ski",
+   "pos": "v.",
+   "phonetic": "skiː",
+   "en_def": "to move over snow on skis",
+   "cn_def": "滑雪",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 ski 和「滑雪」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "滑雪"
+   ],
+   "unit": 15,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-15-008",
+   "word": "tired",
+   "pos": "adj.",
+   "phonetic": "taɪərd",
+   "en_def": "in need of rest or sleep",
+   "cn_def": "累的；疲倦的",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 tired 和「累的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "累的",
+    "疲倦的"
+   ],
+   "unit": 15,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-15-009",
+   "word": "volleyball",
+   "pos": "n.",
+   "phonetic": "ˈvɑliˌbɔl",
+   "en_def": "a game in which two teams use their hands to hit a large ball backwards and forwards over a high net",
+   "cn_def": "排球",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 volleyball 和「排球」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "排球"
+   ],
+   "unit": 15,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-15-010",
+   "word": "yoga",
+   "pos": "n.",
+   "phonetic": "ˈjoʊgə",
+   "en_def": "a set of physical and mental exercises, originally from India, intended to give control over the body and mind",
+   "cn_def": "瑜伽",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 yoga 和「瑜伽」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "瑜伽"
+   ],
+   "unit": 15,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-15-011",
+   "word": "bit",
+   "pos": "n.",
+   "phonetic": "bɪt",
+   "en_def": "a small piece or amount of something",
+   "cn_def": "一点；小块",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 bit 和「一点」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "一点",
+    "小块"
+   ],
+   "unit": 15,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-15-012",
+   "word": "collect",
+   "pos": "v.",
+   "phonetic": "kəˈlɛkt",
+   "en_def": "to get and keep things of one type such as stamps or coins as a hobby",
+   "cn_def": "收集；收藏",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：co- 表示「共同」。整体意思是「收集；收藏」。",
+   "keywords": [
+    "收集",
+    "收藏"
+   ],
+   "unit": 15,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-15-013",
+   "word": "conversation",
+   "pos": "n.",
+   "phonetic": "ˌkɑnvərˈseɪʃən",
+   "en_def": "a talk between two or more people in which thoughts, feelings, and ideas are expressed, questions are asked and answered",
+   "cn_def": "对话；交谈",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：co- 表示「共同」；-tion 表示「…的动作(名)」。整体意思是「对话；交谈」。",
+   "keywords": [
+    "对话",
+    "交谈"
+   ],
+   "unit": 15,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-15-014",
+   "word": "event",
+   "pos": "n.",
+   "phonetic": "ɪˈvɛnt",
+   "en_def": "anything that happens, especially something important or unusual",
+   "cn_def": "事件；活动",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 event 和「事件」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "事件",
+    "活动"
+   ],
+   "unit": 15,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-15-015",
+   "word": "main",
+   "pos": "n.",
+   "phonetic": "meɪn",
+   "en_def": "larger, more important, or having more influence than others of the same type",
+   "cn_def": "主要的；主体",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 main 和「主要的」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "主要的",
+    "主体"
+   ],
+   "unit": 15,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-15-016",
+   "word": "meaning",
+   "pos": "n.",
+   "phonetic": "ˈminɪŋ",
+   "en_def": "what something expresses or represents",
+   "cn_def": "意思；含义",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 meaning 和「意思」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "意思",
+    "含义"
+   ],
+   "unit": 15,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-15-017",
+   "word": "seem",
+   "pos": "v.",
+   "phonetic": "sim",
+   "en_def": "to give the effect of being; to be judged to be",
+   "cn_def": "似乎；好像",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 seem 和「似乎」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "似乎",
+    "好像"
+   ],
+   "unit": 15,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-15-018",
+   "word": "sign",
+   "pos": "n.",
+   "phonetic": "saɪn",
+   "en_def": "a notice giving information, directions, a warning, etc.",
+   "cn_def": "标志；招牌；符号",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sign 和「标志」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "标志",
+    "招牌",
+    "符号"
+   ],
+   "unit": 15,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-15-019",
+   "word": "stranger",
+   "pos": "n.",
+   "phonetic": "ˈstreɪnʤər",
+   "en_def": "someone you do not know",
+   "cn_def": "陌生人",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-er 表示「…的人/物」。整体意思是「陌生人」。",
+   "keywords": [
+    "陌生人"
+   ],
+   "unit": 15,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-15-020",
+   "word": "type",
+   "pos": "n.",
+   "phonetic": "taɪp",
+   "en_def": "a particular group of people or things that share similar characteristics and form a smaller division of a larger set",
+   "cn_def": "类型；种类",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 type 和「类型」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "类型",
+    "种类"
+   ],
+   "unit": 15,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-16-001",
+   "word": "bookcase",
+   "pos": "n.",
+   "phonetic": "ˈbʊkˌkeɪs",
+   "en_def": "a piece of furniture with shelves to put books on",
+   "cn_def": "书柜；书架",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 bookcase 和「书柜」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "书柜",
+    "书架"
+   ],
+   "unit": 16,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-16-002",
+   "word": "chair",
+   "pos": "n.",
+   "phonetic": "ʧɛr",
+   "en_def": "a seat for one person that has a back, usually four legs, and sometimes two arms",
+   "cn_def": "椅子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 chair 和「椅子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "椅子"
+   ],
+   "unit": 16,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-16-003",
+   "word": "drawer",
+   "pos": "n.",
+   "phonetic": "drɔr",
+   "en_def": "a box-shaped container, without a top, that is part of a piece of furniture",
+   "cn_def": "抽屉",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-er 表示「…的人/物」。整体意思是「抽屉」。",
+   "keywords": [
+    "抽屉"
+   ],
+   "unit": 16,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-16-004",
+   "word": "fan",
+   "pos": "n.",
+   "phonetic": "fæn",
+   "en_def": "an electric device with blades that turn quickly, used to move the air around",
+   "cn_def": "风扇；扇子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 fan 和「风扇」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "风扇",
+    "扇子"
+   ],
+   "unit": 16,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-16-005",
+   "word": "mirror",
+   "pos": "n.",
+   "phonetic": "ˈmɪrər",
+   "en_def": "a piece of glass with a shiny, metal-covered back that reflects light, producing an image of whatever is in front of it",
+   "cn_def": "镜子",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-or 表示「…的人/物」。整体意思是「镜子」。",
+   "keywords": [
+    "镜子"
+   ],
+   "unit": 16,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-16-006",
+   "word": "rug",
+   "pos": "n.",
+   "phonetic": "rəg",
+   "en_def": "a piece of thick heavy cloth smaller than a carpet, used for covering the floor or for decoration",
+   "cn_def": "小地毯；垫子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 rug 和「小地毯」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "小地毯",
+    "垫子"
+   ],
+   "unit": 16,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-16-007",
+   "word": "shelf",
+   "pos": "n.",
+   "phonetic": "ʃɛlf",
+   "en_def": "a long, flat board fixed horizontally, usually against a wall or inside a cupboard so that objects can be stored on it",
+   "cn_def": "架子；搁板",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 shelf 和「架子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "架子",
+    "搁板"
+   ],
+   "unit": 16,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-16-008",
+   "word": "sofa",
+   "pos": "n.",
+   "phonetic": "ˈsoʊfə",
+   "en_def": "a long, soft seat with a back and usually arms, on which more than one person can sit at the same time",
+   "cn_def": "沙发",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sofa 和「沙发」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "沙发"
+   ],
+   "unit": 16,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-16-009",
+   "word": "vacuum",
+   "pos": "n.",
+   "phonetic": "ˈvækjum",
+   "en_def": "a machine that cleans floors and other surfaces by sucking up dust and dirt",
+   "cn_def": "真空吸尘器",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 vacuum 和「真空吸尘器」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "真空吸尘器"
+   ],
+   "unit": 16,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-16-010",
+   "word": "vase",
+   "pos": "n.",
+   "phonetic": "vɑz",
+   "en_def": "a container for holding flowers or for decoration",
+   "cn_def": "花瓶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 vase 和「花瓶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "花瓶"
+   ],
+   "unit": 16,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-16-011",
+   "word": "crow",
+   "pos": "n.",
+   "phonetic": "kroʊ",
+   "en_def": "a large, black bird with a loud, unpleasant cry",
+   "cn_def": "乌鸦",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 crow 和「乌鸦」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "乌鸦"
+   ],
+   "unit": 16,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-16-012",
+   "word": "dove",
+   "pos": "n.",
+   "phonetic": "dəv",
+   "en_def": "a white or grey bird, often used as a symbol of peace",
+   "cn_def": "鸽子（象征和平）",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 dove 和「鸽子（象征和」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鸽子（象征和平）"
+   ],
+   "unit": 16,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-16-013",
+   "word": "eagle",
+   "pos": "n.",
+   "phonetic": "ˈigəl",
+   "en_def": "a large, strong bird with a curved beak that eats meat and can see very well",
+   "cn_def": "鹰",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 eagle 和「鹰」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鹰"
+   ],
+   "unit": 16,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-16-014",
+   "word": "flamingo",
+   "pos": "n.",
+   "phonetic": "fləˈmɪŋgoʊ",
+   "en_def": "a large bird with pink feathers, long, thin legs, a long neck, and a beak that curves down",
+   "cn_def": "火烈鸟",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 flamingo 和「火烈鸟」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "火烈鸟"
+   ],
+   "unit": 16,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-16-015",
+   "word": "goose",
+   "pos": "n.",
+   "phonetic": "gus",
+   "en_def": "a large water bird similar to a duck but larger, or the meat from this bird",
+   "cn_def": "鹅",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 goose 和「鹅」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鹅"
+   ],
+   "unit": 16,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-16-016",
+   "word": "magpie",
+   "pos": "n.",
+   "phonetic": "ˈmægˌpaɪ",
+   "en_def": "a bird with black and white feathers and a long tail",
+   "cn_def": "喜鹊",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 magpie 和「喜鹊」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "喜鹊"
+   ],
+   "unit": 16,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-16-017",
+   "word": "ostrich",
+   "pos": "n.",
+   "phonetic": "ˈɔstrɪʧ",
+   "en_def": "a very large bird from Africa that cannot fly",
+   "cn_def": "鸵鸟",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 ostrich 和「鸵鸟」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鸵鸟"
+   ],
+   "unit": 16,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-16-018",
+   "word": "peacock",
+   "pos": "n.",
+   "phonetic": "ˈpiˌkɑk",
+   "en_def": "a large bird that has very long tail with bright colours and patterns shaped like eyes, which it can spread out like a fan",
+   "cn_def": "孔雀",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 peacock 和「孔雀」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "孔雀"
+   ],
+   "unit": 16,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-16-019",
+   "word": "pelican",
+   "pos": "n.",
+   "phonetic": "ˈpɛləkən",
+   "en_def": "a large bird that has a large, bag-shaped beak",
+   "cn_def": "鹈鹕",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 pelican 和「鹈鹕」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鹈鹕"
+   ],
+   "unit": 16,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-16-020",
+   "word": "sparrow",
+   "pos": "n.",
+   "phonetic": "ˈspɛroʊ",
+   "en_def": "a small, grey-brown bird that is especially common in towns",
+   "cn_def": "麻雀",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sparrow 和「麻雀」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "麻雀"
+   ],
+   "unit": 16,
+   "no": 20
+  },
+  {
+   "id": "1200KEW2-16-001",
+   "word": "bookcase",
+   "pos": "n.",
+   "phonetic": "ˈbʊkˌkeɪs",
+   "en_def": "a piece of furniture with shelves to put books on",
+   "cn_def": "书柜；书架",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 bookcase 和「书柜」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "书柜",
+    "书架"
+   ],
+   "unit": 16,
+   "no": 1
+  },
+  {
+   "id": "1200KEW2-16-002",
+   "word": "chair",
+   "pos": "n.",
+   "phonetic": "ʧɛr",
+   "en_def": "a seat for one person that has a back, usually four legs, and sometimes two arms",
+   "cn_def": "椅子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 chair 和「椅子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "椅子"
+   ],
+   "unit": 16,
+   "no": 2
+  },
+  {
+   "id": "1200KEW2-16-003",
+   "word": "drawer",
+   "pos": "n.",
+   "phonetic": "drɔr",
+   "en_def": "a box-shaped container, without a top, that is part of a piece of furniture",
+   "cn_def": "抽屉",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-er 表示「…的人/物」。整体意思是「抽屉」。",
+   "keywords": [
+    "抽屉"
+   ],
+   "unit": 16,
+   "no": 3
+  },
+  {
+   "id": "1200KEW2-16-004",
+   "word": "fan",
+   "pos": "n.",
+   "phonetic": "fæn",
+   "en_def": "an electric device with blades that turn quickly, used to move the air around",
+   "cn_def": "风扇；扇子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 fan 和「风扇」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "风扇",
+    "扇子"
+   ],
+   "unit": 16,
+   "no": 4
+  },
+  {
+   "id": "1200KEW2-16-005",
+   "word": "mirror",
+   "pos": "n.",
+   "phonetic": "ˈmɪrər",
+   "en_def": "a piece of glass with a shiny, metal-covered back that reflects light, producing an image of whatever is in front of it",
+   "cn_def": "镜子",
+   "example": "",
+   "example_cn": "",
+   "tip": "拆词记忆：-or 表示「…的人/物」。整体意思是「镜子」。",
+   "keywords": [
+    "镜子"
+   ],
+   "unit": 16,
+   "no": 5
+  },
+  {
+   "id": "1200KEW2-16-006",
+   "word": "rug",
+   "pos": "n.",
+   "phonetic": "rəg",
+   "en_def": "a piece of thick heavy cloth smaller than a carpet, used for covering the floor or for decoration",
+   "cn_def": "小地毯；垫子",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 rug 和「小地毯」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "小地毯",
+    "垫子"
+   ],
+   "unit": 16,
+   "no": 6
+  },
+  {
+   "id": "1200KEW2-16-007",
+   "word": "shelf",
+   "pos": "n.",
+   "phonetic": "ʃɛlf",
+   "en_def": "a long, flat board fixed horizontally, usually against a wall or inside a cupboard so that objects can be stored on it",
+   "cn_def": "架子；搁板",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 shelf 和「架子」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "架子",
+    "搁板"
+   ],
+   "unit": 16,
+   "no": 7
+  },
+  {
+   "id": "1200KEW2-16-008",
+   "word": "sofa",
+   "pos": "n.",
+   "phonetic": "ˈsoʊfə",
+   "en_def": "a long, soft seat with a back and usually arms, on which more than one person can sit at the same time",
+   "cn_def": "沙发",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sofa 和「沙发」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "沙发"
+   ],
+   "unit": 16,
+   "no": 8
+  },
+  {
+   "id": "1200KEW2-16-009",
+   "word": "vacuum",
+   "pos": "n.",
+   "phonetic": "ˈvækjum",
+   "en_def": "a machine that cleans floors and other surfaces by sucking up dust and dirt",
+   "cn_def": "真空吸尘器",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 vacuum 和「真空吸尘器」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "真空吸尘器"
+   ],
+   "unit": 16,
+   "no": 9
+  },
+  {
+   "id": "1200KEW2-16-010",
+   "word": "vase",
+   "pos": "n.",
+   "phonetic": "vɑz",
+   "en_def": "a container for holding flowers or for decoration",
+   "cn_def": "花瓶",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 vase 和「花瓶」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "花瓶"
+   ],
+   "unit": 16,
+   "no": 10
+  },
+  {
+   "id": "1200KEW2-16-011",
+   "word": "crow",
+   "pos": "n.",
+   "phonetic": "kroʊ",
+   "en_def": "a large, black bird with a loud, unpleasant cry",
+   "cn_def": "乌鸦",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 crow 和「乌鸦」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "乌鸦"
+   ],
+   "unit": 16,
+   "no": 11
+  },
+  {
+   "id": "1200KEW2-16-012",
+   "word": "dove",
+   "pos": "n.",
+   "phonetic": "dəv",
+   "en_def": "a white or grey bird, often used as a symbol of peace",
+   "cn_def": "鸽子（象征和平）",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 dove 和「鸽子（象征和」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鸽子（象征和平）"
+   ],
+   "unit": 16,
+   "no": 12
+  },
+  {
+   "id": "1200KEW2-16-013",
+   "word": "eagle",
+   "pos": "n.",
+   "phonetic": "ˈigəl",
+   "en_def": "a large, strong bird with a curved beak that eats meat and can see very well",
+   "cn_def": "鹰",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 eagle 和「鹰」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鹰"
+   ],
+   "unit": 16,
+   "no": 13
+  },
+  {
+   "id": "1200KEW2-16-014",
+   "word": "flamingo",
+   "pos": "n.",
+   "phonetic": "fləˈmɪŋgoʊ",
+   "en_def": "a large bird with pink feathers, long, thin legs, a long neck, and a beak that curves down",
+   "cn_def": "火烈鸟",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 flamingo 和「火烈鸟」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "火烈鸟"
+   ],
+   "unit": 16,
+   "no": 14
+  },
+  {
+   "id": "1200KEW2-16-015",
+   "word": "goose",
+   "pos": "n.",
+   "phonetic": "gus",
+   "en_def": "a large water bird similar to a duck but larger, or the meat from this bird",
+   "cn_def": "鹅",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 goose 和「鹅」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鹅"
+   ],
+   "unit": 16,
+   "no": 15
+  },
+  {
+   "id": "1200KEW2-16-016",
+   "word": "magpie",
+   "pos": "n.",
+   "phonetic": "ˈmægˌpaɪ",
+   "en_def": "a bird with black and white feathers and a long tail",
+   "cn_def": "喜鹊",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 magpie 和「喜鹊」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "喜鹊"
+   ],
+   "unit": 16,
+   "no": 16
+  },
+  {
+   "id": "1200KEW2-16-017",
+   "word": "ostrich",
+   "pos": "n.",
+   "phonetic": "ˈɔstrɪʧ",
+   "en_def": "a very large bird from Africa that cannot fly",
+   "cn_def": "鸵鸟",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 ostrich 和「鸵鸟」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鸵鸟"
+   ],
+   "unit": 16,
+   "no": 17
+  },
+  {
+   "id": "1200KEW2-16-018",
+   "word": "peacock",
+   "pos": "n.",
+   "phonetic": "ˈpiˌkɑk",
+   "en_def": "a large bird that has very long tail with bright colours and patterns shaped like eyes, which it can spread out like a fan",
+   "cn_def": "孔雀",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 peacock 和「孔雀」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "孔雀"
+   ],
+   "unit": 16,
+   "no": 18
+  },
+  {
+   "id": "1200KEW2-16-019",
+   "word": "pelican",
+   "pos": "n.",
+   "phonetic": "ˈpɛləkən",
+   "en_def": "a large bird that has a large, bag-shaped beak",
+   "cn_def": "鹈鹕",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 pelican 和「鹈鹕」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "鹈鹕"
+   ],
+   "unit": 16,
+   "no": 19
+  },
+  {
+   "id": "1200KEW2-16-020",
+   "word": "sparrow",
+   "pos": "n.",
+   "phonetic": "ˈspɛroʊ",
+   "en_def": "a small, grey-brown bird that is especially common in towns",
+   "cn_def": "麻雀",
+   "example": "",
+   "example_cn": "",
+   "tip": "联想记忆：把 sparrow 和「麻雀」多读几遍，结合例句印象更牢。",
+   "keywords": [
+    "麻雀"
+   ],
+   "unit": 16,
+   "no": 20
+  }
+ ]
+}

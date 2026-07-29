@@ -18,8 +18,9 @@ function getMaterial(n = 8) {
   return shuffle(list).slice(0, Math.max(n, 6));
 }
 
-export function render(ctx) {
-  const root = el('div', { class: 'page play' });
+function buildChooser(ctx, root) {
+  // 始终在“活的” root（已在 DOM 中）上构建，确保游戏卡片的事件绑定到真实节点
+  clear(root);
   root.appendChild(el('div', { class: 'play-title' }, ['🎮 玩转单词', el('span', { class: 'play-sub' }, ['用今天的单词玩游戏'])]));
 
   const games = [
@@ -35,17 +36,21 @@ export function render(ctx) {
       el('div', { class: 'game-name' }, [g.name]),
       el('div', { class: 'game-desc' }, [g.desc]),
     ]);
+    // 关键修复：事件绑定到传入的 root（即真实在 DOM 中的节点），退出重进后依然可点
     card.addEventListener('click', () => { clear(root); g.fn(ctx, root); });
     grid.appendChild(card);
   });
   root.appendChild(grid);
+}
+
+export function render(ctx) {
+  const root = el('div', { class: 'page play' });
+  buildChooser(ctx, root);
   return root;
 }
 
 function backToChooser(ctx, root) {
-  clear(root);
-  const r = render(ctx);
-  [...r.childNodes].forEach(c => root.appendChild(c));
+  buildChooser(ctx, root);
 }
 
 function doneBanner(ctx, root, msg, score) {

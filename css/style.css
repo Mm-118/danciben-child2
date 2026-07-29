@@ -145,6 +145,8 @@ body{
 .sp-tray{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;}
 .sp-letter{width:40px;height:40px;background:var(--blue);color:#fff;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:800;text-transform:uppercase;cursor:pointer;}
 .sp-letter.used{opacity:.25;pointer-events:none;}
+.sp-slot.filled{cursor:pointer;background:rgba(37,99,235,.10);border-radius:8px;}
+.sp-slot.filled:active{background:rgba(37,99,235,.22);}
 .sp-status{text-align:center;font-weight:700;min-height:20px;}
 .sp-status.ok{color:var(--green);} .sp-status.warn{color:var(--primary-d);} .sp-status.bad{color:var(--red);}
 
@@ -165,6 +167,9 @@ body{
 .ls-feedback{text-align:center;min-height:22px;margin-top:12px;font-size:16px;font-weight:700;}
 .ls-feedback.ok{color:var(--green);}
 .ls-feedback.bad{color:var(--red);}
+/* 版本更新提示横幅 */
+.update-banner{position:fixed;top:0;left:0;right:0;z-index:9999;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;gap:12px;padding:10px 14px;font-size:15px;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.2);}
+.update-btn{background:#fff;color:var(--primary);border:none;border-radius:20px;padding:6px 18px;font-weight:800;font-size:14px;cursor:pointer;}
 
 .flash-time{font-weight:800;color:var(--red);font-size:18px;}
 .flash-card{background:#fff;border-radius:18px;padding:24px;box-shadow:var(--shadow);text-align:center;}

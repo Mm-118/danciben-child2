@@ -1,5 +1,5 @@
 :root{
-  --primary:#A855F7; --primary-d:#7E22CE; --blue:#4D96FF; --green:#2ECC71;
+  --primary:#FF8A3D; --primary-d:#F2742A; --blue:#4D96FF; --green:#2ECC71;
   --bg:#FFF7EF; --card:#FFFFFF; --text:#3A3A3A; --muted:#9A938C;
   --line:#F0E6DB; --shadow:0 4px 14px rgba(255,138,61,.10);
   --red:#FF6B6B; --yellow:#FFD166; --purple:#A086C4;
@@ -13,7 +13,7 @@ body{
 }
 .app{max-width:480px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column;
   background:var(--bg);position:relative;padding-bottom:64px;}
-.app-header{position:sticky;top:0;z-index:5;background:linear-gradient(135deg,#C084FC,#A855F7);
+.app-header{position:sticky;top:0;z-index:5;background:linear-gradient(135deg,#FFB36B,#FF8A3D);
   color:#fff;padding:14px 18px;font-weight:700;font-size:18px;box-shadow:var(--shadow);}
 .app-view{flex:1;padding:14px;}
 .tabbar{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:480px;
@@ -252,3 +252,52 @@ body{
 .bb-name{font-size:22px;font-weight:800;}
 .bb-rarity{font-size:12px;padding:2px 10px;border-radius:8px;}
 .bb-tip{font-size:14px;color:var(--muted);}
+
+/* ===== 平板 / 横屏适配 ===== */
+/* 平板竖屏：放宽容器、加大字号与点击区域、网格多列 */
+@media (min-width: 600px) {
+  body { font-size: 17px; }
+  .app, .tabbar { max-width: 600px; }
+  .app-header { font-size: 20px; padding: 18px 22px; }
+  .page { gap: 18px; }
+  .game-grid { gap: 16px; }
+  .game-card { padding: 22px; }
+  .game-icon { font-size: 48px; }
+  .lib-grid { grid-template-columns: repeat(3, 1fr); }
+  .pet-grid { grid-template-columns: repeat(4, 1fr); }
+  .word-card, .quiz-card { padding: 28px; }
+  .wc-word { font-size: 46px; }
+  .q-word { font-size: 48px; }
+  .btn-primary { padding: 16px 20px; font-size: 18px; }
+  .flash-card { padding: 32px; }
+  .flash-word { font-size: 42px; }
+  .ls-opt { padding: 20px 12px; font-size: 17px; }
+  .mem-grid { gap: 12px; }
+}
+/* 大平板 / 小笔记本：容器更宽，游戏四列一行 */
+@media (min-width: 900px) {
+  .app, .tabbar { max-width: 860px; }
+  .game-grid { grid-template-columns: repeat(4, 1fr); }
+  .lib-grid { grid-template-columns: repeat(4, 1fr); }
+  .pet-grid { grid-template-columns: repeat(6, 1fr); }
+  .word-card, .quiz-card { padding: 36px; }
+  .wc-word { font-size: 54px; }
+  .q-word { font-size: 56px; }
+}
+/* 超宽屏：容器封顶，避免无限拉伸 */
+@media (min-width: 1200px) {
+  .app, .tabbar { max-width: 1040px; }
+}
+/* 横屏（高度有限）：压缩上下留白，让内容一屏装下 */
+@media (orientation: landscape) and (max-height: 720px) {
+  .app { padding-bottom: 56px; }
+  .app-header { padding: 10px 22px; }
+  .tabbar { padding: 4px 0; padding-bottom: calc(4px + env(safe-area-inset-bottom)); }
+  .page { gap: 10px; }
+  .word-card, .quiz-card, .flash-card { padding: 18px; }
+  .hero, .companion, .task-card, .calendar, .card { padding: 10px 16px; }
+  .play-title { font-size: 18px; }
+  .game-card { padding: 14px; }
+  .game-icon { font-size: 36px; }
+  .modal-card { max-height: 90vh; }
+}

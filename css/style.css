@@ -154,6 +154,12 @@ body{
 .ls-opt{background:#fff;border:2px solid var(--line);border-radius:14px;padding:16px 10px;font-size:15px;font-weight:700;cursor:pointer;}
 .ls-opt.right{background:var(--green);color:#fff;border-color:var(--green);}
 .ls-opt.wrong{background:var(--red);color:#fff;border-color:var(--red);}
+.ls-phon{text-align:center;margin:6px 0 2px;font-size:20px;font-weight:700;color:var(--primary);}
+.ls-phon-label{color:var(--muted);font-weight:500;font-size:14px;margin-right:6px;}
+.ls-opt{display:flex;flex-direction:column;align-items:center;gap:5px;line-height:1.2;}
+.ls-opt-cn{font-size:15px;font-weight:700;}
+.ls-opt-phon{font-size:13px;font-weight:500;color:var(--muted);}
+.ls-opt.right .ls-opt-phon,.ls-opt.wrong .ls-opt-phon{color:rgba(255,255,255,.85);}
 
 .flash-time{font-weight:800;color:var(--red);font-size:18px;}
 .flash-card{background:#fff;border-radius:18px;padding:24px;box-shadow:var(--shadow);text-align:center;}

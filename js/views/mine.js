@@ -37,12 +37,25 @@ export function render(ctx) {
   // 设置
   const setBox = el('div', { class: 'card' }, [el('div', { class: 'card-title' }, ['⚙️ 学习设置'])]);
 
-  // 每日新词量
-  const dn = el('input', { type: 'range', min: '5', max: '100', step: '1', value: String(st.settings.dailyNew) });
-  const dnVal = el('span', { class: 'val' }, [String(st.settings.dailyNew)]);
-  dn.addEventListener('input', () => { dnVal.textContent = dn.value; });
-  dn.addEventListener('change', () => { const n = parseInt(dn.value, 10); S.updateSettings({ dailyNew: n }); S.reconcileDailyNew(n); ctx.refresh(); });
-  setBox.appendChild(el('div', { class: 'set-row' }, [el('label', {}, ['每日新词']), dn, dnVal]));
+  // 每日新词量（按 10 步进：10–100）
+  const DN_MIN = 10, DN_MAX = 100, DN_STEP = 10;
+  const dnVal = el('span', { class: 'dn-num' }, [String(st.settings.dailyNew)]);
+  const dnMinus = el('button', { class: 'dn-btn', 'aria-label': '减少' }, ['−']);
+  const dnPlus = el('button', { class: 'dn-btn', 'aria-label': '增加' }, ['+']);
+  const syncDN = (n) => {
+    n = Math.max(DN_MIN, Math.min(DN_MAX, Math.round(n / DN_STEP) * DN_STEP));
+    dnVal.textContent = String(n);
+    dnMinus.disabled = n <= DN_MIN;
+    dnPlus.disabled = n >= DN_MAX;
+    return n;
+  };
+  let dnN = syncDN(st.settings.dailyNew);
+  dnMinus.addEventListener('click', () => { dnN = syncDN(dnN - DN_STEP); S.updateSettings({ dailyNew: dnN }); S.reconcileDailyNew(dnN); ctx.refresh(); });
+  dnPlus.addEventListener('click', () => { dnN = syncDN(dnN + DN_STEP); S.updateSettings({ dailyNew: dnN }); S.reconcileDailyNew(dnN); ctx.refresh(); });
+  setBox.appendChild(el('div', { class: 'set-row' }, [
+    el('label', {}, ['每日新词']),
+    el('div', { class: 'stepper' }, [dnMinus, dnVal, dnPlus]),
+  ]));
 
   // 发音语速
   const rt = el('input', { type: 'range', min: '0.5', max: '1.2', step: '0.1', value: String(st.settings.rate) });

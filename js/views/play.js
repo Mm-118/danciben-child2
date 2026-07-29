@@ -175,20 +175,28 @@ function listenGame(ctx, root) {
   const comboEl = el('span', {}, ['连击 0']);
   const bar = el('div', { class: 'game-bar' }, [scoreEl, comboEl, el('button', { class: 'btn-ghost small', onclick: () => backToChooser(ctx, root) }, ['退出'])]);
   const q = el('div', { class: 'ls-question' }, ['点击喇叭听发音 👇']);
+  const phonEl = el('div', { class: 'ls-phon' });
   const playBtn = el('button', { class: 'ls-play' }, ['🔊']);
   const opts = el('div', { class: 'ls-opts' });
-  root.appendChild(head); root.appendChild(bar); root.appendChild(q); root.appendChild(playBtn); root.appendChild(opts);
+  root.appendChild(head); root.appendChild(bar); root.appendChild(q); root.appendChild(phonEl); root.appendChild(playBtn); root.appendChild(opts);
   let cur = null;
   function load() {
     if (wi >= words.length) return doneBanner(ctx, root, '听音辨词完成！', score);
     cur = words[wi];
-    const others = shuffle(words.filter(x => x.id !== cur.id)).slice(0, 3).map(x => x.cn_def.split('；')[0]);
-    const options = shuffle([cur.cn_def.split('；')[0], ...others]);
+    // 展示当前词的音标，听不到声音时也能对照判断
+    clear(phonEl);
+    phonEl.appendChild(el('span', { class: 'ls-phon-label' }, ['音标：']));
+    phonEl.appendChild(el('span', { class: 'ls-phon-text' }, [cur.phonetic || '—']));
+    const others = shuffle(words.filter(x => x.id !== cur.id)).slice(0, 3);
+    const options = shuffle([cur, ...others]);
     clear(opts);
     options.forEach(o => {
-      const b = el('button', { class: 'ls-opt' }, [o]);
+      const b = el('button', { class: 'ls-opt' }, [
+        el('span', { class: 'ls-opt-cn' }, [o.cn_def.split('；')[0]]),
+        o.phonetic ? el('span', { class: 'ls-opt-phon' }, [o.phonetic]) : null,
+      ]);
       b.addEventListener('click', () => {
-        if (o === cur.cn_def.split('；')[0]) {
+        if (o.id === cur.id) {
           score++; combo++; scoreEl.textContent = '得分 ' + score; comboEl.textContent = '连击 ' + combo;
           b.classList.add('right'); wi++; setTimeout(load, 500);
         } else {

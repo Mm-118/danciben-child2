@@ -160,6 +160,11 @@ body{
 .ls-opt-cn{font-size:15px;font-weight:700;}
 .ls-opt-phon{font-size:13px;font-weight:500;color:var(--muted);}
 .ls-opt.right .ls-opt-phon,.ls-opt.wrong .ls-opt-phon{color:rgba(255,255,255,.85);}
+.ls-input{display:block;width:100%;box-sizing:border-box;margin:12px auto 0;padding:14px 16px;font-size:18px;border:2px solid var(--line);border-radius:14px;outline:none;background:#fff;}
+.ls-input:focus{border-color:var(--primary);}
+.ls-feedback{text-align:center;min-height:22px;margin-top:12px;font-size:16px;font-weight:700;}
+.ls-feedback.ok{color:var(--green);}
+.ls-feedback.bad{color:var(--red);}
 
 .flash-time{font-weight:800;color:var(--red);font-size:18px;}
 .flash-card{background:#fff;border-radius:18px;padding:24px;box-shadow:var(--shadow);text-align:center;}

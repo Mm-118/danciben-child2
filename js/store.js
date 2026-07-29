@@ -2,7 +2,7 @@
 // 纯前端，进度存 localStorage；Supabase 同步在 sync.js 中接入。
 
 export const REVIEW_INTERVALS = [1, 2, 4, 7, 15]; // 艾宾浩斯复习节点（天）
-const P = { STORE_KEY: 'kv_progress_wewei' };
+const P = { STORE_KEY: 'kv_progress_v1' };
 
 let state = null;
 let book = { book: '', bookId: '', total: 0, units: 0, words: [] };
@@ -110,6 +110,25 @@ export function wordProgressMap() { return bookProgress().words; }
 /* ---------- 每日新词分配（艾宾浩斯引入） ---------- */
 // 按进度分配：每个自然日最多引入一批新词，把“待学新词池”补足到 N 个。
 // 中断几天不会堆积落下的批次；没学完的新词也不会被新批次冲掉。
+function topUpTo(N) {
+  const t = todayStr();
+  const B = bookProgress();
+  let pendingNew = Object.values(B.words).filter(p => p.status === 'new').length;
+  let need = N - pendingNew;
+  while (need > 0 && B.introducedCount < book.words.length) {
+    const w = book.words[B.introducedCount];
+    if (!B.words[w.id]) {
+      B.words[w.id] = {
+        id: w.id, status: 'new', introducedDate: t,
+        stageIdx: 0, dueDate: null, lastResult: null,
+        learnCount: 0, correct: 0, wrong: 0, weakToday: false,
+      };
+      need--;
+    }
+    B.introducedCount++;
+  }
+  B.lastIntroDate = t;
+}
 export function ensureToday() {
   const t = todayStr();
   const B = bookProgress();
@@ -117,21 +136,30 @@ export function ensureToday() {
   const N = state.settings.dailyNew;
   const pendingNew = Object.values(B.words).filter(p => p.status === 'new').length;
   if (B.lastIntroDate !== t && pendingNew < N) {
-    let need = N - pendingNew;
-    while (need > 0 && B.introducedCount < book.words.length) {
-      const w = book.words[B.introducedCount];
-      if (!B.words[w.id]) {
-        B.words[w.id] = {
-          id: w.id, status: 'new', introducedDate: t,
-          stageIdx: 0, dueDate: null, lastResult: null,
-          learnCount: 0, correct: 0, wrong: 0, weakToday: false,
-        };
-        need--;
-      }
-      B.introducedCount++;
-    }
-    B.lastIntroDate = t;
+    topUpTo(N);
   }
+  save();
+}
+
+// 修改“每日新词”设置后立即对齐待学新词池：
+//  - 超额（且孩子尚未学）的待学词退回未引入队列，待日后有额度再补，今日不再显示；
+//  - 不足则立即补足到新上限；
+//  - 已学会的词（learning/weak/mastered）绝不退回，进度不丢。
+export function reconcileDailyNew(N) {
+  const B = bookProgress();
+  if (!B.startDate) B.startDate = todayStr();
+  const news = book.words.filter(w => { const p = B.words[w.id]; return p && p.status === 'new'; });
+  if (news.length > N) {
+    const excess = news.slice(N);
+    let minIdx = Infinity;
+    excess.forEach(w => {
+      const idx = book.words.findIndex(x => x.id === w.id);
+      if (idx >= 0 && idx < minIdx) minIdx = idx;
+      delete B.words[w.id];
+    });
+    if (minIdx < B.introducedCount) B.introducedCount = minIdx;
+  }
+  topUpTo(N);
   save();
 }
 

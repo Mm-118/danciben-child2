@@ -41,7 +41,7 @@ export function render(ctx) {
   const dn = el('input', { type: 'range', min: '5', max: '100', step: '1', value: String(st.settings.dailyNew) });
   const dnVal = el('span', { class: 'val' }, [String(st.settings.dailyNew)]);
   dn.addEventListener('input', () => { dnVal.textContent = dn.value; });
-  dn.addEventListener('change', () => { S.updateSettings({ dailyNew: parseInt(dn.value, 10) }); S.ensureToday(); ctx.refresh(); });
+  dn.addEventListener('change', () => { const n = parseInt(dn.value, 10); S.updateSettings({ dailyNew: n }); S.reconcileDailyNew(n); ctx.refresh(); });
   setBox.appendChild(el('div', { class: 'set-row' }, [el('label', {}, ['每日新词']), dn, dnVal]));
 
   // 发音语速

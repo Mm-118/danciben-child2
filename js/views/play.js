@@ -166,7 +166,7 @@ function spellGame(ctx, root) {
   load();
 }
 
-/* ---------- 3. 听音辨词 ---------- */
+/* ---------- 3. 听音辨词（键盘输入中文） ---------- */
 function listenGame(ctx, root) {
   const words = getMaterial(10);
   let wi = 0, score = 0, combo = 0;
@@ -174,41 +174,47 @@ function listenGame(ctx, root) {
   const scoreEl = el('span', {}, ['得分 0']);
   const comboEl = el('span', {}, ['连击 0']);
   const bar = el('div', { class: 'game-bar' }, [scoreEl, comboEl, el('button', { class: 'btn-ghost small', onclick: () => backToChooser(ctx, root) }, ['退出'])]);
-  const q = el('div', { class: 'ls-question' }, ['点击喇叭听发音 👇']);
+  const q = el('div', { class: 'ls-question' }, ['听发音，输入中文意思 👇']);
   const phonEl = el('div', { class: 'ls-phon' });
   const playBtn = el('button', { class: 'ls-play' }, ['🔊']);
-  const opts = el('div', { class: 'ls-opts' });
-  root.appendChild(head); root.appendChild(bar); root.appendChild(q); root.appendChild(phonEl); root.appendChild(playBtn); root.appendChild(opts);
-  let cur = null;
+  const input = el('input', { class: 'ls-input', type: 'text', placeholder: '在这里输入中文意思…', autocomplete: 'off', autocorrect: 'off', spellcheck: 'false' });
+  const submit = el('button', { class: 'btn-primary block', onclick: () => checkAnswer() }, ['提交']);
+  const fb = el('div', { class: 'ls-feedback' });
+  root.appendChild(head); root.appendChild(bar); root.appendChild(q); root.appendChild(phonEl); root.appendChild(playBtn); root.appendChild(input); root.appendChild(submit); root.appendChild(fb);
+  let cur = null, answered = false;
   function load() {
     if (wi >= words.length) return doneBanner(ctx, root, '听音辨词完成！', score);
     cur = words[wi];
+    answered = false;
     // 展示当前词的音标，听不到声音时也能对照判断
     clear(phonEl);
     phonEl.appendChild(el('span', { class: 'ls-phon-label' }, ['音标：']));
     phonEl.appendChild(el('span', { class: 'ls-phon-text' }, [cur.phonetic || '—']));
-    const others = shuffle(words.filter(x => x.id !== cur.id)).slice(0, 3);
-    const options = shuffle([cur, ...others]);
-    clear(opts);
-    options.forEach(o => {
-      const b = el('button', { class: 'ls-opt' }, [
-        el('span', { class: 'ls-opt-cn' }, [o.cn_def.split('；')[0]]),
-        o.phonetic ? el('span', { class: 'ls-opt-phon' }, [o.phonetic]) : null,
-      ]);
-      b.addEventListener('click', () => {
-        if (o.id === cur.id) {
-          score++; combo++; scoreEl.textContent = '得分 ' + score; comboEl.textContent = '连击 ' + combo;
-          b.classList.add('right'); wi++; setTimeout(load, 500);
-        } else {
-          combo = 0; comboEl.textContent = '连击 0'; b.classList.add('wrong');
-          setTimeout(load, 700);
-        }
-      });
-      opts.appendChild(b);
-    });
+    input.value = ''; input.disabled = false; input.focus();
+    submit.disabled = false;
+    fb.textContent = ''; fb.className = 'ls-feedback';
     playBtn.onclick = () => speak(cur.word, { lang: 'en', rate: S.getState().settings.rate });
     setTimeout(() => speak(cur.word, { lang: 'en', rate: S.getState().settings.rate }), 200);
   }
+  function checkAnswer() {
+    if (answered || !cur) return;
+    const ans = input.value.trim();
+    if (!ans) return;
+    answered = true; input.disabled = true; submit.disabled = true;
+    const meanings = cur.cn_def.split('；').map(s => s.trim()).filter(Boolean);
+    const ok = meanings.includes(ans) || meanings.some(m => m.startsWith(ans) || ans.startsWith(m));
+    if (ok) {
+      score++; combo++; scoreEl.textContent = '得分 ' + score; comboEl.textContent = '连击 ' + combo;
+      fb.textContent = '✓ 正确！'; fb.className = 'ls-feedback ok';
+      wi++; setTimeout(load, 700);
+    } else {
+      combo = 0; comboEl.textContent = '连击 0';
+      fb.textContent = '✗ 正确答案：' + cur.cn_def.split('；')[0] + '（' + cur.word + '）';
+      fb.className = 'ls-feedback bad';
+      wi++; setTimeout(load, 1300);
+    }
+  }
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') checkAnswer(); });
   load();
 }
 

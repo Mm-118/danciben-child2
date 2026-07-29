@@ -72,7 +72,7 @@ function openBlindBox() {
 
 async function boot() {
   const app = el('div', { class: 'app' });
-  const header = el('div', { class: 'app-header' }, [el('span', { class: 'app-logo' }, ['🌟 为为单词屋'])]);
+  const header = el('div', { class: 'app-header' }, [el('span', { class: 'app-logo' }, ['🌟 单词小达人'])]);
   viewEl = el('div', { class: 'app-view' });
   const nav = el('div', { class: 'tabbar' });
   TABS.forEach(key => {
@@ -117,8 +117,24 @@ async function boot() {
 
   // PWA：仅在生产域名注册 SW（localhost 下不缓存，方便开发调试）
   if ('serviceWorker' in navigator && !/localhost|127\.0\.0\.1/.test(location.hostname)) {
+    const hadController = !!navigator.serviceWorker.controller; // 首次安装不提示更新
     navigator.serviceWorker.register('sw.js').catch(() => {});
+    let prompted = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      // 新的 Service Worker 已接管页面：提示用户刷新以获取最新版本
+      if (!hadController || prompted) return;
+      prompted = true;
+      showUpdateBanner();
+    });
   }
+}
+
+// 顶部弹出“有新版本”横幅，点击刷新即可更新（无需手动重开 App）
+function showUpdateBanner() {
+  if (document.getElementById('update-banner')) return;
+  const b = el('div', { class: 'update-banner', id: 'update-banner' }, ['🆕 有新版本可用']);
+  b.appendChild(el('button', { class: 'update-btn', onclick: () => location.reload() }, ['刷新']));
+  document.body.appendChild(b);
 }
 
 boot();

@@ -38,7 +38,7 @@ export function render(ctx) {
   const setBox = el('div', { class: 'card' }, [el('div', { class: 'card-title' }, ['⚙️ 学习设置'])]);
 
   // 每日新词量
-  const dn = el('input', { type: 'range', min: '5', max: '20', step: '1', value: String(st.settings.dailyNew) });
+  const dn = el('input', { type: 'range', min: '5', max: '100', step: '1', value: String(st.settings.dailyNew) });
   const dnVal = el('span', { class: 'val' }, [String(st.settings.dailyNew)]);
   dn.addEventListener('input', () => { dnVal.textContent = dn.value; });
   dn.addEventListener('change', () => { S.updateSettings({ dailyNew: parseInt(dn.value, 10) }); S.ensureToday(); ctx.refresh(); });

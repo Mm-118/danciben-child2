@@ -116,50 +116,77 @@ function spellGame(ctx, root) {
   const slotsEl = el('div', { class: 'sp-slots' });
   const trayEl = el('div', { class: 'sp-tray' });
   const scoreEl = el('span', {}, ['得分 0']);
-  const bar = el('div', { class: 'game-bar' }, [scoreEl, el('button', { class: 'btn-ghost small', onclick: () => backToChooser(ctx, root) }, ['退出'])]);
+  const delBtn = el('button', { class: 'btn-ghost small', onclick: () => removeLast() }, ['⌫ 删除']);
+  const bar = el('div', { class: 'game-bar' }, [scoreEl, delBtn, el('button', { class: 'btn-ghost small', onclick: () => backToChooser(ctx, root) }, ['退出'])]);
   const status = el('div', { class: 'sp-status' });
   root.appendChild(head); root.appendChild(bar); root.appendChild(hintEl); root.appendChild(slotsEl); root.appendChild(trayEl); root.appendChild(status);
 
+  let slots = [];      // 每个槽位存“字母在 tray 中的下标”，未放为 null
+  let slotEls = [];    // 槽位 DOM（按顺序）
+  let tileEls = [];    // 字母牌 DOM（按顺序）
+  let locked = false;  // 过场锁，防止动画期间误触
+
   function load() {
     if (wi >= words.length) return doneBanner(ctx, root, '拼词完成！', score);
-    const w = words[wi]; mistakes = 0;
-    clear(hintEl); hintEl.appendChild(el('div', { class: 'sp-cn' }, [w.cn_def.split('；')[0]]));
+    const w = words[wi]; mistakes = 0; locked = false;
+    clear(hintEl);
+    hintEl.appendChild(el('div', { class: 'sp-cn' }, [w.cn_def.split('；')[0]]));
     if (w.phonetic) hintEl.appendChild(el('div', { class: 'sp-phon' }, [w.phonetic]));
     hintEl.appendChild(el('button', { class: 'mini-speak', onclick: () => speak(w.word, { lang: 'en', rate: S.getState().settings.rate }) }, ['🔊 听发音']));
     const letters = shuffle(w.word.toLowerCase().split(''));
-    const slots = new Array(w.word.length).fill(null);
-    clear(slotsEl); clear(trayEl); status.textContent = '';
-    const slotEls = [];
+    slots = new Array(w.word.length).fill(null);
+    clear(slotsEl); clear(trayEl); status.textContent = ''; status.className = 'sp-status';
+    slotEls = []; tileEls = [];
     letters.forEach((L, i) => {
+      const si = slotEls.length;
       const slot = el('div', { class: 'sp-slot' });
-      slotEls.push(slot); slotsEl.appendChild(slot);
+      slotsEl.appendChild(slot); slotEls.push(slot);
       const t = el('div', { class: 'sp-letter' }, [L]);
       t.addEventListener('click', () => {
-        if (t.classList.contains('used')) return;
+        if (locked || t.classList.contains('used')) return;
         const p = slots.indexOf(null);
         if (p === -1) return;
-        slots[p] = L; slotEls[p].textContent = L; t.classList.add('used');
+        slots[p] = i; slotEls[p].textContent = L; slotEls[p].classList.add('filled'); t.classList.add('used');
         if (!slots.includes(null)) check();
       });
-      trayEl.appendChild(t);
+      trayEl.appendChild(t); tileEls.push(t);
+      // 点击已填槽位 → 取回该字母，可重新排布
+      slot.addEventListener('click', () => {
+        if (locked || slots[si] == null) return;
+        const ti = slots[si];
+        tileEls[ti].classList.remove('used');
+        slots[si] = null; slot.textContent = ''; slot.classList.remove('filled');
+      });
     });
-    function check() {
-      const guess = slots.join('');
-      if (guess === w.word.toLowerCase()) {
-        score++; scoreEl.textContent = '得分 ' + score; wi++;
-        status.textContent = '✓ 正确！'; status.className = 'sp-status ok';
-        setTimeout(load, 600);
+  }
+
+  function removeLast() {
+    if (locked) return;
+    for (let p = slots.length - 1; p >= 0; p--) {
+      if (slots[p] != null) {
+        tileEls[slots[p]].classList.remove('used');
+        slots[p] = null; slotEls[p].textContent = ''; slotEls[p].classList.remove('filled');
+        return;
+      }
+    }
+  }
+
+  function check() {
+    const w = words[wi];
+    const guess = slots.map(i => (i == null ? '' : tileEls[i].textContent)).join('');
+    if (guess === w.word.toLowerCase()) {
+      score++; scoreEl.textContent = '得分 ' + score; wi++;
+      status.textContent = '✓ 正确！'; status.className = 'sp-status ok';
+      locked = true; setTimeout(load, 600);
+    } else {
+      mistakes++;
+      if (mistakes >= 3) {
+        status.textContent = '答案是：' + w.word; status.className = 'sp-status bad';
+        locked = true; wi++; setTimeout(load, 1200);
       } else {
-        mistakes++;
-        if (mistakes >= 3) {
-          status.textContent = '答案是：' + w.word; status.className = 'sp-status bad';
-          wi++; setTimeout(load, 1200);
-        } else {
-          status.textContent = '再试试～'; status.className = 'sp-status warn';
-          // 清空槽位
-          slots.fill(null); slotEls.forEach(s => s.textContent = '');
-          [...trayEl.childNodes].forEach(t => t.classList.remove('used'));
-        }
+        status.textContent = '再试试～点字母重排或按 ⌫ 删除'; status.className = 'sp-status warn';
+        slots.fill(null); slotEls.forEach(s => { s.textContent = ''; s.classList.remove('filled'); });
+        tileEls.forEach(t => t.classList.remove('used'));
       }
     }
   }

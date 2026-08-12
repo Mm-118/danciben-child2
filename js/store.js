@@ -2,6 +2,9 @@
 // 纯前端，进度存 localStorage；Supabase 同步在 sync.js 中接入。
 
 export const REVIEW_INTERVALS = [1, 2, 4, 7, 15]; // 艾宾浩斯复习节点（天）
+export const MASTER_CONFIRM = 3;                  // 连续答对 N 次确认掌握
+export const SPOT_INTERVAL = 30;                  // 掌握词月度抽查间隔（天）
+export const MAX_SPOT_PER_DAY = 5;                // 抽查每日上限
 const P = { STORE_KEY: 'kv_progress_v1' };
 
 let state = null;
@@ -62,8 +65,8 @@ export function replaceState(next) {
 }
 function defaultState() {
   return {
-    version: 2,
-    settings: { dailyNew: 10, rate: 0.9, book: '4500KEW1' },
+    version: 3,
+    settings: { dailyNew: 10, quizDaily: 30, rate: 0.9, book: '4500KEW1' },
     sync: { code: null, url: null, key: null, lastSync: 0 },
     companion: null,
     bookProgress: {},           // bookId -> { startDate, introducedCount, words:{id->进度} }
@@ -93,6 +96,22 @@ export function initState() {
     };
     delete state.startDate; delete state.introducedCount; delete state.words;
     state.version = 2;
+    save();
+  }
+  // v2 -> v3 迁移：补遗忘调度字段（consecCorrect/s/lastQuizDate/init/learnedDate）
+  if (!state.version || state.version < 3) {
+    Object.values(state.bookProgress).forEach(bp => {
+      if (!bp || !bp.words) return;
+      Object.values(bp.words).forEach(p => {
+        if (p.consecCorrect == null) p.consecCorrect = 0;
+        if (p.s == null) p.s = p.status === 'mastered' ? 0.8 : 0.5;
+        if (p.lastQuizDate == null) p.lastQuizDate = null;
+        if (p.init == null) p.init = 'learned';
+        if (p.learnedDate == null) p.learnedDate = null;
+      });
+    });
+    if (state.settings.quizDaily == null) state.settings.quizDaily = 30;
+    state.version = 3;
     save();
   }
   return state;
@@ -163,48 +182,139 @@ export function reconcileDailyNew(N) {
   save();
 }
 
+/* ---------- 遗忘调度：优先级与每日测验队列 ---------- */
+// 遗忘概率（艾宾浩斯指数衰减）：f = 1 − e^(−t / (5·s))
+// t = 距上次复习天数；s = 记忆强度 0~1（答对 +0.15，答错 −0.20）
+export function forgetProb(p, t) {
+  const s = p.s ?? 0.5;
+  const base = p.lastQuizDate || p.introducedDate || t;
+  const elapsed = Math.max(0, diffDays(base, t));
+  return 1 - Math.exp(-elapsed / (5 * s));
+}
+// 复习优先级：P = 4·f + 1·d + 2·(1−acc) + 3·weak
+// d = 超期天数（封顶 5）；acc = 历史正确率；weak = 易错标记
+export function priority(p, t) {
+  const f = forgetProb(p, t);
+  const d = Math.min(Math.max(0, diffDays(p.dueDate || t, t)), 5);
+  const acc = p.correct / Math.max(1, p.correct + p.wrong);
+  return 4 * f + 1 * d + 2 * (1 - acc) + 3 * (p.status === 'weak' ? 1 : 0);
+}
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+// 每日测验队列：按遗忘优先级从“到期词”抽子集，与新词混合编排，控制单日总量。
+//  - 新词配额 N = settings.dailyNew；复习配额 = M − N（至少 5）；M = settings.quizDaily
+//  - 弱词（含学单词时自评“没掌握”的）预算内必测，排最前
+//  - 已掌握词只做低频抽查（30 天一次，每日 ≤ 5），抽查答错降级回活跃池
+export function buildQuizQueue() {
+  const t = todayStr();
+  const B = bookProgress();
+  const M = state.settings.quizDaily ?? 30;
+  const N = state.settings.dailyNew;
+  const quizzed = (state.history[t] && state.history[t].quizzed) || [];
+  const isQuizzed = id => quizzed.includes(id);
+
+  const newPool = book.words.filter(w => { const p = B.words[w.id]; return p && p.status === 'new'; });
+  const duePool = book.words.filter(w => {
+    const p = B.words[w.id];
+    if (!p) return false;
+    if (p.status !== 'learning' && p.status !== 'weak') return false;
+    if (isQuizzed(w.id)) return false;
+    return p.dueDate ? diffDays(p.dueDate, t) >= 0 : false;
+  });
+  const spotPool = book.words.filter(w => {
+    const p = B.words[w.id];
+    if (!p || p.status !== 'mastered') return false;
+    if (isQuizzed(w.id)) return false;
+    return p.dueDate ? diffDays(p.dueDate, t) >= 0 : false;
+  });
+
+  const byP = (a, b) => priority(B.words[b.id], t) - priority(B.words[a.id], t);
+  const isTodayNew = w => B.words[w.id].learnedDate === t;   // 今日刚学完：即学即测，归入“新词”档
+  const justLearned = duePool.filter(w => B.words[w.id].status !== 'weak' && isTodayNew(w));
+  const oldReview = duePool.filter(w => B.words[w.id].status !== 'weak' && !isTodayNew(w)).sort(byP);
+  const newish = [...newPool, ...justLearned];               // 未学 + 今日新学，kind = 'new'
+  const newTakeAll = Math.min(newish.length, N);
+  const reviewBudget = Math.max(M - newTakeAll, 5);
+  const weakWords = duePool.filter(w => B.words[w.id].status === 'weak').sort(byP);
+  const weakTake = Math.min(weakWords.length, reviewBudget);
+  const oldTake = oldReview.slice(0, Math.max(0, reviewBudget - weakTake));
+  const spotTake = Math.min(spotPool.length, MAX_SPOT_PER_DAY, Math.max(0, M - newTakeAll - weakTake - oldTake.length));
+
+  // 编排：弱词靠前 → 新词与老复习交错 → 抽查收尾
+  const queue = weakWords.slice(0, weakTake).map(w => ({ id: w.id, kind: 'weak', priority: priority(B.words[w.id], t) }));
+  let i = 0, j = 0;
+  while (i < newTakeAll || j < oldTake.length) {
+    if (i < newTakeAll) queue.push({ id: newish[i].id, kind: 'new', priority: 0 });
+    if (j < oldTake.length) queue.push({ id: oldTake[j].id, kind: 'review', priority: priority(B.words[oldTake[j].id], t) });
+    i++; j++;
+  }
+  shuffle(spotPool).slice(0, spotTake).forEach(w => queue.push({ id: w.id, kind: 'spot', priority: 0 }));
+
+  return {
+    date: t, budget: M,
+    newCount: newTakeAll, reviewCount: weakTake + oldTake.length, spotCount: spotTake,
+    queue, newWords: newish.slice(0, newTakeAll), reviewWords: weakWords.slice(0, weakTake).concat(oldTake),
+  };
+}
+
 /* ---------- 今日任务 ---------- */
 export function getTodayTasks() {
   const t = todayStr();
   const B = bookProgress();
-  const N = state.settings.dailyNew;
-  // 今日新词 = 所有待学状态的词（按进度分配，每天最多补足到 N 个）
   const newWords = book.words.filter(w => B.words[w.id] && B.words[w.id].status === 'new');
-  // 复习词（到期且今日未测）
-  const hist = state.history[t] || {};
-  const quizzed = hist.quizzed || [];
-  const reviewWords = book.words.filter(w => {
-    const p = B.words[w.id];
-    if (!p) return false;
-    if (p.status !== 'learning' && p.status !== 'weak') return false;
-    if (p.dueDate && diffDays(p.dueDate, t) >= 0) {
-      return !quizzed.includes(w.id);
-    }
-    return false;
-  });
+  const plan = buildQuizQueue();
   const tasks = (state.history[t] && state.history[t].tasks) || {};
   return {
-    newWords, reviewWords,
+    newWords,
+    quizPlan: plan,
     learnDone: tasks.learn || newWords.length === 0,
-    quizDone: tasks.quiz || (newWords.length === 0 && reviewWords.length === 0),
+    quizDone: tasks.quiz || plan.queue.length === 0,
     playDone: tasks.play || false,
     allDone: (tasks.learn || newWords.length === 0) &&
-             (tasks.quiz || (newWords.length === 0 && reviewWords.length === 0)) &&
+             (tasks.quiz || plan.queue.length === 0) &&
              (tasks.play || false),
   };
 }
 
 /* ---------- 学单词 ---------- */
-export function markLearned(ids) {
+// entries: [{id, init}]，init 为孩子的初始掌握度自评：
+//   'known'    —— 本来就会：跳过 1/2 天档位，4 天后首测，记忆强度高
+//   'learned'  —— 刚学会（默认）：次日到期，正常走 [1,2,4,7,15]
+//   'struggled'—— 没掌握：直接进弱词池，当天即入测、次日必测，强度低、优先级高
+// 三种情况都会先进入“今日测验”，与新词/复习词混合编排，即学即测。
+export function markLearned(entries) {
   const t = todayStr();
   const B = bookProgress();
-  ids.forEach(id => {
+  entries.forEach(({ id, init }) => {
     const p = B.words[id];
     if (!p) return;
-    p.status = 'learning';
+    const kind = init || 'learned';
     p.learnCount++;
-    if (!p.dueDate && p.stageIdx < REVIEW_INTERVALS.length) {
-      p.dueDate = addDays(t, REVIEW_INTERVALS[p.stageIdx]);
+    p.init = kind;
+    p.learnedDate = t;
+    p.lastQuizDate = null;
+    if (kind === 'known') {
+      p.status = 'learning';
+      p.stageIdx = 1;                          // 跳过 1 天档位
+      p.dueDate = t;                           // 今天先确认一次
+      p.s = 0.7;
+    } else if (kind === 'struggled') {
+      p.status = 'weak';                       // 弱词：必测 + 优先级加成
+      p.stageIdx = 0;
+      p.dueDate = t;
+      p.s = 0.35;
+      p.weakToday = true;
+    } else {
+      p.status = 'learning';
+      p.stageIdx = 0;
+      p.dueDate = t;
+      p.s = 0.5;
     }
   });
   setTask('learn', true);
@@ -237,27 +347,41 @@ export function grade(answer, keywords) {
 }
 
 /* ---------- 测单词结果登记 ---------- */
-export function recordQuiz(id, correct, answer) {
+// kind: 'new' | 'review' | 'weak' | 'spot'（来自测验队列，用于统计）
+export function recordQuiz(id, correct, answer, kind) {
   const t = todayStr();
   const p = bookProgress().words[id];
   if (!p) return;
   if (!state.history[t]) state.history[t] = { tasks: {}, quizzed: [] };
   if (!state.history[t].quizzed) state.history[t].quizzed = [];
   if (!state.history[t].quizzed.includes(id)) state.history[t].quizzed.push(id);
+  p.lastQuizDate = t;
   if (correct) {
     p.correct++;
     p.lastResult = 'correct';
-    if (p.status === 'weak') p.status = 'learning';
-    if (p.stageIdx < REVIEW_INTERVALS.length) {
-      p.stageIdx++;
-      p.dueDate = p.stageIdx < REVIEW_INTERVALS.length
-        ? addDays(t, REVIEW_INTERVALS[p.stageIdx]) : null;
-      if (p.stageIdx >= REVIEW_INTERVALS.length) p.status = 'mastered';
-    } else { p.status = 'mastered'; p.dueDate = null; }
-    p.weakToday = false;
+    p.consecCorrect = (p.consecCorrect || 0) + 1;
+    p.s = Math.min(1, (p.s ?? 0.5) + 0.15);
+    if (p.status === 'mastered') {
+      // 月度抽查答对：保持掌握，下个抽查日
+      p.dueDate = addDays(t, SPOT_INTERVAL);
+    } else {
+      if (p.status === 'weak') p.status = 'learning';
+      p.stageIdx = (p.stageIdx || 0) + 1;
+      if (p.consecCorrect >= MASTER_CONFIRM && p.stageIdx >= REVIEW_INTERVALS.length) {
+        // 连续多次答对 + 走完 [1,2,4,7,15] 档位 → 移出活跃池，进入低频抽查
+        p.status = 'mastered';
+        p.dueDate = addDays(t, SPOT_INTERVAL);
+      } else {
+        p.dueDate = p.stageIdx < REVIEW_INTERVALS.length ? addDays(t, REVIEW_INTERVALS[p.stageIdx]) : null;
+        if (p.stageIdx >= REVIEW_INTERVALS.length) { p.status = 'mastered'; p.dueDate = addDays(t, SPOT_INTERVAL); }
+      }
+      p.weakToday = false;
+    }
   } else {
     p.wrong++;
     p.lastResult = 'wrong';
+    p.consecCorrect = 0;
+    p.s = Math.max(0.15, (p.s ?? 0.5) - 0.2);
     p.status = 'weak';
     p.dueDate = addDays(t, 1); // 次日强制加测
     p.weakToday = true;
@@ -265,6 +389,8 @@ export function recordQuiz(id, correct, answer) {
   const h = state.history[t];
   h.quizCorrect = (h.quizCorrect || 0) + (correct ? 1 : 0);
   h.quizTotal = (h.quizTotal || 0) + 1;
+  if (kind === 'new') h.quizNew = (h.quizNew || 0) + 1;
+  else h.quizReview = (h.quizReview || 0) + 1;
   save();
 }
 

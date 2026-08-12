@@ -1,14 +1,14 @@
-// views/learn.js —— 学单词卡片模式（TTS 发音 + 释义/例句/记忆窍门）
+// views/learn.js —— 学单词卡片模式（TTS 发音 + 释义/例句/记忆窍门 + 初始掌握度自评）
 import { el } from '../util.js';
 import * as S from '../store.js';
 import { speak } from '../tts.js';
 
-let session = null; // { ids:[], idx, learned:Set }
+let session = null; // { ids:[], idx, rates:Map(id->init) }
 
 function buildSession() {
   const tasks = S.getTodayTasks();
   const ids = tasks.newWords.map(w => w.id);
-  session = { ids, idx: 0, learned: new Set() };
+  session = { ids, idx: 0, rates: new Map() };
   return session;
 }
 
@@ -73,13 +73,19 @@ export function render(ctx) {
     ]));
   }
 
-  const known = el('button', { class: 'btn-primary block' }, ['认识了 ✓']);
-  known.addEventListener('click', () => {
-    session.learned.add(w.id);
+  // 初始掌握度自评：会决定这个词进入测单词时的排期与优先级
+  //   已掌握 → 跳过 1 天档位，4 天后首测；认识了 → 正常 1/2/4/7/15；没掌握 → 当天即测、次日必测
+  const rate = (init) => {
+    session.rates.set(w.id, init);
     session.idx++;
     ctx.refresh();
-  });
-  card.appendChild(known);
+  };
+  card.appendChild(el('div', { class: 'wc-h rate-hint' }, ['这个单词，学之前你认识吗？']));
+  card.appendChild(el('div', { class: 'row learn-rate' }, [
+    el('button', { class: 'btn-soft rate-known', onclick: () => rate('known') }, ['👍 已掌握']),
+    el('button', { class: 'btn-primary rate-learned', onclick: () => rate('learned') }, ['认识了 ✓']),
+    el('button', { class: 'btn-soft bad rate-struggled', onclick: () => rate('struggled') }, ['没掌握 😅']),
+  ]));
   root.appendChild(card);
 
   // 进入卡片自动读一遍
@@ -88,11 +94,12 @@ export function render(ctx) {
 }
 
 function finish(root, ctx) {
-  S.markLearned([...session.learned]);
+  const entries = [...session.rates.entries()].map(([id, init]) => ({ id, init }));
+  S.markLearned(entries);
   session = null;
   root.appendChild(el('div', { class: 'empty-state' }, [
     el('div', { class: 'empty-emoji' }, ['🌟']),
-    el('div', {}, ['太棒了，新单词都认识啦！']),
+    el('div', {}, ['太棒了，新单词学完啦！']),
     el('button', { class: 'btn-primary', onclick: () => ctx.navigate('quiz') }, ['去测一测']),
     el('button', { class: 'btn-ghost', onclick: () => ctx.navigate('today') }, ['返回首页']),
   ]));

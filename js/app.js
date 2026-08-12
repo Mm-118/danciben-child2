@@ -72,7 +72,7 @@ function openBlindBox() {
 
 async function boot() {
   const app = el('div', { class: 'app' });
-  const header = el('div', { class: 'app-header' }, [el('span', { class: 'app-logo' }, ['🌟 单词小达人']),
+  const header = el('div', { class: 'app-header' }, [el('span', { class: 'app-logo' }, ['🌟 为为单词屋']),
     el('span', { class: 'kbd-tip' }, ['空格 🔊 · 1/2/3 自评 · Esc 返回'])]);
   viewEl = el('div', { class: 'app-view' });
   const nav = el('div', { class: 'tabbar' });

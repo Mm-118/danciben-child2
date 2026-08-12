@@ -121,10 +121,31 @@ function spellGame(ctx, root) {
   const status = el('div', { class: 'sp-status' });
   root.appendChild(head); root.appendChild(bar); root.appendChild(hintEl); root.appendChild(slotsEl); root.appendChild(trayEl); root.appendChild(status);
 
+  // 桌面键盘：字母键直接入槽（像打字）、Backspace=删除、Esc=退出游戏
+  root.tabIndex = -1;
+  root.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { e.stopPropagation(); return backToChooser(ctx, root); }
+    if (e.key === 'Backspace') { e.preventDefault(); removeLast(); return; }
+    if (/^[a-zA-Z]$/.test(e.key) && !e.ctrlKey && !e.metaKey && !e.altKey) placeLetter(e.key);
+  });
+  setTimeout(() => root.focus({ preventScroll: true }), 0);
+
   let slots = [];      // 每个槽位存“字母在 tray 中的下标”，未放为 null
   let slotEls = [];    // 槽位 DOM（按顺序）
   let tileEls = [];    // 字母牌 DOM（按顺序）
   let locked = false;  // 过场锁，防止动画期间误触
+
+  // 键盘入槽：找 tray 中第一个未使用的相同字母（逻辑与点击字母牌一致）
+  function placeLetter(L) {
+    if (locked) return;
+    const t = tileEls.find(x => !x.classList.contains('used') && x.textContent.toLowerCase() === L.toLowerCase());
+    if (!t) return;
+    const p = slots.indexOf(null);
+    if (p === -1) return;
+    const i = tileEls.indexOf(t);
+    slots[p] = i; slotEls[p].textContent = t.textContent; slotEls[p].classList.add('filled'); t.classList.add('used');
+    if (!slots.includes(null)) check();
+  }
 
   function load() {
     if (wi >= words.length) return doneBanner(ctx, root, '拼词完成！', score);
@@ -241,7 +262,10 @@ function listenGame(ctx, root) {
       wi++; setTimeout(load, 1300);
     }
   }
-  input.addEventListener('keydown', e => { if (e.key === 'Enter') checkAnswer(); });
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') checkAnswer();
+    else if (e.key === 'Escape') { e.stopPropagation(); backToChooser(ctx, root); }
+  });
   load();
 }
 

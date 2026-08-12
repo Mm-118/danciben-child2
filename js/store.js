@@ -65,7 +65,7 @@ export function replaceState(next) {
 }
 function defaultState() {
   return {
-    version: 3,
+    version: 4,
     settings: { dailyNew: 10, quizDaily: 30, rate: 0.9, book: '4500KEW1' },
     sync: { code: null, url: null, key: null, lastSync: 0 },
     companion: null,
@@ -114,6 +114,16 @@ export function initState() {
     state.version = 3;
     save();
   }
+  // v3 -> v4 迁移：词进度补“最后修改时间”upd，供多设备同步做词级合并
+  if (!state.version || state.version < 4) {
+    const now = Date.now();
+    Object.values(state.bookProgress).forEach(bp => {
+      if (!bp || !bp.words) return;
+      Object.values(bp.words).forEach(p => { if (p.upd == null) p.upd = now; });
+    });
+    state.version = 4;
+    save();
+  }
   return state;
 }
 
@@ -141,6 +151,7 @@ function topUpTo(N) {
         id: w.id, status: 'new', introducedDate: t,
         stageIdx: 0, dueDate: null, lastResult: null,
         learnCount: 0, correct: 0, wrong: 0, weakToday: false,
+        upd: Date.now(),
       };
       need--;
     }
@@ -294,6 +305,7 @@ export function markLearned(entries) {
   entries.forEach(({ id, init }) => {
     const p = B.words[id];
     if (!p) return;
+    p.upd = Date.now();
     const kind = init || 'learned';
     p.learnCount++;
     p.init = kind;
@@ -352,6 +364,7 @@ export function recordQuiz(id, correct, answer, kind) {
   const t = todayStr();
   const p = bookProgress().words[id];
   if (!p) return;
+  p.upd = Date.now();
   if (!state.history[t]) state.history[t] = { tasks: {}, quizzed: [] };
   if (!state.history[t].quizzed) state.history[t].quizzed = [];
   if (!state.history[t].quizzed.includes(id)) state.history[t].quizzed.push(id);

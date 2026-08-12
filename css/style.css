@@ -329,3 +329,15 @@ body{
   .game-icon { font-size: 36px; }
   .modal-card { max-height: 90vh; }
 }
+
+/* ===== 桌面端（鼠标 / 键盘）适配 ===== */
+.kbd-tip{display:none;font-size:12px;font-weight:400;opacity:.85;margin-left:10px;vertical-align:middle;}
+.page:focus{outline:none;}
+@media (pointer: fine) {
+  .kbd-tip{display:inline;}
+  .speaker:hover,.mini-speak:hover,.btn-ghost:hover,.btn-soft:hover,.game-card:hover,
+  .mem-cell:not(.open):not(.done):hover,.sp-letter:not(.used):hover,.sp-slot.filled:hover,
+  .tab:hover,.lib-item:hover{filter:brightness(.95);}
+  button,.game-card,.mem-cell,.sp-letter,.sp-slot.filled,.tab,.lib-item{cursor:pointer;}
+}
+:focus-visible{outline:2px solid var(--primary);outline-offset:2px;border-radius:8px;}

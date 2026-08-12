@@ -88,6 +88,21 @@ export function render(ctx) {
   ]));
   root.appendChild(card);
 
+  // 桌面键盘快捷键：空格=发音，1/2/3=自评，←=撤销上一步（误触兜底）
+  root.tabIndex = -1;
+  root.addEventListener('keydown', (e) => {
+    if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); speakWord(); }
+    else if (e.key === '1') rate('known');
+    else if (e.key === '2') rate('learned');
+    else if (e.key === '3') rate('struggled');
+    else if (e.key === 'ArrowLeft' && session.idx > 0) {
+      session.rates.delete(w.id);
+      session.idx--;
+      ctx.refresh();
+    }
+  });
+  setTimeout(() => root.focus({ preventScroll: true }), 0);
+
   // 进入卡片自动读一遍
   setTimeout(speakWord, 250);
   return root;

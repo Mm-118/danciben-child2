@@ -77,9 +77,10 @@ export function render(ctx) {
     el('div', { class: 'stepper' }, [qtMinus, qtVal, qtPlus]),
   ]));
 
-  // 发音语速
-  const rt = el('input', { type: 'range', min: '0.5', max: '1.2', step: '0.1', value: String(st.settings.rate) });
-  const rtVal = el('span', { class: 'val' }, [st.settings.rate.toFixed(1) + 'x']);
+  // 发音语速（范围收窄到 0.8–1.1，避免极端值在 iOS 上失真）
+  const curRate = Math.max(0.8, Math.min(1.1, st.settings.rate ?? 0.9));
+  const rt = el('input', { type: 'range', min: '0.8', max: '1.1', step: '0.1', value: String(curRate) });
+  const rtVal = el('span', { class: 'val' }, [curRate.toFixed(1) + 'x']);
   rt.addEventListener('input', () => { rtVal.textContent = parseFloat(rt.value).toFixed(1) + 'x'; });
   rt.addEventListener('change', () => { S.updateSettings({ rate: parseFloat(rt.value) }); });
   setBox.appendChild(el('div', { class: 'set-row' }, [el('label', {}, ['发音语速']), rt, rtVal]));

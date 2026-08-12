@@ -1,4 +1,4 @@
-// views/quiz.js —— 测单词：只显示英文，键盘/语音输入中文意思，模糊匹配+自评，薄弱词重测
+// views/quiz.js —— 测单词：按遗忘优先级抽样子集，新词/复习/易错/抽查混合编排
 import { el } from '../util.js';
 import * as S from '../store.js';
 import { speak } from '../tts.js';
@@ -6,20 +6,17 @@ import { speechSupported, startDictation } from '../speech.js';
 
 let session = null;
 
+const KIND_LABEL = { new: '新词', review: '复习', weak: '易错', spot: '抽查' };
+
 function buildSession() {
-  const tasks = S.getTodayTasks();
-  const ids = [...tasks.reviewWords.map(w => w.id), ...tasks.newWords.map(w => w.id)];
-  // 去重
-  const seen = new Set(); const uniq = [];
-  ids.forEach(id => { if (!seen.has(id)) { seen.add(id); uniq.push(id); } });
-  session = { queue: uniq, i: 0, wrong: [], attempts: {}, done: false };
+  const plan = S.buildQuizQueue();
+  session = { queue: plan.queue, i: 0, wrong: [], attempts: {}, done: false };
   return session;
 }
 
 export function render(ctx) {
   const root = el('div', { class: 'page quiz' });
   if (!session || session.queue.length === 0) buildSession();
-  const tasks = S.getTodayTasks();
 
   if (session.queue.length === 0) {
     S.setTask('quiz', true);
@@ -32,11 +29,13 @@ export function render(ctx) {
   }
   if (session.i >= session.queue.length) return finish(root, ctx);
 
-  const w = S.wordById(session.queue[session.i]);
+  const item = session.queue[session.i];
+  const w = S.wordById(item.id);
   const st = S.getState();
 
   root.appendChild(el('div', { class: 'quiz-top' }, [
-    el('span', {}, [`第 ${session.i + 1} / ${session.queue.length} 题`]),
+    el('span', {}, [`第 ${session.i + 1} / ${session.queue.length} 题 · `,
+      el('span', { class: 'quiz-kind k-' + item.kind }, [KIND_LABEL[item.kind] || ''])]),
     el('button', { class: 'btn-ghost small', onclick: () => { session = null; ctx.navigate('today'); } }, ['退出']),
   ]));
 
@@ -69,7 +68,7 @@ export function render(ctx) {
   card.appendChild(feedback);
 
   const submit = el('button', { class: 'btn-primary block q-submit' }, ['提交']);
-  submit.addEventListener('click', () => handleSubmit(ctx, w, input.value, feedback, card));
+  submit.addEventListener('click', () => handleSubmit(ctx, item, input.value, feedback, card));
   input.addEventListener('keydown', (e) => { if (e.key === 'Enter') submit.click(); });
   card.appendChild(submit);
   root.appendChild(card);
@@ -78,12 +77,13 @@ export function render(ctx) {
   return root;
 }
 
-function handleSubmit(ctx, w, raw, feedback, card) {
+function handleSubmit(ctx, item, raw, feedback, card) {
+  const w = S.wordById(item.id);
   const answer = (raw || '').trim();
   if (!answer) { feedback.textContent = '先写点什么吧～'; feedback.className = 'q-feedback warn'; return; }
   const ok = S.grade(answer, w.keywords);
   if (ok) {
-    S.recordQuiz(w.id, true, answer);
+    S.recordQuiz(w.id, true, answer, item.kind);
     showResult(feedback, card, true, w, '答对了！', () => next(ctx));
   } else {
     // 未命中关键词：展示正确答案，让孩子自评
@@ -93,9 +93,9 @@ function handleSubmit(ctx, w, raw, feedback, card) {
     const row = el('div', { class: 'q-selfrow' });
     const okBtn = el('button', { class: 'btn-soft' }, ['我意思对了 ✓']);
     const noBtn = el('button', { class: 'btn-soft bad' }, ['确实错了']);
-    okBtn.addEventListener('click', () => { S.recordQuiz(w.id, true, answer); next(ctx); });
+    okBtn.addEventListener('click', () => { S.recordQuiz(w.id, true, answer, item.kind); next(ctx); });
     noBtn.addEventListener('click', () => {
-      S.recordQuiz(w.id, false, answer);
+      S.recordQuiz(w.id, false, answer, item.kind);
       session.wrong.push(w.id);
       next(ctx);
     });
@@ -134,7 +134,7 @@ function finish(root, ctx) {
   if (session.wrong.length) {
     const again = [...new Set(session.wrong)];
     session.wrong = [];
-    session.queue = again;
+    session.queue = again.map(id => ({ id, kind: 'weak' }));
     session.i = 0;
     root.appendChild(el('div', { class: 'empty-state' }, [
       el('div', { class: 'empty-emoji' }, ['💪']),

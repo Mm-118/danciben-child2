@@ -72,7 +72,8 @@ function openBlindBox() {
 
 async function boot() {
   const app = el('div', { class: 'app' });
-  const header = el('div', { class: 'app-header' }, [el('span', { class: 'app-logo' }, ['🌟 单词小达人'])]);
+  const header = el('div', { class: 'app-header' }, [el('span', { class: 'app-logo' }, ['🌟 单词小达人']),
+    el('span', { class: 'kbd-tip' }, ['空格 🔊 · 1/2/3 自评 · Esc 返回'])]);
   viewEl = el('div', { class: 'app-view' });
   const nav = el('div', { class: 'tabbar' });
   TABS.forEach(key => {
@@ -107,6 +108,14 @@ async function boot() {
   Pets.setUnlocked(S.getState().pets);
   window.addEventListener('hashchange', renderView);
   renderView();
+
+  // 桌面键盘：Esc 从学/测/玩子页面返回首页（游戏内 Esc 由 play.js 处理并阻止冒泡）
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    if (document.querySelector('.modal-overlay')) return; // 盲盒等模态框不抢
+    const tab = (location.hash || '#today').slice(1);
+    if (['learn', 'quiz', 'play'].includes(tab)) navigate('today');
+  });
 
   // 云同步：启动先拉一次（合并远端进度），之后每次保存自动防抖上传
   Sync.enableAutoSync();

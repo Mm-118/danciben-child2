@@ -7,7 +7,13 @@ function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.fl
 
 function getMaterial(n = 8) {
   const tasks = S.getTodayTasks();
-  let list = [...tasks.newWords, ...tasks.reviewWords];
+  // 08-12 起 getTodayTasks 返回 { newWords, quizPlan }，不再有 reviewWords；
+  // 素材 = 今日新词 ∪ 测词队列（复习/易错/抽查），不足再补全词库
+  const ids = new Set();
+  (tasks.newWords || []).forEach(w => ids.add(w.id));
+  ((tasks.quizPlan && tasks.quizPlan.queue) || []).forEach(q => ids.add(q.id));
+  const list = [];
+  ids.forEach(id => { const w = S.wordById(id); if (w) list.push(w); });
   const seen = new Set(list.map(w => w.id));
   const all = S.allWords();
   let i = 0;

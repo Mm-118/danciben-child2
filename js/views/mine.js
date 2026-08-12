@@ -57,6 +57,26 @@ export function render(ctx) {
     el('div', { class: 'stepper' }, [dnMinus, dnVal, dnPlus]),
   ]));
 
+  // 每日测验量（按 10 步进：10–100，默认 30）
+  const QT_MIN = 10, QT_MAX = 100, QT_STEP = 10;
+  const qtVal = el('span', { class: 'dn-num' }, [String(st.settings.quizDaily ?? 30)]);
+  const qtMinus = el('button', { class: 'dn-btn', 'aria-label': '减少' }, ['−']);
+  const qtPlus = el('button', { class: 'dn-btn', 'aria-label': '增加' }, ['+']);
+  const syncQT = (n) => {
+    n = Math.max(QT_MIN, Math.min(QT_MAX, Math.round(n / QT_STEP) * QT_STEP));
+    qtVal.textContent = String(n);
+    qtMinus.disabled = n <= QT_MIN;
+    qtPlus.disabled = n >= QT_MAX;
+    return n;
+  };
+  let qtN = syncQT(st.settings.quizDaily ?? 30);
+  qtMinus.addEventListener('click', () => { qtN = syncQT(qtN - QT_STEP); S.updateSettings({ quizDaily: qtN }); ctx.refresh(); });
+  qtPlus.addEventListener('click', () => { qtN = syncQT(qtN + QT_STEP); S.updateSettings({ quizDaily: qtN }); ctx.refresh(); });
+  setBox.appendChild(el('div', { class: 'set-row' }, [
+    el('label', {}, ['每日测验']),
+    el('div', { class: 'stepper' }, [qtMinus, qtVal, qtPlus]),
+  ]));
+
   // 发音语速
   const rt = el('input', { type: 'range', min: '0.5', max: '1.2', step: '0.1', value: String(st.settings.rate) });
   const rtVal = el('span', { class: 'val' }, [st.settings.rate.toFixed(1) + 'x']);

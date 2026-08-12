@@ -58,7 +58,11 @@ export function render(ctx) {
   };
 
   root.appendChild(taskCard('📖', '学新词', tasks.newWords.length ? `${tasks.newWords.length} 个新单词待学` : '今日新词已学完', tasks.learnDone, () => ctx.navigate('learn')));
-  root.appendChild(taskCard('✍️', '测单词', tasks.reviewWords.length ? `${tasks.reviewWords.length} 个词待复习` : '没有到期复习', tasks.quizDone, () => ctx.navigate('quiz')));
+  const plan = tasks.quizPlan || { queue: [], newCount: 0, reviewCount: 0, spotCount: 0 };
+  const quizSub = plan.queue.length
+    ? `${plan.queue.length} 个词待测 · 新 ${plan.newCount} / 复习 ${plan.reviewCount}${plan.spotCount ? ` / 抽查 ${plan.spotCount}` : ''}`
+    : '没有到期复习';
+  root.appendChild(taskCard('✍️', '测单词', quizSub, tasks.quizDone, () => ctx.navigate('quiz')));
   root.appendChild(taskCard('🎮', '玩转单词', '用今日单词玩游戏', tasks.playDone, () => ctx.navigate('play')));
 
   // 全部完成 -> 打卡庆祝（maybeCheckIn 幂等，仅首次触发递增）

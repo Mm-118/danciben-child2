@@ -96,6 +96,8 @@ export async function pull() {
  * 整体以 _updatedAt 较新的一方为基底（LWW），但：
  * - pets 取并集（宠物永不丢）
  * - history 按日期取并集，同日取任务完成更多的一方
+ * - bookProgress 按词合并：同一单词以“最后修改时间”upd 较新者为准（词级 LWW）
+ *   —— 多设备各学各的词不再互相覆盖整本词书
  * - streak 取较大值
  * - 本机 sync 配置永远保留
  */
@@ -120,12 +122,43 @@ function mergeState(remote) {
     }
   }
 
-  // bookProgress：并集，冲突时用较新方
-  merged.bookProgress = Object.assign({}, other.bookProgress || {}, newer.bookProgress || {});
+  // bookProgress：词级并集合并，同词冲突取 upd（最后修改时间）较新者
+  merged.bookProgress = mergeBookProgress(local.bookProgress, remote.bookProgress);
 
   merged.streak = Math.max(local.streak || 0, remote.streak || 0);
   merged.sync = local.sync; // 本机配置保留
   S.replaceState(merged);
+}
+
+// 词级合并：双方词书的词进度做并集；同一单词取 upd 较大的一方（缺失视为 0，本地优先）
+// 词书级字段：startDate 取最早、introducedCount 取最大（不退回）、lastIntroDate 取最晚
+function mergeBookProgress(localBp, remoteBp) {
+  const lbp = localBp || {}, rbp = remoteBp || {};
+  const out = {};
+  const books = new Set([...Object.keys(lbp), ...Object.keys(rbp)]);
+  for (const bk of books) {
+    const L = lbp[bk], R = rbp[bk];
+    if (!L) { out[bk] = R; continue; }
+    if (!R) { out[bk] = L; continue; }
+    const words = {};
+    const lw = L.words || {}, rw = R.words || {};
+    const ids = new Set([...Object.keys(lw), ...Object.keys(rw)]);
+    for (const id of ids) {
+      const a = lw[id], b = rw[id];
+      if (!a) { words[id] = b; continue; }
+      if (!b) { words[id] = a; continue; }
+      words[id] = (a.upd || 0) >= (b.upd || 0) ? a : b;
+    }
+    const dates = [L.startDate, R.startDate].filter(Boolean).sort();
+    const intros = [L.lastIntroDate, R.lastIntroDate].filter(Boolean).sort();
+    out[bk] = {
+      startDate: dates[0] || null,
+      introducedCount: Math.max(L.introducedCount || 0, R.introducedCount || 0),
+      lastIntroDate: intros[intros.length - 1] || null,
+      words,
+    };
+  }
+  return out;
 }
 
 // 去掉不需要上云的字段

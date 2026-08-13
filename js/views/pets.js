@@ -44,6 +44,8 @@ export function render(ctx) {
   if (st.companion) {
     const c = petById(st.companion);
     root.appendChild(el('div', { class: 'pet-companion-note' }, [`当前陪伴：${c.name}（在首页陪你）`]));
+  } else {
+    root.appendChild(el('div', { class: 'pets-hint' }, ['👆 点一只宠物，让它陪你在首页']));
   }
   return root;
 }

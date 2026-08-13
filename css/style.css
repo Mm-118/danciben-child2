@@ -49,9 +49,10 @@ body{
 .streak-fire{font-size:20px;}
 .streak-num{font-size:24px;font-weight:800;color:var(--primary);}
 .streak-label{font-size:12px;color:var(--muted);}
-.companion{display:flex;align-items:center;gap:12px;background:#fff;border-radius:18px;padding:12px 16px;box-shadow:var(--shadow);}
+.companion{display:flex;align-items:center;gap:12px;background:#fff;border-radius:18px;padding:12px 16px;box-shadow:var(--shadow);cursor:pointer;}
 .companion-pet{flex:0 0 auto;}
 .companion-name{font-weight:700;color:var(--primary-d);}
+.companion-tip{font-size:11px;color:var(--muted);margin-left:auto;}
 .task-progress{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted);}
 .task-progress .bar{flex:1;height:8px;background:var(--line);border-radius:6px;overflow:hidden;}
 .task-progress .bar i{display:block;height:100%;background:var(--green);transition:width .3s;}
@@ -251,6 +252,7 @@ body{
 .pet-cond{font-size:11px;color:var(--muted);}
 .pet-star{font-size:11px;color:#C79100;font-weight:700;}
 .pet-companion-note{text-align:center;font-size:13px;color:var(--muted);}
+.pets-hint{text-align:center;font-size:13px;color:var(--primary-d);background:#FFF3E4;border-radius:12px;padding:10px;}
 
 /* 我的 */
 .card{background:#fff;border-radius:18px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px;}

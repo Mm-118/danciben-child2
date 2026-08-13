@@ -27,51 +27,108 @@ export const PETS = [
 export function petById(id) { return PETS.find(p => p.id === id); }
 export function rarityLabel(r) { return r === 'legend' ? '传说' : r === 'rare' ? '稀有' : '普通'; }
 
-// 程序化绘制宠物 SVG
+// 颜色工具：hex 与白色/黑色按比例混合（t=1 为纯白）
+function mix(hex, t) {
+  const p = h => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
+  const [r, g, b] = p(hex);
+  const f = v => Math.max(0, Math.min(255, Math.round(v))).toString(16).padStart(2, '0');
+  return '#' + f(r + (255 - r) * t) + f(g + (255 - g) * t) + f(b + (255 - b) * t);
+}
+
+// 程序化绘制宠物 SVG（精致版：渐变立体、内耳、高光眼睛、鼻子、脚、尾巴、脚下阴影）
 export function petSVG(pet, { silhouette = false, size = 120 } = {}) {
-  const c = silhouette ? '#cfcfcf' : pet.color;
-  const dark = silhouette ? '#b5b5b5' : '#3a3a3a';
-  const pink = silhouette ? '#cfcfcf' : '#ff9bb3';
-  let ears = '';
-  const cx = 50, cy = 58, bw = 30, bh = 28;
+  const c = silhouette ? '#cfcfcf' : pet.color;        // 主色
+  const light = silhouette ? '#e8e8e8' : mix(pet.color, 0.45); // 渐变亮部
+  const dark = silhouette ? '#a8a8a8' : '#3a3a3a';     // 描边/瞳孔
+  const belly = silhouette ? '#e6e6e6' : mix(pet.color, 0.72); // 肚皮/内耳
+  const cx = 50, cy = 56, bw = 30, bh = 27;
+  const gid = 'pg-' + pet.id + (silhouette ? '-s' : '');
+  let ears = '', tail = '';
+
+  // 尾巴（按耳朵类型给不同形态）
   switch (pet.ears) {
-    case 'cat':
-      ears = `<polygon points="${cx-22},${cy-20} ${cx-10},${cy-30} ${cx-6},${cy-16}" fill="${c}"/>
-              <polygon points="${cx+22},${cy-20} ${cx+10},${cy-30} ${cx+6},${cy-16}" fill="${c}"/>`;
+    case 'cat': case 'round':
+      tail = `<path d="M${cx + 28},${cy + 4} Q${cx + 42},${cy + 6} ${cx + 37},${cy - 8}" stroke="${c}" stroke-width="6" fill="none" stroke-linecap="round"/>`;
       break;
     case 'long':
-      ears = `<ellipse cx="${cx-14}" cy="${cy-30}" rx="6" ry="16" fill="${c}"/>
-              <ellipse cx="${cx+14}" cy="${cy-30}" rx="6" ry="16" fill="${c}"/>`;
+      tail = `<circle cx="${cx + 36}" cy="${cy + 8}" r="6" fill="${c}"/>`;
       break;
-    case 'round':
-      ears = `<circle cx="${cx-20}" cy="${cy-22}" r="9" fill="${c}"/>
-              <circle cx="${cx+20}" cy="${cy-22}" r="9" fill="${c}"/>`;
-      break;
-    case 'mane':
-      ears = `<circle cx="${cx-20}" cy="${cy-22}" r="11" fill="${c}"/><circle cx="${cx+20}" cy="${cy-22}" r="11" fill="${c}"/>
-              <circle cx="50" cy="${cy-30}" r="10" fill="${c}"/>`;
-      break;
-    case 'big':
-      ears = `<ellipse cx="${cx-26}" cy="${cy-18}" rx="14" ry="18" fill="${c}"/><ellipse cx="${cx+26}" cy="${cy-18}" rx="14" ry="18" fill="${c}"/>`;
+    case 'mane': case 'big':
+      tail = `<path d="M${cx + 28},${cy + 6} Q${cx + 42},${cy + 10} ${cx + 36},${cy + 16}" stroke="${c}" stroke-width="7" fill="none" stroke-linecap="round"/>`;
       break;
     case 'horn':
-      ears = `<polygon points="${cx-6},${cy-30} ${cx+6},${cy-30} ${cx},${cy-44}" fill="${silhouette?'#cfcfcf':'#FFD166'}"/>`;
+      tail = `<path d="M${cx + 28},${cy + 2} Q${cx + 44},${cy - 4} ${cx + 40},${cy - 16} L${cx + 35},${cy - 8} Z" fill="${c}"/>`;
       break;
     case 'unicorn':
-      ears = `<polygon points="${cx-4},${cy-28} ${cx+4},${cy-28} ${cx},${cy-46}" fill="${silhouette?'#cfcfcf':'#FFD6E8'}"/>
-              <path d="M${cx-9},${cy-22} Q${cx},${cy-40} ${cx+9},${cy-22}" fill="none" stroke="${silhouette?'#cfcfcf':'#FFB3DE'}" stroke-width="3"/>`;
+      tail = `<path d="M${cx + 28},${cy + 6} Q${cx + 44},${cy + 2} ${cx + 40},${cy - 10} L${cx + 35},${cy - 2} Z" fill="${silhouette ? '#cfcfcf' : '#FFB3DE'}"/>`;
+      break;
+    default: // 蛙/鸡/鲸/企鹅/猫头鹰：小圆尾或鳍
+      if (pet.id === 'p08' || pet.id === 'p17') tail = `<path d="M${cx - 8},${cy + 26} Q${cx},${cy + 34} ${cx + 12},${cy + 27}" stroke="${c}" stroke-width="5" fill="none" stroke-linecap="round"/>`;
+      else tail = `<circle cx="${cx + 30}" cy="${cy + 8}" r="5" fill="${c}" opacity="0.85"/>`;
+  }
+
+  // 耳朵（含内衬）
+  const inner = p => `<path d="${p}" fill="${belly}" opacity="0.85"/>`;
+  switch (pet.ears) {
+    case 'cat':
+      ears = `<polygon points="${cx - 22},${cy - 22} ${cx - 11},${cy - 32} ${cx - 7},${cy - 17}" fill="${c}"/>
+              <polygon points="${cx + 22},${cy - 22} ${cx + 11},${cy - 32} ${cx + 7},${cy - 17}" fill="${c}"/>
+              ${inner(`${cx - 19},${cy - 21} ${cx - 12},${cy - 28} ${cx - 9},${cy - 18}`)}
+              ${inner(`${cx + 19},${cy - 21} ${cx + 12},${cy - 28} ${cx + 9},${cy - 18}`)}`;
+      break;
+    case 'long':
+      ears = `<ellipse cx="${cx - 14}" cy="${cy - 30}" rx="7" ry="17" fill="${c}"/>
+              <ellipse cx="${cx + 14}" cy="${cy - 30}" rx="7" ry="17" fill="${c}"/>
+              <ellipse cx="${cx - 14}" cy="${cy - 30}" rx="3.6" ry="11" fill="${belly}"/>
+              <ellipse cx="${cx + 14}" cy="${cy - 30}" rx="3.6" ry="11" fill="${belly}"/>`;
+      break;
+    case 'round':
+      ears = `<circle cx="${cx - 20}" cy="${cy - 24}" r="10" fill="${c}"/>
+              <circle cx="${cx + 20}" cy="${cy - 24}" r="10" fill="${c}"/>
+              <circle cx="${cx - 20}" cy="${cy - 24}" r="5" fill="${belly}"/>
+              <circle cx="${cx + 20}" cy="${cy - 24}" r="5" fill="${belly}"/>`;
+      break;
+    case 'mane': // 狮子鬃毛
+      ears = `<circle cx="${cx - 20}" cy="${cy - 24}" r="11" fill="${c}"/><circle cx="${cx + 20}" cy="${cy - 24}" r="11" fill="${c}"/>
+              <circle cx="50" cy="${cy - 32}" r="11" fill="${c}"/>
+              <circle cx="${cx - 20}" cy="${cy - 24}" r="5" fill="${belly}"/><circle cx="${cx + 20}" cy="${cy - 24}" r="5" fill="${belly}"/>`;
+      break;
+    case 'big': // 象耳
+      ears = `<ellipse cx="${cx - 27}" cy="${cy - 18}" rx="15" ry="19" fill="${c}"/><ellipse cx="${cx + 27}" cy="${cy - 18}" rx="15" ry="19" fill="${c}"/>
+              <ellipse cx="${cx - 27}" cy="${cy - 18}" rx="7" ry="11" fill="${belly}"/><ellipse cx="${cx + 27}" cy="${cy - 18}" rx="7" ry="11" fill="${belly}"/>`;
+      break;
+    case 'horn': // 龙角
+      ears = `<polygon points="${cx - 6},${cy - 28} ${cx + 6},${cy - 28} ${cx},${cy - 44}" fill="${silhouette ? '#cfcfcf' : '#FFD166'}"/>
+              <polygon points="${cx - 6},${cy - 28} ${cx + 6},${cy - 28} ${cx},${cy - 44}" fill="none" stroke="${dark}" stroke-width="1"/>`;
+      break;
+    case 'unicorn':
+      ears = `<polygon points="${cx - 4},${cy - 26} ${cx + 4},${cy - 26} ${cx},${cy - 46}" fill="${silhouette ? '#cfcfcf' : '#FFD6E8'}"/>
+              <path d="M${cx - 9},${cy - 20} Q${cx},${cy - 40} ${cx + 9},${cy - 20}" fill="none" stroke="${silhouette ? '#cfcfcf' : '#FFB3DE'}" stroke-width="3" stroke-linecap="round"/>`;
       break;
     default: ears = '';
   }
+
   return `<svg viewBox="0 0 100 100" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg">
+    <defs><radialGradient id="${gid}" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="${light}"/><stop offset="100%" stop-color="${c}"/>
+    </radialGradient></defs>
+    <ellipse cx="50" cy="91" rx="27" ry="5" fill="#000" opacity="0.08"/>
+    ${tail}
+    <ellipse cx="${cx - 11}" cy="${cy + 25}" rx="7.5" ry="4.5" fill="${c}" opacity="0.9"/>
+    <ellipse cx="${cx + 11}" cy="${cy + 25}" rx="7.5" ry="4.5" fill="${c}" opacity="0.9"/>
     ${ears}
-    <ellipse cx="${cx}" cy="${cy}" rx="${bw}" ry="${bh}" fill="${c}"/>
-    <ellipse cx="${cx}" cy="${cy+8}" rx="${bw*0.7}" ry="${bh*0.6}" fill="${silhouette?'#cfcfcf':'#ffffff'}" opacity="0.5"/>
-    <circle cx="${cx-11}" cy="${cy-2}" r="6" fill="#fff"/><circle cx="${cx+11}" cy="${cy-2}" r="6" fill="#fff"/>
-    <circle cx="${cx-11}" cy="${cy-2}" r="3" fill="${dark}"/><circle cx="${cx+11}" cy="${cy-2}" r="3" fill="${dark}"/>
-    <circle cx="${cx-20}" cy="${cy+4}" r="4" fill="${pink}" opacity="0.7"/>
-    <circle cx="${cx+20}" cy="${cy+4}" r="4" fill="${pink}" opacity="0.7"/>
-    <path d="M${cx-8},${cy+8} Q${cx},${cy+15} ${cx+8},${cy+8}" fill="none" stroke="${dark}" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="${cx}" cy="${cy}" rx="${bw}" ry="${bh}" fill="url(#${gid})"/>
+    <ellipse cx="${cx}" cy="${cy + 9}" rx="${bw * 0.62}" ry="${bh * 0.5}" fill="${belly}" opacity="0.75"/>
+    <circle cx="${cx - 12}" cy="${cy - 2}" r="7.5" fill="#fff"/>
+    <circle cx="${cx + 12}" cy="${cy - 2}" r="7.5" fill="#fff"/>
+    <circle cx="${cx - 12}" cy="${cy - 2}" r="4" fill="${dark}"/>
+    <circle cx="${cx + 12}" cy="${cy - 2}" r="4" fill="${dark}"/>
+    <circle cx="${cx - 12.8}" cy="${cy - 3.8}" r="1.4" fill="#fff"/>
+    <circle cx="${cx + 11.2}" cy="${cy - 3.8}" r="1.4" fill="#fff"/>
+    <ellipse cx="50" cy="${cy + 5}" rx="2.8" ry="2.2" fill="${dark}" opacity="0.7"/>
+    <circle cx="${cx - 21}" cy="${cy + 6}" r="4.2" fill="#ff9bb3" opacity="0.55"/>
+    <circle cx="${cx + 21}" cy="${cy + 6}" r="4.2" fill="#ff9bb3" opacity="0.55"/>
+    <path d="M${cx - 7},${cy + 9} Q${cx},${cy + 14} ${cx + 7},${cy + 9}" fill="none" stroke="${dark}" stroke-width="2" stroke-linecap="round"/>
   </svg>`;
 }
 

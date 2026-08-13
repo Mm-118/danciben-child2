@@ -124,6 +124,11 @@ export function initState() {
     state.version = 4;
     save();
   }
+  // 默认陪伴兜底：已有宠物但从未设置陪伴 → 自动选第一只（保证首页有陪伴显示）
+  if (!state.companion && Array.isArray(state.pets) && state.pets.length) {
+    state.companion = state.pets[0];
+    save();
+  }
   return state;
 }
 
@@ -446,7 +451,11 @@ export function clearBlindBox() { state.lastBlindBox = null; save(); }
 
 /* ---------- 宠物 ---------- */
 export function unlockPet(petId) {
-  if (!state.pets.includes(petId)) { state.pets.push(petId); save(); return true; }
+  if (!state.pets.includes(petId)) {
+    state.pets.push(petId);
+    if (!state.companion) state.companion = petId; // 首次解锁自动成为陪伴，首页立即显示
+    save(); return true;
+  }
   return false;
 }
 export function setCompanion(petId) { state.companion = petId; save(); }

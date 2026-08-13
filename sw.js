@@ -1,5 +1,5 @@
 // sw.js —— 简单的离线缓存（App Shell）
-const CACHE = 'kv-app-v16';
+const CACHE = 'kv-app-v17';
 const SHELL = ['./', './index.html', './css/style.css', './js/app.js',
   './js/store.js', './js/util.js', './js/pets.js', './js/tts.js', './js/speech.js',
   './js/sync.js', './js/views/today.js', './js/views/learn.js', './js/views/quiz.js',

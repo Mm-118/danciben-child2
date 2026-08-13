@@ -5,6 +5,22 @@ import { speak } from '../tts.js';
 import { speechSupported, startDictation } from '../speech.js';
 
 let session = null;
+// 结果态“回车跳下一词”的全局监听（input disabled 后 Enter 失效，需由 document 兜底；
+// 焦点在按钮上时让原生 click 处理，避免重复触发）
+let enterNextHandler = null;
+function bindEnterNext(fn) {
+  unbindEnterNext();
+  enterNextHandler = (e) => {
+    if (e.key !== 'Enter' || e.repeat) return;
+    if (e.target && e.target.tagName === 'BUTTON') return;
+    e.preventDefault();
+    fn();
+  };
+  document.addEventListener('keydown', enterNextHandler);
+}
+function unbindEnterNext() {
+  if (enterNextHandler) { document.removeEventListener('keydown', enterNextHandler); enterNextHandler = null; }
+}
 
 const KIND_LABEL = { new: '新词', review: '复习', weak: '易错', spot: '抽查' };
 
@@ -16,6 +32,7 @@ function buildSession() {
 
 export function render(ctx) {
   const root = el('div', { class: 'page quiz' });
+  unbindEnterNext(); // 每次渲染清理旧绑定，防止残留导致下一题 Enter 误触发
   if (!session || session.queue.length === 0) buildSession();
 
   if (session.queue.length === 0) {
@@ -70,7 +87,10 @@ export function render(ctx) {
   const submit = el('button', { class: 'btn-primary block q-submit' }, ['提交']);
   submit.addEventListener('click', () => handleSubmit(ctx, item, input.value, feedback, card));
   input.addEventListener('keydown', (e) => { if (e.key === 'Enter') submit.click(); });
-  card.appendChild(submit);
+  // “没记住”：孩子直接承认不会，视同答错（记 weak、次日必测），无需输入
+  const forget = el('button', { class: 'btn-soft bad q-forget' }, ['没记住']);
+  forget.addEventListener('click', () => handleForget(ctx, item, feedback, card));
+  card.appendChild(el('div', { class: 'q-actions' }, [submit, forget]));
   root.appendChild(card);
 
   setTimeout(() => input.focus(), 200);
@@ -101,12 +121,21 @@ function handleSubmit(ctx, item, raw, feedback, card) {
     });
     row.appendChild(okBtn); row.appendChild(noBtn);
     feedback.appendChild(row);
-    // 隐藏提交按钮
+    // 隐藏提交/没记住按钮，改为自评
     const sub = card.querySelector('.q-submit');
     if (sub) sub.style.display = 'none';
+    const fg = card.querySelector('.q-forget');
+    if (fg) fg.style.display = 'none';
     const inp = card.querySelector('.q-input');
     if (inp) inp.disabled = true;
   }
+}
+
+// “没记住”：直接记答错（weak + 次日必测），展示正确答案后进入“下一个”结果态（可点按钮或回车跳转）
+function handleForget(ctx, item, feedback, card) {
+  const w = S.wordById(item.id);
+  S.recordQuiz(w.id, false, '', item.kind);
+  showResult(feedback, card, false, w, '没记住，别灰心', () => next(ctx));
 }
 
 function showResult(feedback, card, correct, w, msg, after) {
@@ -114,17 +143,22 @@ function showResult(feedback, card, correct, w, msg, after) {
   feedback.innerHTML = '';
   feedback.appendChild(el('div', { class: 'q-msg' }, [msg]));
   feedback.appendChild(el('div', { class: 'q-ans' }, [`${w.word} = ${w.cn_def}` + (w.en_def ? ` (${w.en_def})` : '')]));
-  // 先隐藏原提交按钮，再创建“下一个”，避免 querySelector 选中新按钮
+  // 先隐藏原提交/没记住按钮，再创建“下一个”，避免 querySelector 选中新按钮
   const sub = card.querySelector('.q-submit');
   if (sub) sub.style.display = 'none';
+  const fg = card.querySelector('.q-forget');
+  if (fg) fg.style.display = 'none';
   const btn = el('button', { class: 'btn-primary block' }, ['下一个 ›']);
   btn.addEventListener('click', after);
   feedback.appendChild(btn);
+  // 结果态支持直接按回车跳下一词
+  bindEnterNext(after);
   const inp = card.querySelector('.q-input');
   if (inp) inp.disabled = true;
 }
 
 function next(ctx) {
+  unbindEnterNext();
   session.i++;
   ctx.refresh();
 }

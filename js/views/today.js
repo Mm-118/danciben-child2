@@ -32,6 +32,7 @@ export function render(ctx) {
     const card = el('div', { class: 'companion' }, [
       el('div', { class: 'companion-pet', html: petSVG(comp, { size: 90 }) }),
       el('div', { class: 'companion-name' }, [comp.name + ' 陪着你']),
+      el('div', { class: 'companion-tip' }, ['点我换一个陪伴']),
     ]);
     card.addEventListener('click', () => ctx.navigate('pets'));
     root.appendChild(card);
